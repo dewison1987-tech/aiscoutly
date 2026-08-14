@@ -33,6 +33,7 @@ export default async function ToolPage({
   const tool = await getToolBySlug(slug);
   if (!tool) notFound();
   const content = await getToolContent(slug);
+  const hostname = tool.url ? new URL(tool.url).hostname : "";
 
   const schema = {
     "@context": "https://schema.org",
@@ -60,10 +61,28 @@ export default async function ToolPage({
     <main className="mx-auto max-w-3xl px-4 py-10">
       <JsonLd data={schema} />
       <p className="text-sm text-gray-500">{categoryLabel(tool.category)}</p>
-      <h1 className="mt-2 text-3xl font-semibold tracking-tight">{tool.name}</h1>
-      {content?.tagline && (
-        <p className="mt-2 text-lg text-gray-700">{content.tagline}</p>
-      )}
+      <div className="mt-3 flex items-start gap-4">
+        {hostname && (
+          // Clearbit Logo API 优先（高清公司 logo），Google Favicon 作 fallback
+          // eslint-disable-next-line @next/next/no-img-element
+          <img
+            src={`https://logo.clearbit.com/${hostname}?size=120`}
+            alt={`${tool.name} logo`}
+            className="h-16 w-16 flex-shrink-0 rounded-lg bg-white p-2 ring-1 ring-gray-200"
+            loading="lazy"
+            // @ts-expect-error onError on plain img element
+            onError={(e) => {
+              e.currentTarget.src = `https://www.google.com/s2/favicons?domain=${hostname}&sz=128`;
+            }}
+          />
+        )}
+        <div className="min-w-0 flex-1">
+          <h1 className="text-3xl font-semibold tracking-tight">{tool.name}</h1>
+          {content?.tagline && (
+            <p className="mt-2 text-lg text-gray-700">{content.tagline}</p>
+          )}
+        </div>
+      </div>
       <div className="mt-4 flex flex-wrap items-center gap-3">
         {tool.url && (
           <a
@@ -76,18 +95,6 @@ export default async function ToolPage({
           </a>
         )}
       </div>
-
-      {tool.url && (
-        <div className="mt-6 overflow-hidden rounded-lg border border-gray-200">
-          {/* WordPress mshot 免费截图服务：首次生成后缓存，无需 key */}
-          <img
-            src={`https://s0.wp.com/mshots/v1/${encodeURIComponent(tool.url)}?w=640&h=400`}
-            alt={`${tool.name} website screenshot`}
-            className="h-auto w-full"
-            loading="lazy"
-          />
-        </div>
-      )}
 
       <section className="mt-8">
         <h2 className="text-xl font-medium">Overview</h2>
