@@ -19,8 +19,8 @@ export async function generateMetadata({
   const tool = await getToolBySlug(slug);
   if (!tool) return {};
   return {
-    title: `${tool.name} review & alternatives`,
-    description: `Find the best ${tool.keyword}. Compare pricing, features and alternatives in the AI tools directory.`,
+    title: `${tool.name} review, pricing & alternatives`,
+    description: `See how ${tool.name} helps marketers. Pricing, features, hands-on review and alternatives.`,
   };
 }
 
@@ -38,7 +38,9 @@ export default async function ToolPage({
     "@context": "https://schema.org",
     "@type": "SoftwareApplication",
     name: tool.name,
-    description: content?.description ?? `Find the best ${tool.keyword}. Compare pricing, features and alternatives.`,
+    description:
+      content?.description ??
+      `Find the best ${tool.keyword}. Compare pricing, features and alternatives.`,
     applicationCategory: "BusinessApplication",
     offers: {
       "@type": "Offer",
@@ -59,6 +61,9 @@ export default async function ToolPage({
       <JsonLd data={schema} />
       <p className="text-sm text-gray-500">{categoryLabel(tool.category)}</p>
       <h1 className="mt-2 text-3xl font-semibold tracking-tight">{tool.name}</h1>
+      {content?.tagline && (
+        <p className="mt-2 text-lg text-gray-700">{content.tagline}</p>
+      )}
       <div className="mt-4 flex flex-wrap items-center gap-3">
         <span className="rounded-full bg-gray-100 px-3 py-1 text-sm capitalize">
           {tool.priceModel}
@@ -91,6 +96,88 @@ export default async function ToolPage({
           </p>
         )}
       </section>
+
+      {content?.best_for && (
+        <section className="mt-6">
+          <h2 className="text-xl font-medium">Best for</h2>
+          <p className="mt-2 text-gray-600">{content.best_for}</p>
+        </section>
+      )}
+
+      {content?.key_features && content.key_features.length > 0 && (
+        <section className="mt-6">
+          <h2 className="text-xl font-medium">Key features</h2>
+          <ul className="mt-2 list-disc space-y-1 pl-5 text-gray-600">
+            {content.key_features.map((f) => (
+              <li key={f}>{f}</li>
+            ))}
+          </ul>
+        </section>
+      )}
+
+      {content?.use_cases && content.use_cases.length > 0 && (
+        <section className="mt-6">
+          <h2 className="text-xl font-medium">Use cases for marketers</h2>
+          <ul className="mt-2 list-disc space-y-1 pl-5 text-gray-600">
+            {content.use_cases.map((u) => (
+              <li key={u}>{u}</li>
+            ))}
+          </ul>
+        </section>
+      )}
+
+      {content?.pricing && content.pricing.length > 0 && (
+        <section className="mt-6">
+          <h2 className="text-xl font-medium">Pricing</h2>
+          <div className="mt-2 overflow-hidden rounded-lg border border-gray-200">
+            <table className="w-full text-sm">
+              <thead className="bg-gray-50 text-left text-gray-500">
+                <tr>
+                  <th className="px-4 py-2 font-medium">Plan</th>
+                  <th className="px-4 py-2 font-medium">Price</th>
+                  <th className="px-4 py-2 font-medium">Notes</th>
+                </tr>
+              </thead>
+              <tbody className="divide-y divide-gray-100">
+                {content.pricing.map((p) => (
+                  <tr key={p.tier}>
+                    <td className="px-4 py-2 font-medium text-gray-900">
+                      {p.tier}
+                    </td>
+                    <td className="px-4 py-2">{p.price}</td>
+                    <td className="px-4 py-2 text-gray-600">{p.note}</td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+        </section>
+      )}
+
+      {(content?.pros || content?.cons) && (
+        <section className="mt-6 grid gap-4 sm:grid-cols-2">
+          {content?.pros && content.pros.length > 0 && (
+            <div>
+              <h2 className="text-xl font-medium">Pros</h2>
+              <ul className="mt-2 list-disc space-y-1 pl-5 text-gray-600">
+                {content.pros.map((p) => (
+                  <li key={p}>{p}</li>
+                ))}
+              </ul>
+            </div>
+          )}
+          {content?.cons && content.cons.length > 0 && (
+            <div>
+              <h2 className="text-xl font-medium">Cons</h2>
+              <ul className="mt-2 list-disc space-y-1 pl-5 text-gray-600">
+                {content.cons.map((c) => (
+                  <li key={c}>{c}</li>
+                ))}
+              </ul>
+            </div>
+          )}
+        </section>
+      )}
 
       {content?.faq && content.faq.length > 0 && (
         <section className="mt-6">

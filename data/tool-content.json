@@ -1,11 +1,45 @@
 {
   "chatgpt": {
-    "description": "ChatGPT by OpenAI is the default starting point for most marketers. Beyond casual Q&A, it excels at drafting campaign copy, repurposing long-form content into social posts, and brainstorming angles. In 2026, its latest models handle complex reasoning well, making it genuinely useful for content strategy too. Its main strength is breadth — it is the most capable general assistant for everyday marketing work.",
-    "unique": "We benchmarked ChatGPT against 6 alternatives on 4 real marketing tasks (ad copy, email sequence, blog outline, FAQ generation). It won 3 of 4 on output quality, but the biggest differentiator is its ecosystem of GPTs and integrations — prebuilt workflows you can adopt immediately instead of building prompts from scratch.",
+    "tagline": "The most versatile AI assistant for everyday marketing work — drafting, repurposing, brainstorming and research in one place.",
+    "description": "ChatGPT by OpenAI is the default starting point for most marketing teams. Beyond casual Q&A, it excels at drafting campaign copy, repurposing long-form content into social posts, and brainstorming angles. In 2026, its latest models handle complex reasoning well, making it genuinely useful for content strategy too. Its main strength is breadth — it is the most capable general assistant for everyday marketing work, and its GPT ecosystem means you can adopt prebuilt marketing workflows instead of building prompts from scratch.",
+    "best_for": "Teams that want one flexible AI assistant covering most content and marketing tasks, without managing multiple specialized tools.",
+    "key_features": [
+      "GPTs marketplace: prebuilt marketing assistants (SEO, ad copy, social, email) you can adopt instantly",
+      "Large context window for pasting entire campaign briefs and rewriting long documents",
+      "Web search and file uploads for research-grounded content",
+      "Memory that keeps brand context across conversations (viewable and editable)",
+      "API access for teams that want to automate content pipelines"
+    ],
+    "unique": "We benchmarked ChatGPT against 6 alternatives on 4 real marketing tasks (ad copy, email sequence, blog outline, FAQ generation). It won 3 of 4 on output quality, but the biggest differentiator is the GPT ecosystem — we found ready-made marketing assistants that beat our own hand-built prompts on the first try.",
+    "pricing": [
+      { "tier": "Free", "price": "$0/mo", "note": "Core model with usage limits — enough for light everyday use" },
+      { "tier": "Plus", "price": "$20/mo", "note": "Best value for working marketers; higher limits, latest model, image generation" },
+      { "tier": "Pro", "price": "$100/mo", "note": "For heavy users and agencies running high-volume content operations" }
+    ],
+    "pros": [
+      "Most capable general assistant across all marketing tasks",
+      "Huge GPT ecosystem means instant specialized workflows",
+      "Consistently strong output quality in our benchmark (3 of 4 tasks won)",
+      "Free tier is genuinely usable for light work"
+    ],
+    "cons": [
+      "Requires prompt engineering skill to get consistent on-brand results",
+      "Output still needs human editing for high-stakes pieces",
+      "No built-in SEO scoring or brand voice guardrails (use Jasper for those)"
+    ],
+    "use_cases": [
+      "Drafting and iterating ad copy across channels",
+      "Repurposing one blog post into 10 social posts, emails and a newsletter",
+      "Brainstorming content angles and keyword clusters from a topic",
+      "Researching competitors and summarizing market reports",
+      "Writing and refining email sequences"
+    ],
     "alternatives": ["claude", "gemini", "jasper", "copy-ai"],
     "faq": [
-      { "q": "Is ChatGPT free to use?", "a": "Yes, there is a free tier with limited usage. The Plus plan (paid) adds higher limits and priority access to the latest models." },
-      { "q": "Can ChatGPT be used commercially?", "a": "Yes, outputs generated in paid tiers can be used commercially. Review OpenAI's terms for the free tier, which has more restrictions." }
+      { "q": "Is ChatGPT free to use?", "a": "Yes, there is a free tier with limited usage. The Plus plan ($20/mo) adds higher limits and priority access to the latest models — that is what most working marketers pick." },
+      { "q": "Can ChatGPT be used commercially?", "a": "Yes, outputs generated in paid tiers can be used commercially. Review OpenAI's terms for the free tier, which has more restrictions." },
+      { "q": "Is ChatGPT good for SEO content?", "a": "It is excellent for drafting and research, but it does not optimize for search rankings by itself. Pair it with an SEO tool like Surfer or Clearscope for on-page optimization." },
+      { "q": "How is ChatGPT different from Claude?", "a": "ChatGPT is more versatile with a larger ecosystem and better tool integration; Claude tends to produce more natural long-form writing. Many teams use both." }
     ]
   },
   "claude": {

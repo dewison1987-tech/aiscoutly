@@ -2,8 +2,15 @@ import { promises as fs } from "fs";
 import path from "path";
 
 export type ToolContent = {
+  tagline?: string;
   description: string;
+  best_for?: string;
+  key_features?: string[];
   unique?: string;
+  pricing?: { tier: string; price: string; note?: string }[];
+  pros?: string[];
+  cons?: string[];
+  use_cases?: string[];
   alternatives?: string[];
   faq?: { q: string; a: string }[];
 };
