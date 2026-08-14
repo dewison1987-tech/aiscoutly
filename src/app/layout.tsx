@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import Link from "next/link";
+import SiteAnalytics from "@/components/SiteAnalytics";
 import "./globals.css";
 
 const geistSans = Geist({
@@ -66,6 +67,7 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
             <span>Curated AI tools for marketing &amp; content</span>
           </div>
         </footer>
+        <SiteAnalytics />
       </body>
     </html>
   );
