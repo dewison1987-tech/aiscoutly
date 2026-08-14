@@ -65,9 +65,6 @@ export default async function ToolPage({
         <p className="mt-2 text-lg text-gray-700">{content.tagline}</p>
       )}
       <div className="mt-4 flex flex-wrap items-center gap-3">
-        <span className="rounded-full bg-gray-100 px-3 py-1 text-sm capitalize">
-          {tool.priceModel}
-        </span>
         {tool.url && (
           <a
             href={tool.url}
@@ -79,6 +76,18 @@ export default async function ToolPage({
           </a>
         )}
       </div>
+
+      {tool.url && (
+        <div className="mt-6 overflow-hidden rounded-lg border border-gray-200">
+          {/* WordPress mshot 免费截图服务：首次生成后缓存，无需 key */}
+          <img
+            src={`https://s0.wp.com/mshots/v1/${encodeURIComponent(tool.url)}?w=640&h=400`}
+            alt={`${tool.name} website screenshot`}
+            className="h-auto w-full"
+            loading="lazy"
+          />
+        </div>
+      )}
 
       <section className="mt-8">
         <h2 className="text-xl font-medium">Overview</h2>
