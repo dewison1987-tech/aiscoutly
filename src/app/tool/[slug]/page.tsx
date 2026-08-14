@@ -70,7 +70,6 @@ export default async function ToolPage({
             alt={`${tool.name} logo`}
             className="h-16 w-16 flex-shrink-0 rounded-lg bg-white p-2 ring-1 ring-gray-200"
             loading="lazy"
-            // @ts-expect-error onError on plain img element
             onError={(e) => {
               e.currentTarget.src = `https://www.google.com/s2/favicons?domain=${hostname}&sz=128`;
             }}
