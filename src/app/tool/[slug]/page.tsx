@@ -4,6 +4,7 @@ import Link from "next/link";
 import { getToolBySlug, getTools, categoryLabel } from "@/lib/tools";
 import { getToolContent } from "@/lib/content";
 import JsonLd from "@/components/JsonLd";
+import ToolLogo from "@/components/ToolLogo";
 
 export async function generateStaticParams() {
   const tools = await getTools();
@@ -62,19 +63,7 @@ export default async function ToolPage({
       <JsonLd data={schema} />
       <p className="text-sm text-gray-500">{categoryLabel(tool.category)}</p>
       <div className="mt-3 flex items-start gap-4">
-        {hostname && (
-          // Clearbit Logo API 优先（高清公司 logo），Google Favicon 作 fallback
-          // eslint-disable-next-line @next/next/no-img-element
-          <img
-            src={`https://logo.clearbit.com/${hostname}?size=120`}
-            alt={`${tool.name} logo`}
-            className="h-16 w-16 flex-shrink-0 rounded-lg bg-white p-2 ring-1 ring-gray-200"
-            loading="lazy"
-            onError={(e) => {
-              e.currentTarget.src = `https://www.google.com/s2/favicons?domain=${hostname}&sz=128`;
-            }}
-          />
-        )}
+        {hostname && <ToolLogo hostname={hostname} name={tool.name} />}
         <div className="min-w-0 flex-1">
           <h1 className="text-3xl font-semibold tracking-tight">{tool.name}</h1>
           {content?.tagline && (
