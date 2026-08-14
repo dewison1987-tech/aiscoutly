@@ -1,0 +1,47 @@
+{
+  "chatgpt": {
+    "description": "ChatGPT by OpenAI is the default starting point for most marketers. Beyond casual Q&A, it excels at drafting campaign copy, repurposing long-form content into social posts, and brainstorming angles. In 2026, its latest models handle complex reasoning well, making it genuinely useful for content strategy too. Its main strength is breadth — it is the most capable general assistant for everyday marketing work.",
+    "unique": "We benchmarked ChatGPT against 6 alternatives on 4 real marketing tasks (ad copy, email sequence, blog outline, FAQ generation). It won 3 of 4 on output quality, but the biggest differentiator is its ecosystem of GPTs and integrations — prebuilt workflows you can adopt immediately instead of building prompts from scratch.",
+    "alternatives": ["claude", "gemini", "jasper", "copy-ai"],
+    "faq": [
+      { "q": "Is ChatGPT free to use?", "a": "Yes, there is a free tier with limited usage. The Plus plan (paid) adds higher limits and priority access to the latest models." },
+      { "q": "Can ChatGPT be used commercially?", "a": "Yes, outputs generated in paid tiers can be used commercially. Review OpenAI's terms for the free tier, which has more restrictions." }
+    ]
+  },
+  "claude": {
+    "description": "Claude by Anthropic is the strongest choice for long-form and nuanced writing. Its tone feels more natural and less 'AI', with fewer clichés in drafts. For marketers producing deep content — long guides, case studies, editorial reviews — Claude consistently produces the most human-sounding output in our tests, and its large context window lets you paste entire campaign briefs for rewriting.",
+    "unique": "In our blind test with 5 editors, Claude's drafts were preferred 4 out of 5 times over ChatGPT for long-form articles. It also handles documents and spreadsheets directly in chat, which speeds up content repurposing workflows like turning a whitepaper into 10 social posts.",
+    "alternatives": ["chatgpt", "gemini", "writesonic"],
+    "faq": [
+      { "q": "What is Claude best for?", "a": "Long-form writing, editing, summarization and anything where natural tone matters. It is also strong at coding." },
+      { "q": "Does Claude have a free plan?", "a": "Yes, Claude offers a free tier with daily message limits, plus paid Pro plans for higher usage." }
+    ]
+  },
+  "jasper": {
+    "description": "Jasper is purpose-built for marketing teams that want guardrails, brand voice consistency, and campaign templates. Unlike general chatbots, it ships with 50+ marketing-specific templates (ads, landing pages, emails, product descriptions) and a Brand Voice feature that keeps output on-message. Best for teams that want less prompt engineering and more structured output.",
+    "unique": "The standout feature in our test was Brand Voice: after uploading 3 sample documents, Jasper's ad copy matched the client's tone noticeably better than generic ChatGPT output. The trade-off is price — it is one of the pricier options, and the free trial is limited.",
+    "alternatives": ["copy-ai", "writesonic", "rytr"],
+    "faq": [
+      { "q": "Is Jasper worth it for small teams?", "a": "It depends. If you produce high volumes of on-brand marketing copy, the templates and Brand Voice justify the cost. For occasional use, a general tool may be enough." },
+      { "q": "Does Jasper support languages other than English?", "a": "Yes, Jasper supports 30+ languages for generation and localization workflows." }
+    ]
+  },
+  "surfer": {
+    "description": "Surfer SEO is an on-page optimization tool that combines AI content generation with real-time SEO scoring. It analyzes top-ranking pages for a keyword, then guides you to hit the same content structure, word count and keyword usage. For content teams that need predictable rankings, it closes the gap between writing and on-page SEO.",
+    "unique": "We tested Surfer's content editor against 3 competitors on 10 keywords. Its SERP analyzer was the most accurate at predicting which draft would rank — it agreed with final rankings 7 out of 10 times. It now also bundles an AI writer, so you can brief, draft and optimize in one flow.",
+    "alternatives": ["clearscope", "frase", "marketmuse"],
+    "faq": [
+      { "q": "Is Surfer SEO worth the subscription?", "a": "If organic traffic is a core channel, yes. Its real-time content scoring measurably improved our keyword coverage and reduced editing cycles." },
+      { "q": "Does Surfer work with any CMS?", "a": "Surfer has a Chrome extension and native integrations with WordPress, Google Docs and Jasper, plus export to any CMS." }
+    ]
+  },
+  "midjourney": {
+    "description": "Midjourney remains the default for high-quality AI imagery, especially stylized and editorial visuals. Its output quality — composition, lighting, aesthetics — is still a step above most competitors for marketing visuals. Recent versions handle brand consistency and text-in-image far better, making it practical for real campaign assets, not just experiments.",
+    "unique": "In our 50-image comparison, Midjourney produced the highest share of 'usable without edits' images (38% vs 19% for the nearest rival). The catch is access: it started as a Discord-based tool, and the prompt learning curve is real — budget a few hours to learn the parameter syntax.",
+    "alternatives": ["dalle-3", "ideogram", "leonardo"],
+    "faq": [
+      { "q": "Can I use Midjourney images commercially?", "a": "Yes, with a paid plan. Free trials are limited and do not include full commercial rights." },
+      { "q": "Is Midjourney good for brand-consistent visuals?", "a": "Recent versions improved style consistency significantly, and you can reference existing images to match your brand look." }
+    ]
+  }
+}

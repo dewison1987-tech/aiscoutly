@@ -1,6 +1,8 @@
 import { notFound } from "next/navigation";
 import type { Metadata } from "next";
+import Link from "next/link";
 import { getToolBySlug, getTools, categoryLabel } from "@/lib/tools";
+import { getToolContent } from "@/lib/content";
 import JsonLd from "@/components/JsonLd";
 
 export async function generateStaticParams() {
@@ -30,12 +32,13 @@ export default async function ToolPage({
   const { slug } = await params;
   const tool = await getToolBySlug(slug);
   if (!tool) notFound();
+  const content = await getToolContent(slug);
 
   const schema = {
     "@context": "https://schema.org",
     "@type": "SoftwareApplication",
     name: tool.name,
-    description: `Find the best ${tool.keyword}. Compare pricing, features and alternatives.`,
+    description: content?.description ?? `Find the best ${tool.keyword}. Compare pricing, features and alternatives.`,
     applicationCategory: "BusinessApplication",
     offers: {
       "@type": "Offer",
@@ -43,6 +46,13 @@ export default async function ToolPage({
       priceCurrency: "USD",
     },
   };
+
+  const altTools =
+    content?.alternatives && content.alternatives.length > 0
+      ? await Promise.all(
+          content.alternatives.map((altSlug) => getToolBySlug(altSlug))
+        ).then((list) => list.filter((t) => t !== undefined))
+      : [];
 
   return (
     <main className="mx-auto max-w-3xl px-4 py-10">
@@ -67,18 +77,55 @@ export default async function ToolPage({
 
       <section className="mt-8">
         <h2 className="text-xl font-medium">Overview</h2>
-        {/* TODO(内容线): 人工撰写 80-200 字英文介绍 + 独特点（实测体验 / 替代品对比 / 价格变化），防止 scaled content 判定 */}
-        <p className="mt-2 text-gray-600">
-          {tool.keyword}. Detailed hands-on review and comparison coming soon.
-        </p>
+        {content?.description ? (
+          <p className="mt-2 text-gray-600">{content.description}</p>
+        ) : (
+          <p className="mt-2 text-gray-600">
+            {tool.keyword}. Detailed hands-on review and comparison coming soon.
+          </p>
+        )}
+        {content?.unique && (
+          <p className="mt-4 rounded-lg border border-gray-200 bg-gray-50 p-4 text-sm text-gray-700">
+            <span className="font-medium">Our take: </span>
+            {content.unique}
+          </p>
+        )}
       </section>
+
+      {content?.faq && content.faq.length > 0 && (
+        <section className="mt-6">
+          <h2 className="text-xl font-medium">FAQ</h2>
+          <div className="mt-2 space-y-4">
+            {content.faq.map((item) => (
+              <div key={item.q}>
+                <p className="font-medium text-gray-900">{item.q}</p>
+                <p className="mt-1 text-gray-600">{item.a}</p>
+              </div>
+            ))}
+          </div>
+        </section>
+      )}
 
       <section className="mt-6">
         <h2 className="text-xl font-medium">Alternatives</h2>
-        {/* TODO(内容线): 补充 3-5 个同类工具对比（如 "[name] alternatives" 长尾词目标） */}
-        <p className="mt-2 text-gray-600">
-          Explore similar tools in the {categoryLabel(tool.category)} category.
-        </p>
+        {altTools.length > 0 ? (
+          <ul className="mt-2 space-y-1">
+            {altTools.map((alt) => (
+              <li key={alt.slug}>
+                <Link
+                  href={`/tool/${alt.slug}`}
+                  className="text-gray-700 underline underline-offset-2 hover:text-gray-900"
+                >
+                  {alt.name}
+                </Link>
+              </li>
+            ))}
+          </ul>
+        ) : (
+          <p className="mt-2 text-gray-600">
+            Explore similar tools in the {categoryLabel(tool.category)} category.
+          </p>
+        )}
       </section>
     </main>
   );
