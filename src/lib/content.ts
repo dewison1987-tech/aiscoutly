@@ -14,15 +14,17 @@ export async function getToolContent(
   slug: string
 ): Promise<ToolContent | undefined> {
   if (!cache) {
+    let data: Record<string, ToolContent> = {};
     try {
       const raw = await fs.readFile(
         path.join(process.cwd(), "data", "tool-content.json"),
         "utf-8"
       );
-      cache = JSON.parse(raw);
+      data = JSON.parse(raw);
     } catch {
-      cache = {};
+      // 内容文件缺失时保持空缓存
     }
+    cache = data;
   }
   return cache[slug];
 }
