@@ -1,0 +1,113 @@
+﻿slug,name,category,url,price_model,keyword
+chatgpt,ChatGPT,content,https://chat.openai.com,freemium,best AI chatbot for content writing
+claude,Claude,content,https://claude.ai,freemium,Claude vs ChatGPT for writing
+gemini,Google Gemini,content,https://gemini.google.com,freemium,free AI writing assistant
+jasper,Jasper,content,https://www.jasper.ai,paid,best AI copywriting tool
+copy-ai,Copy.ai,content,https://www.copy.ai,freemium,AI marketing copy generator
+writesonic,Writesonic,content,https://writesonic.com,freemium,AI article writer for SEO
+rytr,Rytr,content,https://rytr.me,freemium,cheap AI writing tool
+grammarly,Grammarly,content,https://www.grammarly.com,freemium,AI grammar checker for marketers
+quillbot,QuillBot,content,https://quillbot.com,freemium,AI paraphrasing tool
+wordtune,Wordtune,content,https://www.wordtune.com,freemium,AI sentence rewriter
+ink,INK,content,https://inkforall.com,paid,AI writing tool with SEO score
+perplexity,Perplexity,content,https://www.perplexity.ai,freemium,AI research assistant
+longform,Longform,content,,,AI long form content generator
+simplified,Simplified,content,https://simplified.com,freemium,all in one AI content platform
+anyword,Anyword,content,https://anyword.com,paid,AI copywriting with conversion data
+scalenut,Scalenut,content,https://scalenut.com,paid,AI content marketing platform
+copygenius,CopyGenius,content,,,AI landing page copy tool
+peppertype,Pepper Content,content,https://www.peppertype.ai,freemium,AI content team platform
+textcortex,TextCortex,content,https://textcortex.com,freemium,AI writing for ecommerce
+sudowrite,Sudowrite,content,https://www.sudowrite.com,paid,AI creative writing tool
+surfer,Surfer SEO,seo,https://surferseo.com,paid,best SEO content optimization tool
+clearscope,Clearscope,seo,https://www.clearscope.io,paid,SEO content grader
+marketmuse,MarketMuse,seo,https://www.marketmuse.com,paid,AI content intelligence platform
+frase,Frase,seo,https://www.frase.io,paid,AI SEO content brief generator
+outranking,Outranking,seo,https://www.outranking.io,paid,AI SEO writing assistant
+neuronwriter,NeuronWriter,seo,https://www.neuronwriter.com,paid,content optimization with NAP
+seo-ai,SEO.ai,seo,https://seo.ai,paid,AI SEO content generator
+rankiq,RankIQ,seo,https://rankiq.com,paid,low competition keyword tool
+rightblogger,RightBlogger,seo,https://rightblogger.com,paid,AI SEO blogging tool
+contentatscale,Content at Scale,seo,https://contentatscale.ai,paid,AI long form SEO content
+midjourney,Midjourney,image,https://www.midjourney.com,paid,best AI image generator
+dalle-3,DALL-E 3,image,https://openai.com/dall-e-3,paid,AI image generator from text
+stable-diffusion,Stable Diffusion,image,https://stability.ai,free,open source AI image generator
+canva-ai,Canva AI,image,https://www.canva.com,freemium,AI design tool for social media
+firefly,Adobe Firefly,image,https://firefly.adobe.com,freemium,commercial safe AI images
+ideogram,Ideogram,image,https://ideogram.ai,freemium,AI image generator with text
+leonardo,Leonardo AI,image,https://leonardo.ai,freemium,AI art generator for marketing
+recraft,Recraft,image,https://www.recraft.ai,freemium,AI image tool for brand assets
+looka,Looka,image,https://looka.com,paid,AI logo maker
+kittl,Kittl,image,https://www.kittl.com,freemium,AI design platform
+figma-ai,Figma AI,image,https://www.figma.com,freemium,AI design tool for teams
+designs-ai,Designs.ai,image,https://designs.ai,freemium,AI graphic design suite
+descript,Descript,video,https://www.descript.com,freemium,AI video editor with transcription
+runway,Runway,video,https://runwayml.com,freemium,AI video generation tool
+pika,Pika,video,https://pika.art,freemium,AI text to video generator
+synthesia,Synthesia,video,https://www.synthesia.io,paid,AI avatar video generator
+heygen,HeyGen,video,https://www.heygen.com,freemium,AI video translation with avatars
+murf,Murf AI,video,https://murf.ai,freemium,AI voice over generator
+elevenlabs,ElevenLabs,video,https://elevenlabs.io,freemium,AI voice cloning tool
+lovo,Lovo AI,video,https://lovo.ai,freemium,AI voice generator for videos
+veed,Veed.io,video,https://www.veed.io,freemium,online AI video editor
+capcut,CapCut,video,https://www.capcut.com,free,AI video editing for social
+opus-clip,Opus Clip,video,https://www.opus.pro,paid,AI clip generator from long videos
+pictory,Pictory,video,https://pictory.ai,freemium,AI video from blog posts
+invideo,InVideo,video,https://invideo.io,freemium,AI video creation for marketing
+did,D-ID,video,https://www.d-id.com,paid,AI talking avatar video
+fliki,Fliki,video,https://fliki.ai,freemium,text to video with AI voices
+podcastle,Podcastle,video,https://podcastle.ai,freemium,AI podcast editing tool
+adcreative,AdCreative.ai,marketing,https://www.adcreative.ai,paid,AI ad creative generator
+adzooma,Adzooma,marketing,https://adzooma.com,freemium,AI PPC management tool
+persado,Persado,marketing,https://www.persado.com,paid,AI marketing message generation
+albert,Albert AI,marketing,https://albert.ai,paid,AI marketing automation
+metadata,Metadata,marketing,https://metadata.io,paid,AI demand generation platform
+pattern89,Pattern89,marketing,https://pattern89.com,paid,AI ad performance prediction
+appier,Appier,marketing,https://www.appier.com,paid,AI marketing platform
+optmyzr,Optmyzr,marketing,https://www.optmyzr.com,paid,PPC optimization tool
+buffer-ai,Buffer AI,social,https://buffer.com,freemium,AI social media scheduler
+hootsuite-ai,Hootsuite AI,social,https://hootsuite.com,freemium,AI social media management
+lately,Lately,social,https://lately.ai,paid,AI social content generator
+repurpose,Repurpose.io,social,https://repurpose.io,paid,AI content repurposing tool
+ocoya,Ocoya,social,https://www.ocoya.com,freemium,AI social media marketing suite
+predis,Predis.ai,social,https://predis.ai,freemium,AI social media post generator
+publer,Publer,social,https://publer.com,freemium,AI social media planner
+vista-social,Vista Social,social,https://vistasocial.com,freemium,AI social media management
+mailchimp-ai,Mailchimp AI,email,https://mailchimp.com,freemium,AI email marketing tool
+hubspot-ai,HubSpot AI,email,https://www.hubspot.com,freemium,AI CRM for marketing
+instantly,Instantly,email,https://instantly.ai,paid,AI cold email tool
+smartlead,Smartlead,email,https://www.smartlead.ai,paid,AI email warmup and outreach
+lavender,Lavender,email,https://www.lavender.ai,paid,AI email assistant
+apollo,Apollo.io,email,https://www.apollo.io,freemium,AI sales intelligence platform
+clay,Clay,email,https://www.clay.com,paid,AI data enrichment for outbound
+reply-io,Reply.io,email,https://reply.io,freemium,AI sales engagement platform
+zapier-ai,Zapier AI,productivity,https://zapier.com,freemium,AI automation workflows
+make,Make,productivity,https://www.make.com,freemium,AI workflow automation
+n8n,n8n,productivity,https://n8n.io,free,open source AI workflow tool
+notion-ai,Notion AI,productivity,https://www.notion.com,freemium,AI workspace and notes
+motion,Motion,productivity,https://www.usemotion.com,paid,AI scheduling and task management
+taskade,Taskade,productivity,https://www.taskade.com,freemium,AI project management
+clickup-ai,ClickUp AI,productivity,https://clickup.com,freemium,AI task and doc tool
+gamma,Gamma,productivity,https://gamma.app,freemium,AI presentation generator
+tome,Tome,productivity,https://tome.app,paid,AI storytelling presentations
+beautiful-ai,Beautiful.ai,productivity,https://www.beautiful.ai,paid,AI slide design tool
+julius,Julius AI,analytics,https://julius.ai,freemium,AI data analysis assistant
+polymer,Polymer,analytics,https://www.polymerhq.io,freemium,AI spreadsheet tool
+luzmo,Luzmo,analytics,https://www.luzmo.com,paid,AI dashboard builder
+akkio,Akkio,analytics,https://www.akkio.com,paid,AI predictive analytics
+obviously,Obviously AI,analytics,https://www.obviously.ai,freemium,no code AI predictions
+gong,Gong,sales,https://www.gong.io,paid,AI sales call intelligence
+intercom-fin,Intercom Fin,sales,https://www.intercom.com,paid,AI customer support bot
+drift,Drift,sales,https://www.drift.com,freemium,AI sales chatbot
+forethought,Forethought,sales,https://forethought.ai,paid,AI support automation
+zendesk-ai,Zendesk AI,sales,https://www.zendesk.com,freemium,AI customer service software
+deepl,DeepL,translation,https://www.deepl.com,freemium,AI translation tool
+google-translate,Google Translate,translation,https://translate.google.com,free,free AI translation
+lokalise,Lokalise AI,translation,https://lokalise.com,freemium,AI localization platform
+unbabel,Unbabel,translation,https://unbabel.com,paid,AI human translation service
+cursor,Cursor,dev,https://cursor.com,freemium,AI code editor
+v0,v0,dev,https://v0.dev,freemium,AI UI generation tool
+lovable,Lovable,dev,https://lovable.dev,freemium,AI app builder
+bolt,Bolt.new,dev,https://bolt.new,freemium,AI full stack web builder
+replit-ai,Replit AI,dev,https://replit.com,freemium,AI coding environment
+codeium,Codium,dev,https://codeium.com,free,AI code completion tool
