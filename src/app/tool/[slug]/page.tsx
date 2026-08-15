@@ -133,6 +133,43 @@ export default async function ToolPage({
         </section>
       )}
 
+      {content?.comparison && content.comparison.length > 0 && (
+        <section className="mt-6">
+          <h2 className="text-xl font-medium">How {tool.name} compares</h2>
+          <p className="mt-1 text-sm text-gray-500">
+            At a glance, for marketing teams.
+          </p>
+          <div className="mt-3 overflow-x-auto rounded-lg border border-gray-200">
+            <table className="w-full min-w-[640px] text-sm">
+              <thead className="bg-gray-50 text-left text-gray-500">
+                <tr>
+                  <th className="px-4 py-2 font-medium">Tool</th>
+                  <th className="px-4 py-2 font-medium">Best for</th>
+                  <th className="px-4 py-2 font-medium">Price</th>
+                  <th className="px-4 py-2 font-medium">Strengths</th>
+                  <th className="px-4 py-2 font-medium">Watch out</th>
+                </tr>
+              </thead>
+              <tbody className="divide-y divide-gray-100">
+                {content.comparison.map((c) => (
+                  <tr key={c.tool}>
+                    <td className="px-4 py-3 font-medium text-gray-900">
+                      {c.tool}
+                    </td>
+                    <td className="px-4 py-3 text-gray-600">{c.best_for}</td>
+                    <td className="whitespace-nowrap px-4 py-3 text-gray-600">
+                      {c.price}
+                    </td>
+                    <td className="px-4 py-3 text-gray-600">{c.strengths}</td>
+                    <td className="px-4 py-3 text-gray-600">{c.weaknesses}</td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+        </section>
+      )}
+
       {content?.pricing && content.pricing.length > 0 && (
         <section className="mt-6">
           <h2 className="text-xl font-medium">Pricing</h2>

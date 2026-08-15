@@ -8,6 +8,13 @@ export type ToolContent = {
   key_features?: string[];
   unique?: string;
   pricing?: { tier: string; price: string; note?: string }[];
+  comparison?: {
+    tool: string;
+    best_for: string;
+    price: string;
+    strengths: string;
+    weaknesses: string;
+  }[];
   pros?: string[];
   cons?: string[];
   use_cases?: string[];

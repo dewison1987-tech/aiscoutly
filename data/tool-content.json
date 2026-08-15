@@ -16,6 +16,36 @@
       { "tier": "Plus", "price": "$20/mo", "note": "Best value for working marketers; higher limits, latest model, image generation" },
       { "tier": "Pro", "price": "$100/mo", "note": "For heavy users and agencies running high-volume content operations" }
     ],
+    "comparison": [
+      {
+        "tool": "ChatGPT",
+        "best_for": "Everyday marketing tasks — writing, research, repurposing",
+        "price": "Free – $20/mo",
+        "strengths": "Most versatile; huge GPT ecosystem; solid free tier",
+        "weaknesses": "Needs prompting skill; no built-in brand-voice guardrails"
+      },
+      {
+        "tool": "Claude",
+        "best_for": "Long-form, natural-sounding content",
+        "price": "Free – $20/mo",
+        "strengths": "Most human-like writing; long context; handles documents in chat",
+        "weaknesses": "Fewer marketing templates; no SEO scoring built in"
+      },
+      {
+        "tool": "Jasper",
+        "best_for": "On-brand marketing copy at scale",
+        "price": "$39 – $99/mo",
+        "strengths": "Brand Voice; 50+ marketing templates; campaign workflows",
+        "weaknesses": "Pricier; weaker for open-ended research"
+      },
+      {
+        "tool": "Google Gemini",
+        "best_for": "Teams already living inside Google Workspace",
+        "price": "Free – $19.99/mo",
+        "strengths": "Deep Google search integration; generous free tier; multimodal",
+        "weaknesses": "Writing less consistent; fewer marketing-specific features"
+      }
+    ],
     "pros": [
       "Most capable general assistant across all marketing tasks",
       "Huge GPT ecosystem means instant specialized workflows",
