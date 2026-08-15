@@ -119,7 +119,9 @@
         "q": "Does Claude have a free plan?",
         "a": "Yes, Claude offers a free tier with daily message limits, plus paid Pro plans for higher usage."
       }
-    ]
+    ],
+    "tagline": "The most human-sounding AI writer for long-form, nuanced content — ideal for guides, case studies and editorial pieces.",
+    "rating": 4.7
   },
   "jasper": {
     "description": "Jasper is purpose-built for marketing teams that want guardrails, brand voice consistency, and campaign templates. Unlike general chatbots, it ships with 50+ marketing-specific templates (ads, landing pages, emails, product descriptions) and a Brand Voice feature that keeps output on-message. Best for teams that want less prompt engineering and more structured output.",
@@ -138,7 +140,9 @@
         "q": "Does Jasper support languages other than English?",
         "a": "Yes, Jasper supports 30+ languages for generation and localization workflows."
       }
-    ]
+    ],
+    "tagline": "Purpose-built marketing copy assistant with Brand Voice and 50+ campaign templates.",
+    "rating": 4.4
   },
   "surfer": {
     "description": "Surfer SEO is an on-page optimization tool that combines AI content generation with real-time SEO scoring. It analyzes top-ranking pages for a keyword, then guides you to hit the same content structure, word count and keyword usage. For content teams that need predictable rankings, it closes the gap between writing and on-page SEO.",
@@ -157,7 +161,9 @@
         "q": "Does Surfer work with any CMS?",
         "a": "Surfer has a Chrome extension and native integrations with WordPress, Google Docs and Jasper, plus export to any CMS."
       }
-    ]
+    ],
+    "tagline": "The SEO content tool that scores your draft against top-ranking pages in real time.",
+    "rating": 4.5
   },
   "midjourney": {
     "description": "Midjourney remains the default for high-quality AI imagery, especially stylized and editorial visuals. Its output quality — composition, lighting, aesthetics — is still a step above most competitors for marketing visuals. Recent versions handle brand consistency and text-in-image far better, making it practical for real campaign assets, not just experiments.",
@@ -176,7 +182,9 @@
         "q": "Is Midjourney good for brand-consistent visuals?",
         "a": "Recent versions improved style consistency significantly, and you can reference existing images to match your brand look."
       }
-    ]
+    ],
+    "tagline": "The default choice for high-quality AI imagery — stylized visuals that need little editing.",
+    "rating": 4.8
   },
   "gemini": {
     "tagline": "Google's AI writing assistant that drafts, analyzes, and iterates with you inside Docs, Gmail, and the browser.",
