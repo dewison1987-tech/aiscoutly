@@ -18,9 +18,17 @@ function faviconUrl(url: string, size = 64) {
     : "";
 }
 
-export default function ToolDirectory({ tools }: { tools: Tool[] }) {
+export default function ToolDirectory({
+  tools,
+  initialCategory,
+  showCategoryFilter = true,
+}: {
+  tools: Tool[];
+  initialCategory?: string;
+  showCategoryFilter?: boolean;
+}) {
   const [query, setQuery] = useState("");
-  const [category, setCategory] = useState("all");
+  const [category, setCategory] = useState(initialCategory ?? "all");
   const [price, setPrice] = useState("all");
 
   const filtered = useMemo(() => {
@@ -78,17 +86,19 @@ export default function ToolDirectory({ tools }: { tools: Tool[] }) {
           )}
         </div>
 
-        <div className="mt-3 flex flex-wrap gap-2">
-          {categories.map((c) => (
-            <button
-              key={c}
-              onClick={() => setCategory(c)}
-              className={chipCls(category === c)}
-            >
-              {c === "all" ? "All" : CATEGORY_LABELS[c] ?? c}
-            </button>
-          ))}
-        </div>
+        {showCategoryFilter && (
+          <div className="mt-3 flex flex-wrap gap-2">
+            {categories.map((c) => (
+              <button
+                key={c}
+                onClick={() => setCategory(c)}
+                className={chipCls(category === c)}
+              >
+                {c === "all" ? "All" : CATEGORY_LABELS[c] ?? c}
+              </button>
+            ))}
+          </div>
+        )}
 
         <div className="mt-3 flex flex-wrap items-center gap-2">
           <span className="text-xs text-gray-500">Price:</span>

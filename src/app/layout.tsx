@@ -3,6 +3,7 @@ import { Geist, Geist_Mono } from "next/font/google";
 import Link from "next/link";
 import SiteAnalytics from "@/components/SiteAnalytics";
 import AdSense from "@/components/AdSense";
+import CategoryNav from "@/components/CategoryNav";
 import "./globals.css";
 
 const geistSans = Geist({
@@ -40,6 +41,7 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
               <Link href="/" className="text-gray-600 hover:text-gray-900">
                 Home
               </Link>
+              <CategoryNav />
               <Link
                 href="/about"
                 className="text-gray-600 hover:text-gray-900"
