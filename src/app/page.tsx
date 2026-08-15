@@ -1,44 +1,34 @@
-import ToolDirectory from "@/components/ToolDirectory";
+import HomeDirectory from "@/components/HomeDirectory";
 import { getTools } from "@/lib/tools";
 
 export default async function Home() {
   const tools = await getTools();
 
   return (
-    <main>
-      <section
-        className="px-4 pb-24 pt-20 text-center text-white"
-        style={{
-          background:
-            "linear-gradient(135deg, #4338ca 0%, #6d28d9 45%, #c026d3 100%)",
-        }}
-      >
-        <p className="text-xs font-medium uppercase tracking-widest text-indigo-200">
+    <main className="mx-auto max-w-6xl px-4 pb-20">
+      <section className="pb-8 pt-14 text-center">
+        <p className="text-xs font-medium uppercase tracking-widest text-indigo-600">
           Curated for marketers &amp; content teams
         </p>
-        <h1 className="mx-auto mt-3 max-w-3xl text-4xl font-semibold tracking-tight sm:text-5xl">
-          Find the right AI tool for every marketing task
+        <h1 className="mx-auto mt-3 max-w-3xl text-4xl font-semibold tracking-tight text-gray-900 sm:text-5xl">
+          Find the right AI tool for{" "}
+          <span
+            className="bg-clip-text text-transparent"
+            style={{
+              backgroundImage:
+                "linear-gradient(to right, #4338ca, #c026d3)",
+            }}
+          >
+            every marketing task
+          </span>
         </h1>
-        <p className="mx-auto mt-4 max-w-2xl text-lg text-indigo-100">
+        <p className="mx-auto mt-4 max-w-2xl text-lg text-gray-600">
           Search, compare and review the best AI tools for content, SEO, social,
           video and ads — with hands-on notes from people who actually use them.
         </p>
-        <div className="mt-6 flex flex-wrap items-center justify-center gap-3 text-sm">
-          <span className="rounded-full bg-white/10 px-4 py-1.5 backdrop-blur">
-            {tools.length}+ tools
-          </span>
-          <span className="rounded-full bg-white/10 px-4 py-1.5 backdrop-blur">
-            {new Set(tools.map((t) => t.category)).size} categories
-          </span>
-          <span className="rounded-full bg-white/10 px-4 py-1.5 backdrop-blur">
-            Updated weekly
-          </span>
-        </div>
       </section>
 
-      <section className="mx-auto -mt-12 max-w-5xl px-4 pb-16">
-        <ToolDirectory tools={tools} />
-      </section>
+      <HomeDirectory tools={tools} />
     </main>
   );
 }
