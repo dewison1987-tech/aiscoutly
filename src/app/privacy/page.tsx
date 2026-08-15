@@ -111,12 +111,12 @@ export default function PrivacyPage() {
           </h2>
           <p className="mt-2">
             Questions about this policy? Email us at{" "}
-            {/* TODO: 替换为真实联系邮箱 */}
+            {}
             <a
-              href="mailto:hello@example.com"
+              href="mailto:dewison1987@gmail.com"
               className="text-gray-900 underline"
             >
-              hello@example.com
+              dewison1987@gmail.com
             </a>
             .
           </p>

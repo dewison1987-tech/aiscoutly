@@ -54,9 +54,9 @@ export default function AboutPage() {
         <h2 className="text-xl font-medium">Contact</h2>
         <p className="mt-2 text-gray-600">
           Reach us at{" "}
-          {/* TODO: 替换为真实联系邮箱 */}
-          <a href="mailto:hello@example.com" className="text-gray-900 underline">
-            hello@example.com
+          {}
+          <a href="mailto:dewison1987@gmail.com" className="text-gray-900 underline">
+            dewison1987@gmail.com
           </a>{" "}
           or via the contact page.
         </p>

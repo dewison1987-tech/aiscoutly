@@ -15,15 +15,15 @@ export default function ContactPage() {
         usually reply within 2 business days.
       </p>
 
-      {/* TODO: 替换为真实联系邮箱 */}
+      {}
       <section className="mt-8 rounded-lg border border-gray-200 p-6">
         <h2 className="text-xl font-medium">Email</h2>
         <p className="mt-2 text-gray-600">
           <a
-            href="mailto:hello@example.com"
+            href="mailto:dewison1987@gmail.com"
             className="font-medium text-gray-900 underline"
           >
-            hello@example.com
+            dewison1987@gmail.com
           </a>
         </p>
         <p className="mt-4 text-sm text-gray-500">
