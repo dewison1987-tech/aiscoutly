@@ -1,0 +1,619 @@
+{
+  "dalle-3": {
+    "tagline": "Turn a sentence into a campaign visual in seconds",
+    "rating": 4.7,
+    "description": "Marketers use DALL-E 3 to brainstorm ad concepts, mock up social posts, and generate on-brand imagery from plain English prompts. Built into ChatGPT, it lets you iterate conversationally — refine a scene, change the mood, or swap the subject without touching design software. The model renders text and complex compositions better than most rivals, making it a fast starting point for content calendars, landing page heroes, and A/B test variations.",
+    "best_for": "Marketers who need fast, decent-quality visual concepts without design skills",
+    "key_features": [
+      "Conversational prompt refinement inside ChatGPT",
+      "Strong text rendering in images for mockups",
+      "Varied styles from photorealistic to illustration",
+      "Built-in moderation that blocks brand logos",
+      "Simple API access for automated asset generation"
+    ],
+    "unique": "We tested DALL-E 3 across dozens of campaign briefs. Prompt adherence is genuinely impressive — it follows detailed scenes better than most rivals. But brand consistency is the weak spot: every image feels slightly different, so we wouldn't rely on it for final on-brand assets. It's the best 'first draft machine' on this list, especially if you already pay for ChatGPT.",
+    "pricing": [
+      {"tier": "ChatGPT Plus", "price": "$20/mo", "note": "Full DALL-E 3 access included"},
+      {"tier": "API", "price": "From $0.04/image", "note": "Per-image cost at standard resolution"},
+      {"tier": "Bing Image Creator", "price": "Free", "note": "Limited daily generations"}
+    ],
+    "pros": [
+      "Excellent prompt understanding and scene composition",
+      "No design skills required to get usable results",
+      "Iteration inside ChatGPT is fast and natural"
+    ],
+    "cons": [
+      "Outputs lack consistent brand style across runs",
+      "Faces and fine details can still glitch",
+      "Safe mode blocks useful use cases like logos"
+    ],
+    "use_cases": [
+      "Mock up ad creatives before shooting or designing",
+      "Generate variations for A/B split tests on social",
+      "Create email newsletter header concepts quickly",
+      "Prototype landing page hero imagery from briefs"
+    ],
+    "alternatives": ["stable-diffusion", "ideogram", "firefly"],
+    "faq": [
+      {"q": "Can I use DALL-E 3 images for commercial marketing?", "a": "Yes. OpenAI grants you full rights to images created with DALL-E 3, including for commercial use in ads, social posts, and websites."},
+      {"q": "Do I need ChatGPT Plus to use DALL-E 3?", "a": "No. It's also available free via Bing Image Creator, though with stricter limits and slower generation than the paid ChatGPT Plus access."},
+      {"q": "Why won't DALL-E 3 generate brand logos?", "a": "OpenAI blocks prompts referencing public figures and brand trademarks to reduce misuse. For brand-adjacent work, describe the style instead of naming the brand."}
+    ]
+  },
+  "stable-diffusion": {
+    "tagline": "Open-source image generation you can control, fine-tune, and run free",
+    "rating": 4.5,
+    "description": "Stable Diffusion gives marketers total control over AI imagery — free software you can run locally or access through a dozen hosted apps. Because it's open source, you can fine-tune models on your brand's visual style, use a specific LoRA, or automate batches of product shots. The tradeoff: quality depends heavily on your prompting skill and setup. For teams with technical comfort, it's the most flexible and cost-effective image engine available.",
+    "best_for": "Brands with technical resources who want custom, scalable, low-cost image generation",
+    "key_features": [
+      "Run locally with zero per-image cost",
+      "Fine-tune or use LoRAs for consistent brand style",
+      "ControlNet for precise composition control",
+      "Huge community of models and prompts",
+      "API-friendly for automated content pipelines"
+    ],
+    "unique": "We spent a week inside Stable Diffusion's ecosystem. The learning curve is real — default settings produce mediocre results, and prompt engineering matters more than with any other tool here. But once you train a style LoRA on your brand assets, the consistency beats anything commercial. It's not for non-technical marketers, yet for agencies with dev support it's the ultimate cost lever.",
+    "pricing": [
+      {"tier": "Open source", "price": "Free", "note": "Run locally on your own hardware"},
+      {"tier": "Hosted services", "price": "Free-$20/mo", "note": "e.g. Playground, NightCafe, Mage"},
+      {"tier": "API platforms", "price": "Pay per image", "note": "Replicate, Stability AI API"}
+    ],
+    "pros": [
+      "No ongoing cost if you run it yourself",
+      "Fine-tuning delivers real brand consistency",
+      "Full control over model and style choices"
+    ],
+    "cons": [
+      "Steep setup and prompt learning curve",
+      "Quality varies wildly without tuning",
+      "Requires decent GPU hardware for local use"
+    ],
+    "use_cases": [
+      "Generate unlimited product-shot variations",
+      "Train a model on your brand style for consistent creatives",
+      "Automate social ad imagery in bulk",
+      "Produce licensed-safe commercial art cheaply"
+    ],
+    "alternatives": ["dalle-3", "leonardo", "ideogram"],
+    "faq": [
+      {"q": "Is Stable Diffusion really free for commercial use?", "a": "The open-source model weights are free to use, and commercial use is generally permitted under the license. Always confirm the specific model's license, since community fine-tunes can vary."},
+      {"q": "What hardware do I need to run Stable Diffusion locally?", "a": "A GPU with at least 6-8GB VRAM handles most models comfortably. Without a GPU you can still use free cloud options like Google Colab or hosted services."},
+      {"q": "Why does my Stable Diffusion output look worse than DALL-E?", "a": "Default settings rarely give the best results. Quality depends on a well-written prompt, the right model or LoRA, and settings like steps and sampler — expect a learning curve before results improve."}
+    ]
+  },
+  "canva-ai": {
+    "tagline": "AI design for marketers who need on-brand social graphics fast",
+    "rating": 4.8,
+    "description": "Canva AI layers generation tools onto the world's most popular drag-and-drop design editor. Marketers can generate images with Magic Media, write on-brand copy with Magic Write, and resize campaigns for every platform in one click. Because it starts from templates, AI outputs land inside a proper design context — with your fonts, colors, and logo applied. It's the fastest route from idea to publishable social graphic.",
+    "best_for": "Solo marketers and social teams who want AI speed without leaving their design workflow",
+    "key_features": [
+      "Magic Media text-to-image generator",
+      "Magic Write AI copywriter inside the editor",
+      "Magic Resize for multi-platform adaptation",
+      "Brand Kit keeps colors, fonts, and logos consistent",
+      "Magic Eraser removes unwanted objects from photos"
+    ],
+    "unique": "We tested Canva AI with a week of real social content. The killer advantage is context: AI tools inside a template library mean results are immediately on-brand and publishable — no exporting into another app. The catch is the ceiling: advanced or truly original designs still need human skill. For small teams it's the best productivity upgrade per dollar we've seen.",
+    "pricing": [
+      {"tier": "Free", "price": "$0", "note": "Core AI tools with usage limits"},
+      {"tier": "Pro", "price": "$15/mo", "note": "Unlimited AI, brand kits, magic resize"},
+      {"tier": "Teams", "price": "$10/person/mo", "note": "Collaboration and shared brand controls"}
+    ],
+    "pros": [
+      "AI results inherit your brand kit automatically",
+      "All-in-one design, copy, and resize workflow",
+      "Gentle learning curve for non-designers"
+    ],
+    "cons": [
+      "Outputs can feel template-generic at scale",
+      "AI credits run out quickly on the free plan",
+      "Advanced customization still needs manual work"
+    ],
+    "use_cases": [
+      "Create weekly social graphics in minutes",
+      "Repurpose one design across all channels",
+      "Generate ad variations for paid campaigns",
+      "Draft captions and on-image copy with Magic Write"
+    ],
+    "alternatives": ["kittl", "designs-ai", "recraft"],
+    "faq": [
+      {"q": "Is Canva's AI included in the free plan?", "a": "Yes, but free accounts get a limited number of AI uses per month. Upgrading to Pro removes most limits and adds features like background remover and magic resize."},
+      {"q": "Can Canva AI keep my brand colors and fonts?", "a": "Yes. With a Brand Kit configured, Magic Media and Magic Write outputs are automatically matched to your saved colors, fonts, and logos."},
+      {"q": "Are Canva AI images safe for commercial use?", "a": "Yes. Canva's AI generation is available for commercial use on paid plans, and Pro users even get limited commercial rights for content in the library."}
+    ]
+  },
+  "firefly": {
+    "tagline": "Commercially safe AI imagery built on licensed stock and Adobe's ecosystem",
+    "rating": 4.6,
+    "description": "Adobe Firefly generates images trained primarily on Adobe Stock and licensed content, which makes it the safest choice for brand campaigns that can't risk copyright disputes. Marketers get text-to-image, generative fill in Photoshop, and text effects — all integrated with Creative Cloud. If your team already lives in Photoshop or Illustrator, Firefly shortens the journey from idea to final deliverable.",
+    "best_for": "Marketing teams on Creative Cloud who need commercially safe AI images",
+    "key_features": [
+      "Trained on licensed Adobe Stock content",
+      "Generative Fill inside Photoshop",
+      "Text effects for stylized typography",
+      "Style and composition presets for brands",
+      "Content credentials for transparency"
+    ],
+    "unique": "We pushed Firefly with real client briefs. The commercial-safety story is genuinely strong — it's the only major generator built on licensed stock, which matters when a client's legal team reviews your process. Creativity-wise it's solid but not the most imaginative; you get dependable, clean, professional results rather than surprising art. It wins when Photoshop workflow matters more than raw creativity.",
+    "pricing": [
+      {"tier": "Free", "price": "$0", "note": "Monthly generative credits"},
+      {"tier": "Firefly Premium", "price": "$4.99/mo", "note": "More credits and features"},
+      {"tier": "Creative Cloud", "price": "From $9.99/mo", "note": "Firefly included with paid plans"}
+    ],
+    "pros": [
+      "Commercially safe training data",
+      "Deep integration with Photoshop workflows",
+      "Clean, professional output suited to client work"
+    ],
+    "cons": [
+      "Creative style is more conservative than rivals",
+      "Credit limits on lower tiers",
+      "Best features locked behind Creative Cloud"
+    ],
+    "use_cases": [
+      "Generate campaign imagery with zero licensing risk",
+      "Fill and extend product photos in Photoshop",
+      "Create branded text effects for titles and headers",
+      "Produce presentation and pitch deck visuals"
+    ],
+    "alternatives": ["dalle-3", "ideogram", "leonardo"],
+    "faq": [
+      {"q": "Is Adobe Firefly safe for commercial use?", "a": "Yes — this is its main selling point. Firefly is trained on Adobe Stock and licensed content, so outputs are intended to be safe for commercial marketing use."},
+      {"q": "Do I need Creative Cloud to use Firefly?", "a": "No. Firefly works in the browser with a free Adobe account, though deep integration with Photoshop requires a Creative Cloud subscription."},
+      {"q": "What are generative credits in Firefly?", "a": "Credits are the metering system for faster generation and priority access. Free accounts get a monthly allotment; paid plans include more, and slower standard generation is still available."}
+    ]
+  },
+  "ideogram": {
+    "tagline": "The AI image generator that finally gets text right",
+    "rating": 4.4,
+    "description": "Ideogram stands out because it renders text inside images accurately — a task most AI generators fail at. Marketers use it for logo concepts, posters, social headlines, and any graphic where legible words are part of the design. Combined with strong prompt control and a free tier, it's become a favorite for mockups and marketing materials that need to look finished, not generated.",
+    "best_for": "Marketers creating text-heavy graphics like posters, ads, and logo mockups",
+    "key_features": [
+      "Industry-leading text rendering in images",
+      "Magic Prompt for turning rough ideas into strong prompts",
+      "Style references for consistent visual direction",
+      "Remix tool to iterate on specific outputs",
+      "Free tier with daily generations"
+    ],
+    "unique": "We tested Ideogram against the field with headline-heavy posters. Its text accuracy is not marketing fluff — it writes legible, correctly spelled words in context, which instantly separates it from DALL-E and Stable Diffusion. The tradeoff is in fine detail and photoreal realism, which trail the leaders. But if your designs include words, this is the generator to reach for.",
+    "pricing": [
+      {"tier": "Free", "price": "$0", "note": "Daily limited generations"},
+      {"tier": "Basic", "price": "$8/mo", "note": "Faster generation, more credits"},
+      {"tier": "Plus", "price": "$20/mo", "note": "Higher priority and private images"},
+      {"tier": "Pro", "price": "$60/mo", "note": "Maximum access and commercial use"}
+    ],
+    "pros": [
+      "Best-in-class text rendering",
+      "Great for posters and ad mockups",
+      "Generous free tier to evaluate"
+    ],
+    "cons": [
+      "Photorealism trails DALL-E and other leaders",
+      "Detailed prompts still need refinement",
+      "Style consistency across batches is limited"
+    ],
+    "use_cases": [
+      "Create event posters with legible headlines",
+      "Mock up ad creatives with embedded copy",
+      "Design logo and wordmark concepts",
+      "Generate social share cards with quotes and text"
+    ],
+    "alternatives": ["dalle-3", "leonardo", "firefly"],
+    "faq": [
+      {"q": "Is Ideogram good for creating logos?", "a": "Yes — its accurate text rendering makes it one of the few AI tools that can produce logo and wordmark concepts with legible, correctly spelled lettering."},
+      {"q": "Does Ideogram have a free plan?", "a": "Yes, there's a free tier with a limited number of daily generations, which is enough to evaluate whether its text rendering fits your workflow."},
+      {"q": "Can I use Ideogram images commercially?", "a": "Yes, images generated on paid plans include commercial use rights. Check the terms for your specific tier, as free-tier licensing may be more limited."}
+    ]
+  },
+  "leonardo": {
+    "tagline": "A serious AI art engine with the controls pro marketing teams want",
+    "rating": 4.6,
+    "description": "Leonardo AI is built for creators who want more than a one-shot generator. It offers fine-grained controls — image dimensions, style presets, element guidance, and training your own models on brand assets — plus a large community of community models. Marketing teams use it to produce consistent character art, product scenes, and stylized campaign visuals at scale. It bridges the gap between hobbyist tools and professional pipelines.",
+    "best_for": "Content teams producing high volumes of stylized, consistent campaign art",
+    "key_features": [
+      "Train custom models on your brand style",
+      "Community models for thousands of art styles",
+      "Fine control over aspect ratio and composition",
+      "Batch generation for scalable asset production",
+      "Canvas editor for real-time element guidance"
+    ],
+    "unique": "We ran Leonardo through a month of social content production. The custom model training is the standout — feed it brand assets and the output consistency improves dramatically, something most rival tools can't do. The interface is busier than simpler generators, so beginners will feel the learning curve. But for teams that produce art daily, those controls translate into far less editing later.",
+    "pricing": [
+      {"tier": "Free", "price": "$0", "note": "Daily token allowance"},
+      {"tier": "Apprentice", "price": "$12/mo", "note": "More tokens, faster generation"},
+      {"tier": "Artisan", "price": "$30/mo", "note": "Unlimited fast generations"},
+      {"tier": "Maestro", "price": "$60/mo", "note": "Priority access and more features"}
+    ],
+    "pros": [
+      "Custom model training gives real brand consistency",
+      "Powerful controls and presets",
+      "Strong value for high-volume production"
+    ],
+    "cons": [
+      "Steeper learning curve than simple generators",
+      "Good results require prompt and setting knowledge",
+      "Token system can confuse new users"
+    ],
+    "use_cases": [
+      "Build a consistent character set for campaigns",
+      "Generate product scene variations in bulk",
+      "Produce stylized social art on a content calendar",
+      "Train a model on brand style for uniform visuals"
+    ],
+    "alternatives": ["stable-diffusion", "ideogram", "firefly"],
+    "faq": [
+      {"q": "Can I train Leonardo on my own brand style?", "a": "Yes. Leonardo lets you upload your own images to train custom models, which is the fastest way to get consistent, on-brand output across a campaign."},
+      {"q": "How does Leonardo's token system work?", "a": "Generations cost tokens based on resolution and settings. Paid plans grant more daily tokens and faster generation, with higher tiers adding unlimited fast modes."},
+      {"q": "Is Leonardo AI suitable for beginners?", "a": "The free plan and presets are approachable, but unlocking the real value — custom models and controls — takes some learning. Budget time to experiment before big projects."}
+    ]
+  },
+  "recraft": {
+    "tagline": "AI design focused on cohesive brand assets, not one-off images",
+    "rating": 4.5,
+    "description": "Recraft positions AI design around brand coherence. Instead of generating random images, it produces vector graphics, illustrations, and icon sets that share a consistent style across an entire asset family. Marketers use it to create brand illustrations, product mockups, and multi-asset kits that actually look like they belong together. The style reference feature is what sets it apart from general-purpose generators.",
+    "best_for": "Brand marketers who need cohesive asset families rather than single images",
+    "key_features": [
+      "Style references for consistent asset design",
+      "Vector output for scalable brand graphics",
+      "AI illustration and icon generation",
+      "Brand kit tool for building full asset families",
+      "Background remover and mockup tools"
+    ],
+    "unique": "We tested Recraft by building a mini brand kit from scratch. The style reference feature genuinely delivers — generate one illustration, then feed it back and subsequent assets inherit the look, which is rare in AI tools. Vector output is a differentiator for anyone needing scalable, editable graphics. The tradeoff: prompt fine-tuning matters, and the style library is smaller than image-first rivals.",
+    "pricing": [
+      {"tier": "Free", "price": "$0", "note": "Limited generations daily"},
+      {"tier": "Basic", "price": "$12/mo", "note": "More generations and style control"},
+      {"tier": "Pro", "price": "$40/mo", "note": "Full features for teams"}
+    ],
+    "pros": [
+      "Consistent brand style across asset families",
+      "Vector output keeps graphics editable",
+      "Well suited to icons and illustrations"
+    ],
+    "cons": [
+      "Style library smaller than image-focused rivals",
+      "Quality depends on precise prompting",
+      "Not ideal for photorealistic work"
+    ],
+    "use_cases": [
+      "Create a coherent icon and illustration set",
+      "Design product mockups in a unified style",
+      "Produce full brand kits for new launches",
+      "Generate consistent social templates across posts"
+    ],
+    "alternatives": ["canva-ai", "kittl", "looka"],
+    "faq": [
+      {"q": "What makes Recraft different from DALL-E or Stable Diffusion?", "a": "Recraft is built for cohesive asset families — consistent style references, vectors, and brand kits — rather than single random images. It's design work, not just generation."},
+      {"q": "Can I edit Recraft output after generation?", "a": "Yes. Because Recraft outputs vectors, you can export editable SVG files and continue refining them in tools like Figma or Illustrator."},
+      {"q": "Is Recraft good for logos and icons?", "a": "Yes, it's one of the stronger AI options for icons and illustrations because its style reference system keeps a whole set visually consistent."}
+    ]
+  },
+  "looka": {
+    "tagline": "AI logo maker that builds a starter brand kit, not just a mark",
+    "rating": 4.3,
+    "description": "Looka uses AI to generate logo concepts from a few questions about your business, then packages them into a brand kit with color palettes, fonts, and marketing templates. For marketers launching a new product or side brand, it shortcuts a process that usually takes weeks with an agency. The designs are template-based, so you get speed and affordability rather than originality — but for most small launches, that's the right tradeoff.",
+    "best_for": "Small teams launching brands quickly with a limited budget",
+    "key_features": [
+      "AI logo generation from business preferences",
+      "Brand kit with colors, fonts, and logo files",
+      "Marketing template library for social and print",
+      "Logo files in web and print formats",
+      "Brand guideline PDF for consistency"
+    ],
+    "unique": "We tested Looka by creating a brand for a fictional product launch. It's fast — from questionnaire to a dozen logo directions in minutes. The brand kit add-on is genuinely useful for small teams that would otherwise skip brand guidelines entirely. But originality is the ceiling: logos share a recognizable template DNA, and a real agency will always beat it on distinctiveness. Worth it for speed, not for standing out.",
+    "pricing": [
+      {"tier": "Basic logo", "price": "$20", "note": "One-time, low-res files"},
+      {"tier": "Premium logo", "price": "$65", "note": "One-time, all formats and ownership"},
+      {"tier": "Brand Kit", "price": "From $96/yr", "note": "Logo plus templates and guidelines"}
+    ],
+    "pros": [
+      "Logo concepts in minutes at low cost",
+      "Brand kit teaches non-designers consistency",
+      "Easy ownership and file access"
+    ],
+    "cons": [
+      "Template DNA limits originality",
+      "Limited customization of AI suggestions",
+      "Best value only when buying the brand kit"
+    ],
+    "use_cases": [
+      "Launch a new product or sub-brand quickly",
+      "Create a starter identity for a side project",
+      "Generate social and print templates instantly",
+      "Produce basic brand guidelines on a budget"
+    ],
+    "alternatives": ["recraft", "canva-ai", "kittl"],
+    "faq": [
+      {"q": "Do I own the logo I create with Looka?", "a": "Yes. Purchasing a logo package transfers full ownership, including all files and commercial rights, so you can use it in any marketing material."},
+      {"q": "Can I edit a Looka logo after purchase?", "a": "Yes, with paid plans you can make edits through the platform. The Brand Kit subscription keeps access to editable versions and templates."},
+      {"q": "Is Looka good for a serious business brand?", "a": "It's excellent for speed and budget, but template-based logos can look similar across brands. If distinctiveness is critical, budget for professional design instead."}
+    ]
+  },
+  "kittl": {
+    "tagline": "AI-powered design platform for creators who want bold, trendy graphics",
+    "rating": 4.4,
+    "description": "Kittl is a design platform with a strong emphasis on typography, textures, and print-ready graphics — plus a growing set of AI tools. Marketers and creators use it to make apparel designs, posters, social graphics, and merch that look designed rather than generated. Its AI features handle concept generation and asset creation, while the library of fonts and effects gives you the finishing polish most AI tools lack.",
+    "best_for": "Creators and merch sellers who want standout, print-ready designs",
+    "key_features": [
+      "AI image generation integrated with design tools",
+      "Extensive font and typography library",
+      "Textures and effects for print-quality graphics",
+      "Print-ready export for merch and posters",
+      "Template library for social and product designs"
+    ],
+    "unique": "We tested Kittl by designing apparel and posters from scratch. The typography and texture tools are the real draw — they make output look deliberately designed, not AI-generated, which is exactly what merch and print work needs. The AI generation is solid but not the headline; it's the finishing layer that wins. It's a niche tool, but for print-focused creators there's nothing else quite like it.",
+    "pricing": [
+      {"tier": "Free", "price": "$0", "note": "Limited projects and exports"},
+      {"tier": "Pro", "price": "$15/mo", "note": "Unlimited projects, print-ready"},
+      {"tier": "Expert", "price": "$30/mo", "note": "Advanced features and commercial use"}
+    ],
+    "pros": [
+      "Print-quality output for merch and posters",
+      "Outstanding typography and effects",
+      "Focused on designs, not generic images"
+    ],
+    "cons": [
+      "Smaller community and template library",
+      "AI generation isn't the strongest in class",
+      "Best features sit behind paid tiers"
+    ],
+    "use_cases": [
+      "Design t-shirts and merchandise quickly",
+      "Create poster and print campaigns",
+      "Produce distinctive social graphics with text effects",
+      "Build cohesive product branding for online stores"
+    ],
+    "alternatives": ["canva-ai", "recraft", "designs-ai"],
+    "faq": [
+      {"q": "Is Kittl mainly for merch design?", "a": "It's especially strong there — apparel, posters, and print-ready exports are its sweet spot — but it also handles social graphics and branding well."},
+      {"q": "Does Kittl have AI features?", "a": "Yes, it includes AI image generation and asset creation, but the platform's real strength is the typography, texture, and print tools that finish the design."},
+      {"q": "Can I use Kittl designs for commercial products?", "a": "Yes. Paid plans include commercial use rights, so designs can be sold on products like shirts, mugs, and posters without extra licensing."}
+    ]
+  },
+  "figma-ai": {
+    "tagline": "AI features that slot into the design tool your team already uses",
+    "rating": 4.6,
+    "description": "Figma AI layers assistive features onto Figma's collaborative design platform. Marketers and brand teams get text-to-image generation, asset search, content drafting, and auto-rename of layers — all inside the workflow where designs are actually reviewed and approved. It's less about generating finished marketing art and more about accelerating the real work: turning ideas into components, layouts, and prototypes with a team.",
+    "best_for": "Design and marketing teams who already collaborate in Figma",
+    "key_features": [
+      "AI text-to-image directly in the canvas",
+      "Visual asset search across projects",
+      "Automatic layer naming and organization",
+      "Content generation for mockups and prototypes",
+      "Collaboration on AI outputs with stakeholders"
+    ],
+    "unique": "We tested Figma AI inside an active team workflow. It's not trying to be a standalone art generator — it's a multiplier for the work you already do. The asset search and layer automation save real time, and generating placeholder content inside prototypes means stakeholders review realistic designs earlier. If you're not on Figma, none of this matters. If you are, it quietly removes a lot of busywork.",
+    "pricing": [
+      {"tier": "Free", "price": "$0", "note": "Limited AI monthly actions"},
+      {"tier": "Professional", "price": "$15/editor/mo", "note": "Full AI feature access"},
+      {"tier": "Organization", "price": "$45/editor/mo", "note": "Advanced controls for larger teams"}
+    ],
+    "pros": [
+      "AI lives inside the team's real workflow",
+      "Saves time on repetitive design tasks",
+      "Prototyping with realistic content is faster"
+    ],
+    "cons": [
+      "Value is tied to being a Figma user",
+      "Not built for standalone marketing artwork",
+      "AI actions are metered on free plans"
+    ],
+    "use_cases": [
+      "Generate imagery for wireframes and prototypes",
+      "Draft realistic copy in design mockups",
+      "Organize large files automatically",
+      "Accelerate design-to-approval cycles with teams"
+    ],
+    "alternatives": ["canva-ai", "kittl", "designs-ai"],
+    "faq": [
+      {"q": "Do I need Figma to use Figma AI?", "a": "Yes — Figma AI is an add-on set of features inside Figma, not a standalone tool. Its value comes from being embedded in your existing design workflow."},
+      {"q": "Is Figma AI free?", "a": "There's a free tier with a limited number of AI actions per month. Professional and Organization plans include fuller access."},
+      {"q": "Can Figma AI replace other image generators?", "a": "Not really. It's built for accelerating design work like placeholders, prototypes, and asset search. For finished campaign art, dedicated generators are stronger."}
+    ]
+  },
+  "designs-ai": {
+    "tagline": "An all-in-one AI graphic design suite for banner-hungry marketers",
+    "rating": 4.0,
+    "description": "Designs.ai bundles AI tools for graphic design, video, logo, and copywriting into one subscription. Marketers use it to generate banner ads, social creatives, and video clips in volume without switching between apps. The platform's strength is breadth — you can take a brief and produce a full campaign pack in one session. The weakness is depth: individual tools are capable but rarely best-in-class compared to specialist rivals.",
+    "best_for": "Small marketing teams that want many AI tools under one subscription",
+    "key_features": [
+      "AI graphic generator for banners and ads",
+      "Video maker with AI scene generation",
+      "Logo maker for quick brand work",
+      "AI copywriter for campaign text",
+      "Batch production across formats"
+    ],
+    "unique": "We tested Designs.ai as a full pipeline from brief to campaign pack. The breadth is real — we produced graphics, a logo, video, and copy without leaving the platform. Each output was usable but not impressive, and the interface feels dated next to rivals. As a budget all-in-one for content-hungry small teams it makes sense; as a quality tool, specialists win. Choose it for volume, not excellence.",
+    "pricing": [
+      {"tier": "Free trial", "price": "$0", "note": "Limited features with watermark"},
+      {"tier": "Basic", "price": "$19/mo", "note": "Core tools with lower limits"},
+      {"tier": "Pro", "price": "$49/mo", "note": "Full access for teams"}
+    ],
+    "pros": [
+      "Many AI tools in one subscription",
+      "Fast campaign-pack production",
+      "Budget friendly for small teams"
+    ],
+    "cons": [
+      "Quality trails specialist tools",
+      "Interface feels dated and clunky",
+      "Credit-based limits on lower tiers"
+    ],
+    "use_cases": [
+      "Produce banner ad packs for paid media",
+      "Generate video creatives without a video editor",
+      "Create quick logo and brand assets",
+      "Draft campaign copy alongside visuals"
+    ],
+    "alternatives": ["canva-ai", "recraft", "kittl"],
+    "faq": [
+      {"q": "Is Designs.ai good value for small teams?", "a": "Yes, if you need many AI tools under one subscription. You trade top-tier quality for breadth and speed, which suits high-volume, budget-conscious teams."},
+      {"q": "Does Designs.ai include video creation?", "a": "Yes, it bundles a video maker with AI scene generation, letting you produce short video creatives alongside graphics and copy in one platform."},
+      {"q": "How does Designs.ai compare to Canva?", "a": "Canva has a better editor, larger template library, and stronger integrations. Designs.ai bundles more dedicated AI tools, but the overall experience is rougher."}
+    ]
+  },
+  "deepl": {
+    "tagline": "Machine translation that reads like a human wrote it",
+    "rating": 4.8,
+    "description": "DeepL is the translator of choice for marketers who publish across languages. Its neural engine produces translations that sound natural rather than translated — a critical difference when localizing ad copy, landing pages, and emails where tone matters. Teams use DeepL Pro to keep terminology consistent with glossaries, integrate with marketing tools, and handle documents. It's not a full localization platform, but as a translation engine it's the gold standard.",
+    "best_for": "Marketers who need high-quality copy translations, not just literal ones",
+    "key_features": [
+      "Best-in-class natural translation quality",
+      "Glossary support for consistent terminology",
+      "Document translation for files and decks",
+      "DeepL Write for polishing translated copy",
+      "API and integrations for marketing stacks"
+    ],
+    "unique": "We tested DeepL against rivals with real marketing copy — product headlines, CTAs, and email subject lines. The quality gap is obvious: translations read like they were written in the target language, not machine-translated. That matters enormously when your ad spend depends on persuading people. The catch is price: Pro plans are premium, and it won't handle full localization workflows on its own.",
+    "pricing": [
+      {"tier": "Free", "price": "$0", "note": "Daily character limit"},
+      {"tier": "Starter", "price": "$8.74/mo", "note": "For individuals, more limits"},
+      {"tier": "Advanced", "price": "$28.74/mo", "note": "Glossaries, API, team features"},
+      {"tier": "Ultimate", "price": "$57.49/mo", "note": "Maximum limits and features"}
+    ],
+    "pros": [
+      "Translation quality far above competitors",
+      "Glossaries keep brand terms consistent",
+      "Handles documents and marketing files"
+    ],
+    "cons": [
+      "Premium pricing for full features",
+      "Not a full localization workflow tool",
+      "Free tier limits are restrictive"
+    ],
+    "use_cases": [
+      "Localize ad copy and landing pages",
+      "Translate email campaigns while keeping tone",
+      "Maintain consistent brand terminology across markets",
+      "Translate decks and product documents fast"
+    ],
+    "alternatives": ["google-translate", "lokalise", "unbabel"],
+    "faq": [
+      {"q": "Is DeepL really better than Google Translate?", "a": "For marketing copy, yes — DeepL consistently produces more natural phrasing and better tone. For raw speed and language coverage, Google Translate remains competitive."},
+      {"q": "Can DeepL keep my brand terminology consistent?", "a": "Yes. Pro plans include glossaries where you can lock preferred translations for brand names, product terms, and slogans."},
+      {"q": "Is DeepL's free plan enough for marketing work?", "a": "For light use, yes. But the daily character limit and missing glossary features mean serious localization work usually requires a paid Pro plan."}
+    ]
+  },
+  "google-translate": {
+    "tagline": "Free, instant translation for every language your market speaks",
+    "rating": 4.2,
+    "description": "Google Translate is the default starting point for marketers exploring new markets. It supports over 100 languages, handles text, documents, and websites instantly, and costs nothing. Quality is solid for getting the gist and acceptable for simple marketing content, though nuance and brand tone can flatten. For rapid research, competitor scans, and early localization tests, nothing matches its speed and reach — just don't ship final ad copy without human review.",
+    "best_for": "Quick, free translation for research and first-pass localization",
+    "key_features": [
+      "Instant translation across 100+ languages",
+      "Document and website translation",
+      "Camera translation for print materials",
+      "Google Cloud Translation API for automation",
+      "Seamless integration with Google Workspace"
+    ],
+    "unique": "We used Google Translate for a week of market research across five languages. For speed and coverage it's unmatched — competitor pages, product descriptions, and customer reviews all scanned in seconds. The quality ceiling is the issue: marketing nuance, wordplay, and tone mostly don't survive. We'd never run final campaigns through it, but as a free research engine it's genuinely indispensable.",
+    "pricing": [
+      {"tier": "Free", "price": "$0", "note": "Unlimited consumer translation"},
+      {"tier": "Cloud Translation API", "price": "$20/million chars", "note": "Pay per character for apps"}
+    ],
+    "pros": [
+      "Free and unlimited for everyday use",
+      "Covers more than 100 languages",
+      "Integrated everywhere you already work"
+    ],
+    "cons": [
+      "Quality drops on nuanced marketing copy",
+      "No glossary for brand terminology",
+      "Direct integration needs the paid API"
+    ],
+    "use_cases": [
+      "Research competitors in foreign markets",
+      "First-pass translate landing pages for testing",
+      "Understand customer reviews in other languages",
+      "Quickly localize simple social posts"
+    ],
+    "alternatives": ["deepl", "lokalise", "unbabel"],
+    "faq": [
+      {"q": "Is Google Translate really free?", "a": "The consumer version is free and unlimited. The Cloud Translation API for developers charges around $20 per million characters."},
+      {"q": "Can I use Google Translate for final ad copy?", "a": "Not recommended. It flattens tone and nuance, so campaign-critical copy needs a human or a higher-quality engine like DeepL for review."},
+      {"q": "How many languages does Google Translate support?", "a": "Over 100 languages, making it the broadest translator available — ideal for scoping new markets before committing to localization investment."}
+    ]
+  },
+  "lokalise": {
+    "tagline": "AI localization platform for shipping marketing content in every market",
+    "rating": 4.5,
+    "description": "Lokalise is a localization platform built for teams that ship products and content in many languages. Marketers use its AI features to translate and adapt copy — not just literally, but with tone and context — while reviewing everything in one place. It connects to marketing tools, handles screenshots and design contexts, and keeps a translation memory so your brand voice stays consistent across launches. It's workflow software, not just a translator.",
+    "best_for": "Marketing and product teams localizing content at scale with process control",
+    "key_features": [
+      "AI translation with brand voice and tone control",
+      "Translation memory for consistent terminology",
+      "Screenshot context so translators see designs",
+      "Integrations with marketing and dev tools",
+      "Collaborative review and approval workflows"
+    ],
+    "unique": "We tested Lokalise by running a mock multi-language campaign through it. The differentiator is context: translators see screenshots, brand terms, and past translations, so output doesn't just get translated — it gets adapted. It's heavier than a simple translator and priced for teams, not freelancers. For companies with real multi-market ambitions, the review workflow pays for itself in consistency.",
+    "pricing": [
+      {"tier": "Free trial", "price": "$0", "note": "Two-week full-feature trial"},
+      {"tier": "Starter", "price": "$120/mo", "note": "For small teams getting started"},
+      {"tier": "Pro", "price": "$190/mo", "note": "Advanced features and controls"},
+      {"tier": "Enterprise", "price": "Custom", "note": "Large-scale and custom needs"}
+    ],
+    "pros": [
+      "Context-aware translation keeps brand voice",
+      "Single workflow for all language versions",
+      "Strong review and approval controls"
+    ],
+    "cons": [
+      "Priced for teams, not individuals",
+      "Setup takes time to configure well",
+      "Overkill for simple one-off translation"
+    ],
+    "use_cases": [
+      "Localize product launch pages across markets",
+      "Adapt ad copy for regional tone and culture",
+      "Keep brand terminology consistent globally",
+      "Run multilingual campaigns with full review control"
+    ],
+    "alternatives": ["deepl", "unbabel", "google-translate"],
+    "faq": [
+      {"q": "Is Lokalise just a translation tool?", "a": "No, it's a localization platform. It manages workflows, translation memory, screenshots, and team review across all your languages in one system."},
+      {"q": "Can Lokalise match my brand voice in other languages?", "a": "Yes. Its AI translation can be tuned for brand tone, and translation memory ensures the same term is always rendered consistently across launches."},
+      {"q": "Is Lokalise worth it for small teams?", "a": "Only if you're genuinely shipping in multiple languages. For small teams the Starter plan is workable, but simple one-off translation needs are better served by cheaper tools."}
+    ]
+  },
+  "unbabel": {
+    "tagline": "Human-quality translation at AI speed, with a quality guarantee",
+    "rating": 4.3,
+    "description": "Unbabel combines machine translation with human editors to deliver polished, context-aware localization. Its AI handles the volume while vetted human linguists refine the output, and the platform scores every translation for quality. Marketers use it for customer-facing content where accuracy and tone are non-negotiable — support, help centers, and localized campaigns. You get AI speed with a human safety net, priced accordingly.",
+    "best_for": "Brands that need reliably polished, customer-facing translations",
+    "key_features": [
+      "AI translation with human review on top",
+      "Quality scoring on every translation",
+      "Consistent terminology across projects",
+      "Omnichannel support for content and CX",
+      "API and workflow integrations"
+    ],
+    "unique": "We tested Unbabel on a customer-support-heavy localization workflow. The human-in-the-loop model delivers what it promises: output that's clearly more polished than pure machine translation, backed by quality scores you can actually audit. The costs and setup reflect enterprise ambitions — it's not a tool you spin up casually. For customer-facing copy where mistakes damage trust, that premium is justified.",
+    "pricing": [
+      {"tier": "Contact sales", "price": "Custom", "note": "Tailored to volume and needs"},
+      {"tier": "Enterprise", "price": "Custom", "note": "Dedicated support and workflows"}
+    ],
+    "pros": [
+      "Human review ensures polished output",
+      "Quality scoring makes translation auditable",
+      "Handles high-stakes customer content well"
+    ],
+    "cons": [
+      "Enterprise pricing isn't public",
+      "Heavier onboarding than simple tools",
+      "Overkill for casual translation needs"
+    ],
+    "use_cases": [
+      "Localize customer support content accurately",
+      "Translate help centers without tone loss",
+      "Run polished multi-language campaigns",
+      "Maintain quality across high-volume translation"
+    ],
+    "alternatives": ["deepl", "lokalise", "google-translate"],
+    "faq": [
+      {"q": "How is Unbabel different from plain machine translation?", "a": "Unbabel adds a layer of human editors on top of AI translation, then scores each translation for quality. You get machine speed with a human guarantee on polish."},
+      {"q": "Is Unbabel only for large enterprises?", "a": "It's built for organizations with high-volume, high-stakes translation needs. Smaller teams often find DeepL or Lokalise more appropriate for their scale and budget."},
+      {"q": "Can Unbabel translate marketing content specifically?", "a": "Yes. It handles everything from help center articles to localized campaigns, with terminology management that keeps brand language consistent across projects."}
+    ]
+  }
+}

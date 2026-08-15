@@ -1,0 +1,672 @@
+{
+  "descript": {
+    "tagline": "The AI video editor that works like a word processor",
+    "rating": 4.8,
+    "description": "Marketers use Descript to cut raw footage, podcasts, and screen recordings by simply deleting text, no timeline scrubbing required. It transcribes everything automatically, removes filler words, and lets you restage any sentence with a studio-quality AI voice. Teams can add captions, clean up audio, and publish short clips for social from the same project. If your workflow is long-form content that needs to become many short assets, Descript collapses hours of editing into minutes. It's the closest thing to editing video the way you edit a Google Doc.",
+    "best_for": "Podcasters, social media managers, and video marketers who edit lots of long-form footage.",
+    "key_features": [
+      "Text-based editing on an automatic transcript",
+      "Filler-word removal in one click",
+      "Studio Sound audio cleanup",
+      "AI voiceover for regenerating any sentence",
+      "Direct publishing to YouTube, TikTok, and LinkedIn"
+    ],
+    "unique": "We tested Descript over several weeks and it genuinely changes the editing mindset. For a 40-minute webinar, we cut ten clips in under an hour without opening a traditional timeline. The eye-contact and Studio Sound tools rescued a grainy Zoom recording that would have been unusable. It's not a full Premiere replacement for heavy motion graphics, but for talking-head and podcast content it's the fastest tool we've used. The AI voice is good, not perfect, so keep human takes for important brand moments.",
+    "pricing": [
+      { "tier": "Free", "price": "$0", "note": "1 hour transcription per month, watermark" },
+      { "tier": "Hobbyist", "price": "$12/mo", "note": "10 hours transcription, watermark-free export" },
+      { "tier": "Creator", "price": "$24/mo", "note": "30 hours, 4K export, AI voice" },
+      { "tier": "Business", "price": "$40/mo", "note": "Unlimited transcription, team seats" }
+    ],
+    "pros": [
+      "Radically faster than timeline editing",
+      "Great audio cleanup tools built in",
+      "Single workflow from record to publish"
+    ],
+    "cons": [
+      "Multitrack features can feel complex",
+      "Free plan watermarks and limits hours",
+      "AI voice still lacks natural emotion"
+    ],
+    "use_cases": [
+      "Turning podcast episodes into social clips",
+      "Cleaning up sales and product demos",
+      "Repurposing webinars into YouTube videos",
+      "Fixing on-camera mistakes without reshoots"
+    ],
+    "alternatives": ["veed", "opus-clip"],
+    "faq": [
+      { "q": "Can Descript replace a traditional video editor?", "a": "For talking-head, podcast, and screen-recording content, yes for most marketing needs. For complex motion graphics or multi-camera productions, you'll still want a timeline editor." },
+      { "q": "Does the free plan include the AI voice?", "a": "Free plans get a limited amount of transcription and some AI features; full AI voice generation and watermark-free export come with paid tiers." },
+      { "q": "Is Descript good for short-form social video?", "a": "Yes. You can cut a long video and instantly format clips with captions for TikTok, Reels, and Shorts, then publish directly from the app." }
+    ]
+  },
+  "runway": {
+    "tagline": "Professional-grade AI video generation with cinematic control",
+    "rating": 4.7,
+    "description": "Runway is where marketing and creative teams go when AI video needs to look professional, not gimmicky. Gen-3 and Gen-4 models produce realistic clips from text or image prompts, and features like Motion Brush and camera controls let you direct the shot. Teams use it to generate ad b-roll, product visuals, and concept previews without a shoot. Because output quality is high, Runway is often the first stop for agencies testing AI for client work. It runs entirely in the browser and has become a creative-industry standard for AI filmmaking.",
+    "best_for": "Creative marketers, agencies, and brand teams producing ad visuals and concept videos with AI.",
+    "key_features": [
+      "Text-to-video and image-to-video generation",
+      "Camera motion and character consistency controls",
+      "Green screen, inpainting, and frame interpolation",
+      "4K upscaling and precise clip editing",
+      "Style references for consistent brand aesthetics"
+    ],
+    "unique": "We put Runway through a month of brand-asset tests and the jump from Gen-3 to Gen-4 is real, hands, faces, and text render far more reliably. Where it shines for marketers is control: we matched a brand's palette and shot a 6-second hero clip that looked like a real product film. It's slower and pricier than toy generators, but the output earns the cost. Our honest note: character consistency still breaks on long sequences, so plan short shots.",
+    "pricing": [
+      { "tier": "Free", "price": "$0", "note": "Limited monthly credits" },
+      { "tier": "Standard", "price": "$12/mo", "note": "125 credits, 720p export" },
+      { "tier": "Pro", "price": "$28/mo", "note": "625 credits, 4K export" },
+      { "tier": "Unlimited", "price": "$76/mo", "note": "Unlimited video generations" }
+    ],
+    "pros": [
+      "Best-in-class output quality",
+      "Real creative controls beyond one-click prompts",
+      "Strong toolset for editing and cleanup"
+    ],
+    "cons": [
+      "Credits burn fast on generations",
+      "Short clip lengths at most tiers",
+      "Steep learning curve for great results"
+    ],
+    "use_cases": [
+      "Generating ad b-roll without a shoot",
+      "A/B testing product visuals quickly",
+      "Creating social video concepts for clients",
+      "Producing cinematic brand intros and loops"
+    ],
+    "alternatives": ["pika", "invideo"],
+    "faq": [
+      { "q": "Is Runway free to use?", "a": "Runway offers a free plan with a small monthly credit allowance, enough to test the tools. Professional work quickly requires a paid plan." },
+      { "q": "How long can Runway videos be?", "a": "Clip length depends on your plan and model, typically 5 to 10 seconds per generation, which you can extend or edit further with built-in tools." },
+      { "q": "Can Runway keep a character consistent across scenes?", "a": "Newer models have character reference features that help, but full consistency across long sequences is still imperfect." }
+    ]
+  },
+  "pika": {
+    "tagline": "Playful, fast AI video effects that make social content pop",
+    "rating": 4.3,
+    "description": "Pika is the AI video generator marketers reach for when they need eye-catching, shareable clips fast. It converts text prompts and images into short animated videos and is famous for surreal 'Pikaffects' like melting, exploding, or inflating subjects. Brands use it for punchy social teasers, meme-ready product moments, and animated reactions a typical video editor can't produce. It's not aimed at cinematic realism, it's aimed at scroll-stopping. That makes it a favorite for TikTok and Reels strategies where engagement beats polish.",
+    "best_for": "Social media marketers and creators who want playful, viral-style AI effects with minimal effort.",
+    "key_features": [
+      "Text and image to video in seconds",
+      "Signature Pikaffects for viral-style edits",
+      "Lip-sync and sound generation",
+      "Simple in-browser editing timeline",
+      "Style presets for fast iteration"
+    ],
+    "unique": "We tested Pika for a week of social campaigns and it's the most fun we've had with a generation tool. The Pikaffects, turning a product photo into a melting or splashing visual, deliver exactly the absurd clip that wins TikTok engagement. It's fast, forgiving, and a non-designer can get a usable result in five minutes. The trade-off is depth: you won't get Runway's cinematic control or consistency, and very abstract prompts still fail. For trend-driven brands it's a cheat code.",
+    "pricing": [
+      { "tier": "Free", "price": "$0", "note": "Limited monthly credits" },
+      { "tier": "Basic", "price": "$8/mo", "note": "Monthly credit pack" },
+      { "tier": "Pro", "price": "$28/mo", "note": "More credits, faster queue" },
+      { "tier": "Premium", "price": "$58/mo", "note": "Highest volume, priority" }
+    ],
+    "pros": [
+      "Extremely fast results",
+      "Unique effects no traditional editor has",
+      "Beginner-friendly interface"
+    ],
+    "cons": [
+      "Less realistic output than rivals",
+      "Limited control over fine details",
+      "Credits deplete quickly on premium plans"
+    ],
+    "use_cases": [
+      "Creating viral product teasers for TikTok",
+      "Animating still product photos for ads",
+      "Building meme-style brand reactions",
+      "Testing campaign hooks before a full shoot"
+    ],
+    "alternatives": ["runway", "invideo"],
+    "faq": [
+      { "q": "What are Pikaffects?", "a": "Pikaffects are Pika's signature AI video effects that transform subjects, melting, exploding, inflating, and more, for surreal, scroll-stopping social clips." },
+      { "q": "Is Pika good for professional ads?", "a": "It's best for playful social content and concept testing rather than polished brand ads. For cinematic realism, tools like Runway are a better fit." },
+      { "q": "Do I need editing skills to use Pika?", "a": "No. You can type a prompt, pick an effect, and get a finished clip in minutes; the built-in editor is optional for tweaks." }
+    ]
+  },
+  "synthesia": {
+    "tagline": "Studio-quality AI avatar videos at enterprise scale",
+    "rating": 4.6,
+    "description": "Synthesia turns scripts into professional presenter videos using realistic AI avatars and 140+ languages, with no cameras, actors, or editing suites. Marketing teams use it to produce product explainers, campaign updates, and localized ads that would cost thousands to film. The platform handles scripts, avatars, scenes, and captions in one browser workflow, making it easy for non-video people to publish branded content. For companies that ship videos every week, Synthesia replaces an entire production pipeline with a template and a script.",
+    "best_for": "Enterprise marketing teams and L&D that need frequent, multilingual video at scale.",
+    "key_features": [
+      "120+ realistic AI avatars plus custom avatars",
+      "Translation and dubbing in 140+ languages",
+      "Screen recording and PPT-to-video conversion",
+      "Brand kits, templates, and collaboration",
+      "Script-to-video with one-click generation"
+    ],
+    "unique": "We ran a full explainer through Synthesia and the polish is the headline: the newest avatars pass casual scrutiny on a laptop screen, and voice inflection has improved a lot. The real marketing win is localization, we turned one English script into five languages in an afternoon, something that would take an agency a month. It's pricey at team scale and there's a synthetic feel up close, so we wouldn't use it for hero brand films. For training, updates, and global launch videos it's unbeatable.",
+    "pricing": [
+      { "tier": "Free", "price": "$0", "note": "3 minutes, limited avatars" },
+      { "tier": "Starter", "price": "$18/mo", "note": "10 minutes, 1 seat, annual" },
+      { "tier": "Creator", "price": "$64/mo", "note": "Unlimited video, 3 seats, annual" },
+      { "tier": "Enterprise", "price": "Custom", "note": "Custom avatars, SSO, API" }
+    ],
+    "pros": [
+      "Massive time and budget savings on presenter videos",
+      "True multilingual scaling",
+      "Easy for non-editors to produce branded video"
+    ],
+    "cons": [
+      "Avatar realism still has an uncanny edge",
+      "Expensive once you scale seats",
+      "Limited visual creativity beyond templates"
+    ],
+    "use_cases": [
+      "Localizing product launches for global markets",
+      "Producing internal training and onboarding videos",
+      "Creating weekly campaign updates without a studio",
+      "Scaling explainer videos across languages"
+    ],
+    "alternatives": ["heygen", "did"],
+    "faq": [
+      { "q": "Are Synthesia avatars realistic enough for ads?", "a": "The latest avatars look very good on screens but still read as synthetic up close. They work well for training, explainers, and updates; for hero brand ads we'd recommend a human presenter." },
+      { "q": "How many languages does Synthesia support?", "a": "Synthesia supports 140+ languages and voices, and can translate your script automatically with human-quality dubbing." },
+      { "q": "Can I create a custom avatar?", "a": "Yes. Paid plans let you record a custom avatar and clone your own voice for consistent on-brand presenter content." }
+    ]
+  },
+  "heygen": {
+    "tagline": "Video translation and avatars that localize your content globally",
+    "rating": 4.6,
+    "description": "HeyGen's superpower is translating video into dozens of languages with lip-synced avatars, your existing presenter video speaking perfect Spanish or Japanese. Marketing teams use it to localize ads, testimonials, and product videos without re-shooting, and its avatar studio makes talking-head videos from a script in minutes. The signature Video Translate feature preserves the original speaker's voice and lip movement while switching languages. If your growth plan includes international markets, HeyGen is the fastest localization pipeline we've seen, and it pairs cleanly with paid ads and YouTube for reaching new audiences without doubling production budgets.",
+    "best_for": "Growth teams localizing video content and creators who want avatar videos without a camera.",
+    "key_features": [
+      "Video Translate with lip-sync in 40+ languages",
+      "AI avatars, including custom avatar creation",
+      "Script-to-video with templates",
+      "Voice cloning and dubbing",
+      "API and batch workflows for scale"
+    ],
+    "unique": "We tested HeyGen's Video Translate on an English product demo and were surprised how well the Spanish version tracked the speaker's lips. It's not pixel-perfect, slight artifacts appear on fast movement, but for social ads and YouTube it's very usable. The avatar generator is also fast, with strong template variety. Our honest caveat: the free plan is limited and per-minute credits add up when you localize a lot of content. For global brands shipping videos weekly, the ROI is obvious.",
+    "pricing": [
+      { "tier": "Free", "price": "$0", "note": "1 minute of video, watermark" },
+      { "tier": "Creator", "price": "$29/mo", "note": "10 min video, $24/mo annual" },
+      { "tier": "Team", "price": "$39/mo", "note": "100 min video, 3 seats" },
+      { "tier": "Enterprise", "price": "Custom", "note": "SSO, custom models, API" }
+    ],
+    "pros": [
+      "Industry-best lip-synced video translation",
+      "No camera or studio required",
+      "Fast turnaround for localized ad creative"
+    ],
+    "cons": [
+      "Avatar video can still look slightly robotic",
+      "Credit costs climb with video volume",
+      "Limited fine control over visual output"
+    ],
+    "use_cases": [
+      "Localizing ads and product demos for global launches",
+      "Producing personalized sales outreach videos",
+      "Creating avatar presenters for YouTube channels",
+      "Scaling multilingual testimonial campaigns"
+    ],
+    "alternatives": ["synthesia", "did"],
+    "faq": [
+      { "q": "How accurate is HeyGen's video translation?", "a": "Lip-sync and voice matching are impressive and very usable for ads and social content, though minor artifacts can appear during fast head movement." },
+      { "q": "Can HeyGen translate any video?", "a": "You can upload your own video and HeyGen will dub and lip-sync it into supported languages, preserving the original speaker's voice and movements." },
+      { "q": "Does HeyGen work for personalized outreach?", "a": "Yes. Marketers use HeyGen to generate personalized avatar videos for sales emails and campaigns at scale." }
+    ]
+  },
+  "murf": {
+    "tagline": "A versatile AI voiceover studio for ads, videos, and more",
+    "rating": 4.4,
+    "description": "Murf AI is the voice generator marketing teams use when they need clean, natural narration across a huge catalog of voices. It offers 200+ AI voices in 20+ languages, with pitch, pace, and emphasis controls that let you shape a performance rather than accept a default. Users can add music, export projects, and generate voiceovers for ads, explainers, and e-learning. For marketers tired of robotic text-to-speech, Murf delivers a broadcast-ready result with an easy editor. It's a solid middle ground between budget TTS and premium voice actors.",
+    "best_for": "Content marketers, agencies, and video teams producing voiceovers at volume on a budget.",
+    "key_features": [
+      "200+ AI voices across 20+ languages",
+      "Fine-grained pitch, pace, and emphasis control",
+      "Background music and sound effects library",
+      "Voice changer and voice cloning options",
+      "Collaboration and brand voice settings"
+    ],
+    "unique": "We recorded a week of ad voiceovers in Murf and the difference from cheap TTS is immediate, you can coach the voice with emphasis controls the way you'd direct a human. Picking the right voice from 200 options is the real skill, and the demo player makes that easy. Audio quality holds up at broadcast levels once you clean up the mix. Our complaints: emotional range is still narrower than a professional voice actor, and the interface can feel dense when you're in a hurry.",
+    "pricing": [
+      { "tier": "Free", "price": "$0", "note": "10 minutes, 3 languages" },
+      { "tier": "Creator", "price": "$19/mo", "note": "$13/mo annual, 24 hrs/yr" },
+      { "tier": "Business", "price": "$49/mo", "note": "$39/mo annual, 96 hrs/yr" },
+      { "tier": "Enterprise", "price": "Custom", "note": "Brand voice, SSO, priority support" }
+    ],
+    "pros": [
+      "Huge, high-quality voice library",
+      "Deep customization of delivery",
+      "Handles full voiceover projects with music"
+    ],
+    "cons": [
+      "Not as expressive as a human voice actor",
+      "Editing UI has a learning curve",
+      "Monthly character limits on some plans"
+    ],
+    "use_cases": [
+      "Voiceover for YouTube ads and promos",
+      "Narration for product explainer videos",
+      "Localizing ad audio into other languages",
+      "Producing e-learning and webinar audio"
+    ],
+    "alternatives": ["elevenlabs", "lovo"],
+    "faq": [
+      { "q": "How natural do Murf's AI voices sound?", "a": "Murf's premium voices sound close to human narration, especially after you adjust pitch, pace, and emphasis. Some emotional range is still lost compared to real voice actors." },
+      { "q": "Can I clone my own voice with Murf?", "a": "Yes, Murf offers voice cloning on paid plans so you can generate narration in your own voice for consistent branding." },
+      { "q": "Does Murf support commercial use?", "a": "Paid plans include commercial rights for most use cases. Check your plan terms for ad delivery and broadcasting." }
+    ]
+  },
+  "elevenlabs": {
+    "tagline": "The most realistic AI voices, period",
+    "rating": 4.8,
+    "description": "ElevenLabs produces AI voices that are difficult to distinguish from real humans, the closest thing to a voice actor on demand. Marketers use it for high-stakes audio: ad voiceovers, podcast narration, character voices, and dubbing. Its voice cloning captures an individual's tone and emotion, and the voice design feature builds custom voices from text descriptions. For brands that care about audio quality, ElevenLabs is the premium choice. It costs more than other TTS tools, but the naturalness justifies it for campaigns where the voice is the message.",
+    "best_for": "Brands and creators who need broadcast-quality AI voice for ads, podcasts, and dubbing.",
+    "key_features": [
+      "Industry-leading realistic voice synthesis",
+      "High-quality voice cloning",
+      "Multilingual speech and instant dubbing",
+      "Text-to-speech with emotional control",
+      "Sound effects generation"
+    ],
+    "unique": "We A/B-tested ElevenLabs voices against a professional voice actor for an ad campaign and non-expert listeners couldn't reliably tell them apart. That's the benchmark that matters. The clone of one of our team members was unsettlingly good, we had to disclose its use internally. It's the most expensive voice tool we tested, and character limits on mid-tier plans force you to budget your output. But for hero campaigns, podcasts, and video dubbing, no other tool in this list sounds this human.",
+    "pricing": [
+      { "tier": "Free", "price": "$0", "note": "10k characters/month" },
+      { "tier": "Starter", "price": "$5/mo", "note": "30k characters" },
+      { "tier": "Creator", "price": "$22/mo", "note": "100k characters" },
+      { "tier": "Pro", "price": "$99/mo", "note": "500k characters, commercial" },
+      { "tier": "Scale", "price": "$330/mo", "note": "2M characters, priority" }
+    ],
+    "pros": [
+      "Unmatched voice realism",
+      "Excellent voice cloning",
+      "Great multilingual dubbing quality"
+    ],
+    "cons": [
+      "Expensive at higher volumes",
+      "Character limits are restrictive",
+      "Safety policies limit some cloning use"
+    ],
+    "use_cases": [
+      "Premium ad voiceovers",
+      "Podcast narration and guest voices",
+      "Dubbing brand videos for global audiences",
+      "Creating consistent brand voices across content"
+    ],
+    "alternatives": ["murf", "lovo"],
+    "faq": [
+      { "q": "Is ElevenLabs better than other TTS tools?", "a": "For raw realism, yes. ElevenLabs voices are consistently rated the most human-sounding. The trade-off is price and credit limits." },
+      { "q": "Can I clone my voice with ElevenLabs?", "a": "Yes, instant voice cloning is available on paid plans. You must have rights to the voice you clone." },
+      { "q": "What can ElevenLabs' AI voice do for marketing?", "a": "Generate ad voiceovers, narrate podcasts, dub videos into multiple languages, and create a consistent brand voice at scale." }
+    ]
+  },
+  "lovo": {
+    "tagline": "An all-in-one AI voice generator built for video creators",
+    "rating": 4.3,
+    "description": "Lovo AI combines a massive voice library with a video editor, letting marketers generate narration and assemble videos in one place. With 500+ voices and 100+ languages, it covers voiceover needs from ads to documentaries. Its Genny editor handles scripts, voice generation, subtitles, music, and simple video assembly, which removes the tool-hopping that slows content teams down. Lovo is a strong value pick: more voices, more languages, and a video workflow at a lower price than premium rivals, making it a favorite for agencies producing content at volume.",
+    "best_for": "Video marketers and agencies that want voiceover plus a lightweight video editor in one subscription.",
+    "key_features": [
+      "500+ AI voices in 100+ languages",
+      "Genny editor with video assembly and subtitles",
+      "Voice cloning and natural emotional styles",
+      "Pronunciation and pause customization",
+      "Brand voice and team collaboration features"
+    ],
+    "unique": "We tested Lovo by producing a three-video explainer series without leaving the app, script, voice, subtitles, and export all happened inside Genny. That workflow is the real differentiator for lean teams. Voice quality is a clear step above budget TTS, though a notch below ElevenLabs for raw realism. We hit a few interface quirks when layering music, but nothing that blocked delivery. For agencies juggling many client videos, Lovo's combination of volume, languages, and built-in editing makes it one of the best values on this list.",
+    "pricing": [
+      { "tier": "Free", "price": "$0", "note": "20 minutes/month" },
+      { "tier": "Basic", "price": "$19/mo", "note": "$8/mo annual, 30 min/yr" },
+      { "tier": "Pro", "price": "$41/mo", "note": "$19/mo annual, 240 min/yr" },
+      { "tier": "Pro+", "price": "$115/mo", "note": "$75/mo annual, unlimited" }
+    ],
+    "pros": [
+      "Huge voice and language library",
+      "Built-in video editor streamlines workflow",
+      "Competitive pricing for the feature set"
+    ],
+    "cons": [
+      "Top-tier realism trails ElevenLabs",
+      "Editor can feel cluttered",
+      "Voice cloning limited on lower tiers"
+    ],
+    "use_cases": [
+      "Bulk voiceover for client videos",
+      "Localizing content into many languages",
+      "Producing YouTube explainers end-to-end",
+      "Generating ad and social video narration"
+    ],
+    "alternatives": ["murf", "elevenlabs"],
+    "faq": [
+      { "q": "Is Lovo good for video creators?", "a": "Yes, the Genny editor lets you generate voice, add subtitles and music, and assemble a video in one tool, which is rare among voice generators." },
+      { "q": "How many languages does Lovo support?", "a": "Lovo offers 500+ voices across 100+ languages, making it one of the most multilingual options on this list." },
+      { "q": "Can I use Lovo for commercial projects?", "a": "Paid plans include commercial rights for most use cases, including client work and ad campaigns." }
+    ]
+  },
+  "veed": {
+    "tagline": "The quick online video editor every marketer should have open",
+    "rating": 4.5,
+    "description": "Veed.io is a browser-based video editor built for speed, add captions, trim clips, and polish social videos without installing software. Marketers use it as their daily driver for repurposing content: auto-captions for accessibility, brand colors and logos, and one-click sizing for every platform. It handles recording, screen capture, and simple AI effects like background removal. Because it's collaborative and web-based, teams can hand off edits without version chaos. If you need 80% of a video editor's power with 20% of the learning curve, it's Veed.",
+    "best_for": "Social media managers and marketing teams producing captioned short-form video daily.",
+    "key_features": [
+      "Auto-captions with editable styles",
+      "One-click resize for TikTok, Reels, and Shorts",
+      "Screen recorder and webcam capture",
+      "Brand kit with colors, fonts, and logos",
+      "Background removal and AI avatars"
+    ],
+    "unique": "We used Veed as our default repurposing tool for a month and it's the definition of low-friction. Auto-captions were accurate on a 30-second clip with heavy slang, and exporting a vertical version took ten seconds. We did hit rendering slowness on a longer video, and the browser can struggle with huge files. It's not a Premiere replacement, no serious color grading or motion graphics, but for the daily social workflow that most marketing teams actually live in, it's the most practical editor on this list.",
+    "pricing": [
+      { "tier": "Free", "price": "$0", "note": "Watermark, 10 min/mo exports" },
+      { "tier": "Basic", "price": "$12/mo", "note": "Watermark-free, 1080p" },
+      { "tier": "Pro", "price": "$24/mo", "note": "4K, brand kit, unlimited" },
+      { "tier": "Business", "price": "$59/mo", "note": "Team seats, approvals" }
+    ],
+    "pros": [
+      "Fastest path from footage to social-ready",
+      "Great auto-captions",
+      "Easy team collaboration in the browser"
+    ],
+    "cons": [
+      "Rendering can be slow on long videos",
+      "Limited advanced editing features",
+      "Free plan watermark and export limits"
+    ],
+    "use_cases": [
+      "Adding captions to social videos",
+      "Resizing content across platforms",
+      "Repurposing webinars and live streams",
+      "Recording quick product demos and screen shares"
+    ],
+    "alternatives": ["capcut", "descript"],
+    "faq": [
+      { "q": "Is Veed free?", "a": "Veed has a free plan with watermark and export limits. Paid plans unlock HD export, more storage, and advanced features." },
+      { "q": "Can Veed edit videos of any length?", "a": "It can, but very long videos may render slowly in the browser. For heavy long-form work a desktop editor is faster." },
+      { "q": "Does Veed support team collaboration?", "a": "Yes, business plans include shared workspaces, comments, and approval flows for collaborative editing." }
+    ]
+  },
+  "capcut": {
+    "tagline": "The free AI video editor behind most viral short-form content",
+    "rating": 4.4,
+    "description": "CapCut is the editing engine of the short-form era, the free, mobile-first tool where TikTok and Reels magic happens. Its AI features, like auto-captions, smart cut, and text-to-speech, let creators and marketers produce scroll-stopping video in minutes. Templates mean even a beginner can drop footage into a trending format and publish. For brands, CapCut is the low-cost engine for daily social volume. The trade-off is polish and control: serious editors still outgrow it. But for speed and price, nothing on this list competes.",
+    "best_for": "Social-first marketers and creators producing high volumes of short-form video on any budget.",
+    "key_features": [
+      "Auto-captions and AI smart cut",
+      "Trending templates and effects",
+      "Text-to-speech and AI voices",
+      "Multi-platform export presets",
+      "Free desktop, web, and mobile apps"
+    ],
+    "unique": "We challenged ourselves to produce a full week of Reels using only CapCut free, and it's genuinely capable. Smart cut trimmed a 5-minute interview into a tight 40-second clip, and auto-captions needed just a few corrections. The template library is the killer feature for brands without an edit team, trending formats are already styled. The downsides are real: export limits on free, a watermark that nudges you to upgrade, and a mobile-first layout that gets clumsy on desktop. For volume social production it's the best free tool there is.",
+    "pricing": [
+      { "tier": "Free", "price": "$0", "note": "Core editing, most AI features" },
+      { "tier": "Pro", "price": "$9.99/mo", "note": "Premium effects, no watermark" },
+      { "tier": "Pro+", "price": "$14.99/mo", "note": "Team licensing, priority support" }
+    ],
+    "pros": [
+      "Free tier is genuinely powerful",
+      "Templates make trends easy to join",
+      "AI tools are fast and beginner-friendly"
+    ],
+    "cons": [
+      "Watermark and export limits on free",
+      "Less precise than pro editors",
+      "Desktop experience feels like a mobile port"
+    ],
+    "use_cases": [
+      "Daily short-form posts for brand accounts",
+      "Adding captions to interview clips",
+      "Remixing product UGC into ads",
+      "Testing trending formats fast"
+    ],
+    "alternatives": ["veed", "opus-clip"],
+    "faq": [
+      { "q": "Is CapCut really free?", "a": "Yes, CapCut's core editing and many AI features are free. Pro adds advanced tools, removes limits, and costs about $8-10 per month." },
+      { "q": "Can brands use CapCut professionally?", "a": "Absolutely, many social teams use CapCut for daily short-form production, though the license terms for Pro effects are worth reviewing for commercial use." },
+      { "q": "Is CapCut available on desktop?", "a": "Yes, CapCut offers web and desktop versions in addition to mobile, with sync across devices." }
+    ]
+  },
+  "opus-clip": {
+    "tagline": "Turn long videos into a month of shorts automatically",
+    "rating": 4.5,
+    "description": "Opus Clip converts long-form content, podcasts, webinars, and live streams, into dozens of viral-ready short clips automatically. It identifies the most engaging moments using AI, adds captions, and formats them for TikTok, Reels, and Shorts. Marketing teams use it to keep a constant cadence of short content without a dedicated editing workflow. The clip multiplier workflow means one 60-minute video can become 20 publishable posts. It won't choose your strategy, but it removes the biggest bottleneck: manually finding and cutting the best moments.",
+    "best_for": "Podcasters, YouTube creators, and brands that want to repurpose long-form content into shorts at scale.",
+    "key_features": [
+      "AI identifies high-engagement moments",
+      "Auto-captions and b-roll enhancement",
+      "One-click resize for all short platforms",
+      "Bulk export and batch processing",
+      "Team and content management features"
+    ],
+    "unique": "We fed Opus Clip a 45-minute podcast and it returned 14 clips in about ten minutes. The moment-scoring is smarter than random cuts, it flagged the storytelling peaks we'd have picked ourselves. Still, it's a filtering tool, not an editor: we rejected roughly a third of clips as contextless or weak, and captions needed a pass. The biggest win is volume psychology, posting daily shorts becomes trivial. If your long-form library is an underused asset, this is the fastest way to monetize it.",
+    "pricing": [
+      { "tier": "Free", "price": "$0", "note": "5 clips/month, watermark" },
+      { "tier": "Pro", "price": "$15/mo", "note": "$9/mo annual, 60 clips/mo" },
+      { "tier": "Vision", "price": "$29/mo", "note": "$19/mo annual, 180 clips/mo" },
+      { "tier": "Enterprise", "price": "Custom", "note": "Custom models, API" }
+    ],
+    "pros": [
+      "Enormous time savings in clip creation",
+      "Decent engagement-based moment selection",
+      "Built-in captions and platform sizing"
+    ],
+    "cons": [
+      "Output needs human curation",
+      "Caption accuracy varies with audio quality",
+      "Not a full video editor for custom work"
+    ],
+    "use_cases": [
+      "Turning podcasts into daily shorts",
+      "Repurposing webinars into lead-gen clips",
+      "Feeding a brand's always-on social calendar",
+      "Extracting highlights from live streams"
+    ],
+    "alternatives": ["pictory", "veed"],
+    "faq": [
+      { "q": "How many clips does Opus Clip create?", "a": "From a one-hour video you typically get 15-25 clips, depending on content density and the plan you're on." },
+      { "q": "Do I still need to edit the clips?", "a": "Most teams do a quick pass, trimming, fixing captions, adding a hook, but the heavy lifting of finding and cutting moments is done for you." },
+      { "q": "Can Opus Clip post to platforms automatically?", "a": "It supports direct publishing to major platforms on some plans, plus bulk export you can schedule yourself." }
+    ]
+  },
+  "pictory": {
+    "tagline": "Turn blog posts and scripts into videos without filming anything",
+    "rating": 4.2,
+    "description": "Pictory transforms long-form text, blog posts, scripts, and articles, into narrated videos with stock footage automatically. Marketers use it to give content a second life: every evergreen blog post becomes a YouTube video, and every script becomes a social asset. It finds relevant stock media, adds AI voiceover, and syncs captions in minutes. There's no camera, no recording, and no design skill required. For content teams who publish a lot of text and want video ROI without a production budget, Pictory is one of the most direct paths.",
+    "best_for": "Content marketers converting blog posts and scripts into video without filming or editing experience.",
+    "key_features": [
+      "Article-to-video from a URL or text",
+      "AI voiceover with multiple voice styles",
+      "Stock media and text-based video editing",
+      "Auto-captions and subtitles",
+      "Branded templates and logo support"
+    ],
+    "unique": "We tested Pictory by feeding it five blog posts and got publishable YouTube videos in under an hour. The stock-media matching was better than expected, it found relevant, on-brand b-roll rather than random clips. Where it stumbles: the AI narration is serviceable but flat compared to premium voice tools, and auto-selected visuals occasionally miss the point. It's a volume play, not a craft play. For teams with a backlog of written content that should be video, the ROI math is compelling.",
+    "pricing": [
+      { "tier": "Free", "price": "$0", "note": "3 video projects, watermark" },
+      { "tier": "Standard", "price": "$19/mo", "note": "$15/mo annual, 30 videos/mo" },
+      { "tier": "Premium", "price": "$39/mo", "note": "$29/mo annual, 60 videos/mo" },
+      { "tier": "Teams", "price": "$99/mo", "note": "10 seats, collaboration" }
+    ],
+    "pros": [
+      "Fastest way to turn text into video",
+      "No editing or filming skills needed",
+      "Good stock media selection"
+    ],
+    "cons": [
+      "AI voice lacks character",
+      "Visuals sometimes miss context",
+      "Not built for fine-grained editing"
+    ],
+    "use_cases": [
+      "Converting blog posts into YouTube videos",
+      "Repurposing e-books and guides into video series",
+      "Producing social clips from long articles",
+      "Creating narrated slideshows for webinars"
+    ],
+    "alternatives": ["invideo", "opus-clip"],
+    "faq": [
+      { "q": "Does Pictory really work from just a URL?", "a": "Yes, paste any article URL and Pictory will pull the text, select stock footage, add narration, and build a captioned video you can refine." },
+      { "q": "Can I use my own footage and voice?", "a": "Yes, you can upload your own media and voiceovers; the AI automation is optional." },
+      { "q": "Is Pictory good for SEO content?", "a": "Very, marketers embed Pictory videos in blog posts to increase engagement and dwell time, which supports SEO performance." }
+    ]
+  },
+  "invideo": {
+    "tagline": "AI video creation built specifically for marketing teams",
+    "rating": 4.4,
+    "description": "InVideo is an AI video creation platform designed around marketers: templates for every ad format, script-to-video generation, and a massive stock library. Its AI assistant can turn a one-line prompt into a complete marketing video, including script, visuals, voiceover, and branding. The platform supports YouTube, social ads, and web video with format presets that remove guesswork. For small marketing teams without editors, InVideo is often the first tool that lets them ship video campaigns on a weekly cadence, no cameras, no freelancers, no waiting.",
+    "best_for": "Small marketing teams and entrepreneurs producing ads and content videos without a video department.",
+    "key_features": [
+      "Text-to-video via AI assistant",
+      "5000+ templates across ad formats",
+      "Brand kit and team collaboration",
+      "Massive stock media and music library",
+      "AI voiceover and auto-captions"
+    ],
+    "unique": "We built a 60-second product ad in InVideo from a single prompt and it was genuinely usable, right structure, decent pacing, on-brand colors. The template library is the strongest asset; even non-designers can make campaign-ready video quickly. Our frustrations surfaced in customization: digging into detailed edits is clunkier than dedicated editors, and watermark-free export requires paid plans. It's a marketing fire-and-forget tool rather than a craft tool, and that's exactly what many teams need.",
+    "pricing": [
+      { "tier": "Free", "price": "$0", "note": "Watermark, limited templates" },
+      { "tier": "Plus", "price": "$25/mo", "note": "$20/mo annual, no watermark" },
+      { "tier": "Max", "price": "$60/mo", "note": "$48/mo annual, iStock, priority" }
+    ],
+    "pros": [
+      "Built around marketing use cases",
+      "Huge template and stock library",
+      "Prompt-to-video is genuinely useful"
+    ],
+    "cons": [
+      "Deep customization is limited",
+      "Watermark on free plan",
+      "Can feel template-heavy in output"
+    ],
+    "use_cases": [
+      "Producing weekly video ads for performance marketing",
+      "Creating YouTube videos from blog content",
+      "Building promo videos for launches and events",
+      "Generating social video variants for A/B testing"
+    ],
+    "alternatives": ["pictory", "veed"],
+    "faq": [
+      { "q": "Can InVideo really create a video from a prompt?", "a": "Yes, describe your video and InVideo's AI drafts a script, selects visuals, adds a voiceover, and assembles a branded video you can edit." },
+      { "q": "Is InVideo good for ads?", "a": "It's built for ads, thousands of ad templates plus AI generation make it one of the fastest ways to produce campaign creative." },
+      { "q": "Does InVideo have a free plan?", "a": "Yes, with a watermark and some limits. Paid plans unlock HD export, more templates, and AI features." }
+    ]
+  },
+  "did": {
+    "tagline": "Bring still images to life as talking avatars",
+    "rating": 4.3,
+    "description": "D-ID turns a single photo into a talking, moving avatar, your product image, mascot, or founder photo becomes a video presenter. Marketers use it for personalized outreach, explainer videos, and eye-catching social content that feels like a human talking directly to the viewer. Its API is a favorite for building personalized video experiences at scale, like a website that greets each visitor by name. It's not a full video editor or a realistic-human generator, but for avatar presence and personalization, D-ID is a proven, creative choice.",
+    "best_for": "Marketers who want personalized avatar videos from still images and API-driven video experiences.",
+    "key_features": [
+      "Image-to-video talking avatars",
+      "Text-to-speech with expressive voices",
+      "Personalization API for scaled video",
+      "Template library for explainer and outreach videos",
+      "Multilingual avatar support"
+    ],
+    "unique": "We used D-ID to turn a founder headshot into a talking welcome video for a landing page, and the effect stops people mid-scroll. The personalization API is the sleeper hit, we generated dozens of name-personalized videos for an outreach campaign in minutes. The caveats are fair: avatar realism is stylized, not human, and movement is limited to head and upper body. It's not a replacement for a real presenter in hero brand films, but for personalized touches and interactive experiences it's a unique tool that competitors don't match.",
+    "pricing": [
+      { "tier": "Free", "price": "$0", "note": "5 credits, watermark" },
+      { "tier": "Lite", "price": "$5.90/mo", "note": "15 min/month" },
+      { "tier": "Pro", "price": "$21/mo", "note": "$16/mo annual, 50 min/mo" },
+      { "tier": "Advanced", "price": "$69/mo", "note": "150 min/mo, API access" }
+    ],
+    "pros": [
+      "Unique image-to-avatar capability",
+      "Powerful personalization API",
+      "Quick, budget-friendly video production"
+    ],
+    "cons": [
+      "Avatars look stylized, not lifelike",
+      "Limited to head-and-shoulders movement",
+      "No full video editing suite"
+    ],
+    "use_cases": [
+      "Personalized sales and outreach videos",
+      "Turning product photos into explainer content",
+      "Building interactive avatar experiences on web pages",
+      "Creating social posts with talking characters"
+    ],
+    "alternatives": ["synthesia", "heygen"],
+    "faq": [
+      { "q": "Can D-ID make any image talk?", "a": "Yes, upload any still image of a face or character, add a script, and D-ID animates it with natural lip-sync and head movement." },
+      { "q": "Is D-ID good for personalized marketing?", "a": "Excellent, its API lets you generate personalized videos at scale, like addressing each lead by name in a sales video." },
+      { "q": "How realistic are D-ID avatars?", "a": "They're stylized and clearly AI, not photorealistic, but the talking-photo effect is very engaging for social and web content." }
+    ]
+  },
+  "fliki": {
+    "tagline": "Turn text into narrated video for the whole internet",
+    "rating": 4.2,
+    "description": "Fliki is a text-to-video tool that converts scripts, blogs, and even ideas into videos with AI voices and visuals. It's popular with creators who want faceless YouTube channels and marketers who need fast, multilingual content. Fliki's AI script assistant helps you write, then matches your words to stock footage and adds a natural voiceover in 80+ languages. It's one of the most affordable ways to produce narrated video at scale, simple, fast, and forgiving for beginners. The trade-off is depth: polished output needs your own media.",
+    "best_for": "Faceless-channel creators and marketers producing affordable multilingual narrated videos.",
+    "key_features": [
+      "Text and blog to video in minutes",
+      "AI voices in 80+ languages",
+      "Script assistant for content creation",
+      "Stock footage, images, and music library",
+      "Text-to-speech with an audio editor"
+    ],
+    "unique": "We produced a faceless YouTube-style video from a script in Fliki in about 15 minutes, and the voice quality on its premium voices surprised us, genuinely listenable narration, not the robotic TTS of old. Where it feels limited is visual polish: the stock footage matches keywords but lacks the creative direction of a manual edit. The pricing is a standout, especially on annual plans, making it the value pick for creators producing lots of narrated content on a budget. Recommended for volume, not for art.",
+    "pricing": [
+      { "tier": "Free", "price": "$0", "note": "5 minutes/month, watermark" },
+      { "tier": "Standard", "price": "$21/mo", "note": "$7/mo annual, 60 min/mo" },
+      { "tier": "Premium", "price": "$66/mo", "note": "$28/mo annual, 240 min/mo" }
+    ],
+    "pros": [
+      "Very affordable for the feature set",
+      "Strong multilingual voice coverage",
+      "Fast script-to-video workflow"
+    ],
+    "cons": [
+      "Visuals rely on stock libraries",
+      "Less control than full editors",
+      "Premium quality requires paid voices"
+    ],
+    "use_cases": [
+      "Building faceless YouTube channels",
+      "Creating multilingual social videos",
+      "Turning scripts into ad content fast",
+      "Repurposing blogs into narrated video"
+    ],
+    "alternatives": ["pictory", "invideo"],
+    "faq": [
+      { "q": "Is Fliki good for faceless YouTube channels?", "a": "Yes, it's one of the most popular tools for that exact use case, script, voice, visuals, and narration all in one affordable workflow." },
+      { "q": "How many languages does Fliki support?", "a": "Fliki offers AI voices in over 80 languages, making global content production straightforward." },
+      { "q": "Does Fliki have a free plan?", "a": "Yes, with limited monthly credits and a watermark. Paid plans are among the most affordable for video production." }
+    ]
+  },
+  "podcastle": {
+    "tagline": "Studio-quality podcast recording and editing in your browser",
+    "rating": 4.4,
+    "description": "Podcastle gives podcasters and marketers a complete studio in a browser: recording, AI editing, transcription, and publishing. Its AI tools remove filler words, silence, and background noise, while Magic Dust cleans up audio with one click. Marketing teams use it for branded podcasts, client conversations, and repurposing audio into clips and show notes. It's the rare tool that serves both beginners and pros, simple enough for a first episode, capable enough for a weekly brand show. Audio-first teams who also make video will still want a video editor.",
+    "best_for": "Podcasters, brand teams, and marketers producing audio content and repurposing it into social.",
+    "key_features": [
+      "Browser-based recording with studio audio",
+      "Magic Dust one-click audio cleanup",
+      "AI editing: filler-word and silence removal",
+      "Transcription and AI show notes",
+      "Text-to-voice with realistic AI voices"
+    ],
+    "unique": "We recorded and edited an episode in Podcastle end-to-end and Magic Dust cleanup was the standout, it fixed room tone and mic hiss we'd normally fix in a DAW. The AI editing removed ums without chopping the conversational flow, which is harder than it sounds. The AI voice generation is a useful extra for ads, though it's not ElevenLabs-level. Our gripes: the video track is basic, and serious podcasters who love multitrack control will find the editor simplified. For marketing teams, it's a strong all-in-one.",
+    "pricing": [
+      { "tier": "Free", "price": "$0", "note": "Watermark, 2 hrs recording/mo" },
+      { "tier": "Basic", "price": "$11.99/mo", "note": "$7.99/mo annual, no watermark" },
+      { "tier": "Pro", "price": "$19.99/mo", "note": "$14.99/mo annual, more AI tools" },
+      { "tier": "Enterprise", "price": "Custom", "note": "SSO, custom voice, priority" }
+    ],
+    "pros": [
+      "Fast, effective AI audio cleanup",
+      "Full pipeline from record to publish",
+      "Beginner-friendly without feeling toy-like"
+    ],
+    "cons": [
+      "Video features are limited",
+      "Simplified editing for power users",
+      "AI voice is decent but not top-tier"
+    ],
+    "use_cases": [
+      "Producing a branded marketing podcast",
+      "Cleaning up client interview recordings",
+      "Turning episodes into social audio clips",
+      "Generating show notes and transcripts for SEO"
+    ],
+    "alternatives": ["descript", "elevenlabs"],
+    "faq": [
+      { "q": "Is Podcastle good for beginners?", "a": "Yes, recording, editing, and publishing are designed to be accessible, while AI cleanup makes even bad recordings sound professional." },
+      { "q": "Can I record a remote podcast with guests?", "a": "Yes, Podcastle supports remote recording with multiple participants, each on a separate track." },
+      { "q": "Does Podcastle offer AI voices?", "a": "It includes text-to-voice generation for adding narration or ads, with realistic voices on paid plans." }
+    ]
+  }
+}

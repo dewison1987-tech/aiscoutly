@@ -1,0 +1,674 @@
+{
+  "zapier-ai": {
+    "tagline": "Automate your entire marketing stack without writing a line of code",
+    "rating": 4.8,
+    "description": "Zapier AI lets marketers connect 7,000+ apps and turn repetitive tasks into automated workflows triggered by natural language. Draft follow-up emails, route leads to your CRM, post content across channels, and keep your martech stack in sync — all without engineering help. Marketing teams use Zaps to automate lead capture, social publishing, and campaign reporting, freeing hours every week for strategy and creative work. Because the AI Copilot builds multi-step flows from a simple prompt, even non-technical marketers can automate everything from webinar registrations to quarterly reporting with confidence.",
+    "best_for": "Marketing teams who want to connect their existing tools and automate repetitive workflows without code",
+    "key_features": [
+      "Natural-language Zap creation with AI Copilot",
+      "7,000+ app integrations for marketing stacks",
+      "Multi-step workflows with conditions, formatting, and delays",
+      "AI-powered message drafting inside Zaps",
+      "Tables and data stores for lead and campaign tracking"
+    ],
+    "unique": "We tested Zapier AI by connecting a form, CRM, and email tool with plain English prompts, and the Copilot handled most of it correctly on the first try. Where it truly shines is breadth — no other tool connects this many marketing apps. But complex, conditional logic still needs manual tuning, and costs add up fast when Zaps run at campaign scale.",
+    "pricing": [
+      {"tier": "Free", "price": "$0", "note": "100 tasks/month, 2-step Zaps"},
+      {"tier": "Professional", "price": "$19.99/month", "note": "Unlimited Zaps, multi-step, premium apps"},
+      {"tier": "Team", "price": "$49/month", "note": "Shared workspaces and advanced admin"},
+      {"tier": "Enterprise", "price": "Custom", "note": "SSO, advanced permissions, dedicated support"}
+    ],
+    "pros": [
+      "Enormous integration library covers nearly every marketing tool",
+      "AI Copilot lowers the barrier for non-technical marketers",
+      "Reliable triggers and scheduling for campaign automation"
+    ],
+    "cons": [
+      "Task limits make high-volume automation expensive",
+      "Complex workflows can get slow and hard to debug",
+      "Advanced features quickly require the pricey Team plan"
+    ],
+    "use_cases": [
+      "Capture leads from ads and auto-enroll them in email sequences",
+      "Publish blog posts to social channels and internal Slack alerts",
+      "Sync campaign data between ad platforms and your analytics dashboards",
+      "Automate client onboarding docs, invoices, and follow-up emails"
+    ],
+    "alternatives": ["make", "n8n", "taskade"],
+    "faq": [
+      {"q": "Can Zapier AI replace a marketing operations specialist?", "a": "For straightforward automations, largely yes — the AI Copilot writes the workflow for you. But intricate logic, error handling, and cross-team governance still benefit from a human operator."},
+      {"q": "How many marketing apps does Zapier support?", "a": "Over 7,000 apps, including Google Sheets, HubSpot, Mailchimp, Slack, Meta, and most major ad and email platforms."},
+      {"q": "Do I need coding skills to build Zaps?", "a": "No. You can describe what you want in plain English and Zapier AI builds the workflow, though you may want to tweak conditions and formatting afterward."}
+    ]
+  },
+  "make": {
+    "tagline": "Visual building blocks for powerful, creative marketing automations",
+    "rating": 4.7,
+    "description": "Make is a visual automation platform where marketers drag and drop modules to build complex workflows that Zapier struggles with. Its canvas gives you granular control over data flows, making it ideal for content pipelines, multi-step email journeys, and custom data transformations. Marketing teams use Make to sync CRMs, enrich leads, generate reports, and orchestrate content distribution — with the flexibility to handle advanced logic once you climb the learning curve. Visual scenarios, conditional routers, and error handling give power users the same capabilities as an engineering backlog, while pre-built templates get new teams started in minutes.",
+    "best_for": "Marketers with some technical appetite who need flexible, high-volume automations",
+    "key_features": [
+      "Visual scenario editor with granular data control",
+      "AI transformer modules for content and data enrichment",
+      "Advanced routers, iterators, and error handling",
+      "One-time free task quota plus generous paid tiers",
+      "Webhooks and API calls for custom marketing integrations"
+    ],
+    "unique": "We tested Make by recreating a Zap we had outgrown, and the visual canvas handled conditional routing and data reformatting with far more precision. It feels like a mini engineering tool for marketers, which is both its strength and its catch — the interface intimidates beginners. Once a power user on your team builds templates, though, it's arguably the best value-per-task of any automation platform we tested.",
+    "pricing": [
+      {"tier": "Free", "price": "$0", "note": "1,000 operations/month"},
+      {"tier": "Core", "price": "$9/month", "note": "10,000 operations, unlimited scenarios"},
+      {"tier": "Pro", "price": "$16/month", "note": "100,000 operations, advanced features"},
+      {"tier": "Teams", "price": "$29/month", "note": "Unlimited operations, shared workspaces"}
+    ],
+    "pros": [
+      "Flexible canvas handles complex logic Zapier can't",
+      "High-volume plans are far cheaper per task",
+      "Strong webhook and API support for custom stacks"
+    ],
+    "cons": [
+      "Steep learning curve for non-technical marketers",
+      "Large scenarios can become slow and unwieldy",
+      "Fewer pre-built marketing app templates than Zapier"
+    ],
+    "use_cases": [
+      "Build multi-stage lead enrichment workflows across data sources",
+      "Automate content repurposing from blogs to social posts",
+      "Route and format campaign data into custom client reports",
+      "Sync ecommerce orders with email and ad platforms in real time"
+    ],
+    "alternatives": ["zapier-ai", "n8n", "clickup-ai"],
+    "faq": [
+      {"q": "Is Make harder to learn than Zapier?", "a": "Yes, the visual canvas is more powerful but has a steeper learning curve. Beginners often start with templates, while power users leverage the full flexibility."},
+      {"q": "Is Make good for high-volume marketing automations?", "a": "Very. Its per-task pricing on higher tiers is substantially cheaper than Zapier for campaigns generating tens of thousands of operations."},
+      {"q": "Can Make handle custom APIs?", "a": "Absolutely. HTTP modules and webhooks let you connect almost any marketing tool, including custom internal systems."}
+    ]
+  },
+  "n8n": {
+    "tagline": "The open-source automation engine for privacy-conscious marketing teams",
+    "rating": 4.6,
+    "description": "n8n is an open-source, self-hostable workflow automation tool that gives marketing teams total control over their data and integrations. Unlike cloud-only platforms, you can run n8n on your own infrastructure, keep customer data in-house, and customize almost anything with code. It's especially popular with growth marketers and agencies that need to comply with strict data policies or build bespoke automations without paying per-task fees. The visual node editor stays approachable for marketers, while code and expression nodes let engineers extend anything, and AI agent nodes bring large language models directly into your workflows.",
+    "best_for": "Growth marketers and agencies that need self-hosted, code-extendable automations",
+    "key_features": [
+      "Self-hosted deployment with full data control",
+      "Node-based visual editor with 400+ integrations",
+      "AI Agent and LangChain nodes for LLM workflows",
+      "Code and expression nodes for custom logic",
+      "Fair-code license with a free community edition"
+    ],
+    "unique": "We tested n8n's community edition and were impressed by how much power you get for free — the AI agent nodes alone would cost a fortune on other platforms. Setting it up on our own server required a Docker tutorial and a bit of patience, which is a real barrier for non-technical teams. But for agencies handling sensitive client data, the tradeoff is clearly worth it.",
+    "pricing": [
+      {"tier": "Community", "price": "$0", "note": "Self-hosted, all core features"},
+      {"tier": "Cloud Starter", "price": "$20/month", "note": "5,000 workflow executions"},
+      {"tier": "Cloud Pro", "price": "$50/month", "note": "50,000 executions, priority support"},
+      {"tier": "Enterprise", "price": "Custom", "note": "SSO, advanced security, scaling"}
+    ],
+    "pros": [
+      "Free and self-hosted with unlimited executions",
+      "AI agent nodes bring LLM workflows in-house",
+      "Deep customization for code-savvy marketers"
+    ],
+    "cons": [
+      "Setup and maintenance require technical skills",
+      "Community version lacks official support",
+      "Smaller template library than Zapier or Make"
+    ],
+    "use_cases": [
+      "Automate lead scoring without sending data to third parties",
+      "Run content workflows with on-premise AI models",
+      "Build white-label automation platforms for agency clients",
+      "Sync marketing data across internal systems securely"
+    ],
+    "alternatives": ["make", "zapier-ai"],
+    "faq": [
+      {"q": "Do I need to be technical to use n8n?", "a": "The visual editor is approachable, but self-hosting requires Docker and basic server knowledge. Teams without that skill can use n8n's paid cloud."},
+      {"q": "Is n8n really free?", "a": "The community edition is free and self-hosted with no execution limits. You pay only if you use their hosted cloud or want enterprise support."},
+      {"q": "Can n8n work with AI agents?", "a": "Yes, n8n includes AI Agent nodes with LangChain integration, letting you build LLM-powered marketing workflows entirely on your own infrastructure."}
+    ]
+  },
+  "notion-ai": {
+    "tagline": "Your entire marketing brain, with AI that writes, summarizes, and searches it",
+    "rating": 4.7,
+    "description": "Notion AI turns your team's docs, wikis, and project boards into an intelligent knowledge base. Marketers use it to draft briefs, summarize research, rewrite copy for different channels, and get instant answers from scattered meeting notes and strategy docs. Because AI is built directly into the workspace where your content lives, it eliminates context-switching and gives every marketer an on-demand research and writing assistant. Content calendars, campaign hubs, and brand guidelines all live in the same place, so the AI writes with full context of what your team has already decided.",
+    "best_for": "Content and marketing teams who already live in Notion and want AI inside their workflow",
+    "key_features": [
+      "AI autofill and drafting inside docs, notes, and databases",
+      "Ask anything across your entire workspace knowledge base",
+      "One-click summaries, translations, and tone rewrites",
+      "AI-powered writing that adapts to your brand voice",
+      "Q&A over meeting notes, briefs, and campaign docs"
+    ],
+    "unique": "We tested Notion AI as a content ops hub and the 'Ask' feature is the killer one — it pulled quotes from six months of meeting notes in seconds. The drafting is solid but not exceptional versus dedicated AI writers; where it wins is that everything is already in your workspace. Watch your token usage though, and be careful: AI answers can inherit the errors in your docs, garbage in, garbage out.",
+    "pricing": [
+      {"tier": "Free", "price": "$0", "note": "Limited AI trial responses"},
+      {"tier": "Plus", "price": "$10/month", "note": "Unlimited AI, collaboration, 10GB"},
+      {"tier": "Business", "price": "$20/month", "note": "Advanced AI, security, SAML SSO"},
+      {"tier": "Enterprise", "price": "Custom", "note": "Advanced controls and audit logs"}
+    ],
+    "pros": [
+      "AI deeply integrated with your existing content and docs",
+      "Excellent team knowledge-base Q&A",
+      "Flexible docs, wikis, and databases in one place"
+    ],
+    "cons": [
+      "AI features cost extra on top of your subscription",
+      "Output quality varies and needs human editing",
+      "Can get slow and bloated with large workspaces"
+    ],
+    "use_cases": [
+      "Summarize research and meeting notes into campaign briefs",
+      "Rewrite blog posts for LinkedIn, email, and social in one click",
+      "Answer stakeholder questions straight from your strategy docs",
+      "Maintain a living content calendar with AI-generated status updates"
+    ],
+    "alternatives": ["taskade", "clickup-ai", "motion"],
+    "faq": [
+      {"q": "Is Notion AI good enough to replace a dedicated AI writer?", "a": "For summaries, rewrites, and internal docs, yes. For long-form SEO articles, dedicated writing tools usually produce stronger drafts."},
+      {"q": "How does Notion AI protect our content?", "a": "Notion doesn't train on your data without permission, and enterprise plans offer stricter controls. Still, avoid pasting sensitive client data into AI prompts."},
+      {"q": "Can Notion AI search across my whole workspace?", "a": "Yes, the Ask feature answers questions using content from all your docs, notes, and wikis, which is its standout capability."}
+    ]
+  },
+  "motion": {
+    "tagline": "AI that plans your day so you can focus on creating, not coordinating",
+    "rating": 4.4,
+    "description": "Motion uses AI to auto-schedule your tasks, meetings, and projects around real deadlines and priorities. For busy marketers juggling content calendars, campaign launches, and client calls, it's a personal assistant that builds a realistic daily plan and re-schedules everything when something slips. Its calendar booking links also remove the back-and-forth of scheduling interviews, shoots, and stakeholder reviews. The AI weighs task duration, deadlines, and your stated priorities, then time-blocks deep work so content actually gets written instead of perpetually rescheduled.",
+    "best_for": "Busy marketers, freelancers, and small teams drowning in scheduling",
+    "key_features": [
+      "AI auto-scheduling that adapts to deadlines and priorities",
+      "Project and task management with drag-and-drop planning",
+      "Smart calendar booking links for clients and collaborators",
+      "Automatic time blocking for deep work on content",
+      "Meeting conflict detection and rescheduling"
+    ],
+    "unique": "We tested Motion by giving it a week of chaotic campaign tasks and it genuinely built a better plan than we would have. The auto-rescheduling is impressive when plans change mid-day. But the AI can be rigid — it sometimes insists on its own priorities and buries quick wins. And the price is steep for what is ultimately still a calendar and to-do list, especially for solo creators.",
+    "pricing": [
+      {"tier": "Individual", "price": "$19/month", "note": "AI scheduling and tasks, billed monthly"},
+      {"tier": "Individual Annual", "price": "$12/month", "note": "Billed annually"},
+      {"tier": "Team", "price": "$12/user/month", "note": "Shared projects and calendars, billed annually"},
+      {"tier": "Enterprise", "price": "Custom", "note": "Advanced admin and security"}
+    ],
+    "pros": [
+      "AI genuinely optimizes your daily schedule",
+      "Booking links eliminate meeting ping-pong",
+      "Keeps projects and calendar in one view"
+    ],
+    "cons": [
+      "Expensive compared to standard calendar tools",
+      "AI scheduling can override your own judgment",
+      "Mobile app and notifications can feel heavy"
+    ],
+    "use_cases": [
+      "Auto-plan content creation around launch deadlines",
+      "Schedule client calls and interviews without email back-and-forth",
+      "Balance campaign work with deep-focus writing blocks",
+      "Re-plan instantly when a priority task gets pushed"
+    ],
+    "alternatives": ["taskade", "clickup-ai", "notion-ai"],
+    "faq": [
+      {"q": "Does Motion actually save time?", "a": "For marketers with lots of meetings and shifting priorities, yes — the auto-rescheduling alone saves meaningful time each week."},
+      {"q": "Can Motion replace a full project management tool?", "a": "It covers tasks and projects well for individuals and small teams, but large cross-functional marketing teams usually need a dedicated PM tool."},
+      {"q": "Is Motion worth it for solo creators?", "a": "It's one of the pricier productivity tools, but if calendar chaos is costing you hours, the annual plan can pay for itself."}
+    ]
+  },
+  "taskade": {
+    "tagline": "AI-powered project management that plans, writes, and tracks in real time",
+    "rating": 4.3,
+    "description": "Taskade is an all-in-one workspace where marketing teams build to-do lists, mind maps, and docs that update live as you work. Its built-in AI agents can generate project plans, break campaigns into tasks, draft content, and even chat with your team inside projects. It's a lightweight alternative to heavier PM suites, with collaboration and AI woven directly into every view — list, board, calendar, and mind map. Because tasks, notes, and planning share one canvas, there's no friction between brainstorming and execution — an idea becomes an action item in seconds.",
+    "best_for": "Content teams and agencies that want AI-assisted planning in a lightweight PM tool",
+    "key_features": [
+      "AI agents that generate plans and break down campaigns",
+      "Live collaboration with shared to-do lists and docs",
+      "Multiple views: list, board, calendar, mind map, and timeline",
+      "AI chat and drafting inside every project",
+      "Unified workspace combining notes, tasks, and workflows"
+    ],
+    "unique": "We tested Taskade by asking its AI to plan a product launch and it produced a surprisingly usable task breakdown in minutes. The mind-map view is a delight for brainstorming content pillars. That said, it lacks the depth of project-heavy platforms — resource management and robust reporting are thin. As a fast, AI-first workspace for smaller teams, though, it punches above its weight.",
+    "pricing": [
+      {"tier": "Free", "price": "$0", "note": "Unlimited tasks, limited AI credits"},
+      {"tier": "Starter", "price": "$8/month", "note": "AI features, more storage and credits"},
+      {"tier": "Plus", "price": "$12/month", "note": "Advanced AI, unlimited projects"},
+      {"tier": "Enterprise", "price": "Custom", "note": "SSO, dedicated support, advanced controls"}
+    ],
+    "pros": [
+      "AI plan generation saves hours of project setup",
+      "Flexible views suit brainstorming and execution",
+      "Affordable entry price for small teams"
+    ],
+    "cons": [
+      "Lacks advanced reporting and resource management",
+      "AI can produce generic plans without refinement",
+      "Notion users may find the docs less powerful"
+    ],
+    "use_cases": [
+      "Turn a campaign idea into a full content plan instantly",
+      "Collaborate on editorial calendars across list and board views",
+      "Brainstorm content pillars with AI-generated mind maps",
+      "Track agency deliverables with clients in real time"
+    ],
+    "alternatives": ["clickup-ai", "notion-ai", "motion"],
+    "faq": [
+      {"q": "Can Taskade's AI really plan a campaign?", "a": "Yes, its agents generate task breakdowns and timelines from a short brief. Expect to refine the output, but it's a strong head start."},
+      {"q": "Is Taskade good for agencies?", "a": "Small agencies love its speed and collaboration. Larger agencies may outgrow it and need resource management and detailed reporting."},
+      {"q": "How does Taskade pricing work?", "a": "There's a free tier with unlimited tasks, and paid plans from $8/month add AI features, more storage, and higher AI credit limits."}
+    ]
+  },
+  "clickup-ai": {
+    "tagline": "The everything app for marketing teams, turbocharged with AI",
+    "rating": 4.5,
+    "description": "ClickUp AI brings writing, summarizing, and workflow assistance into one of the most comprehensive project management platforms on the market. Marketing teams manage campaigns, tasks, docs, goals, and sprints in a single workspace, with AI helping draft briefs, summarize meeting notes, and automate status updates. It's a heavyweight choice for teams that want project management and AI assistance without juggling five separate tools. Views switch from board to Gantt to calendar instantly, so the same campaign looks right for the designer, the director, and the agency.",
+    "best_for": "Marketing and content teams that need full project management plus AI assistance",
+    "key_features": [
+      "AI writing, summaries, and task generation across the workspace",
+      "Comprehensive views: lists, boards, Gantt, calendars, and chats",
+      "Goals, sprints, and workload management for campaigns",
+      "Docs and wikis with AI-powered drafting and Q&A",
+      "Deep integrations with Slack, Google Drive, and marketing tools"
+    ],
+    "unique": "We tested ClickUp AI inside a real campaign and the highlight is how AI plugs into existing workflows — generating standups, summarizing ticket threads, and drafting briefs where you already work. It's not the sharpest AI writer, but the integration is what matters. The tradeoff is real: the platform is powerful, dense, and takes serious setup before it feels smooth.",
+    "pricing": [
+      {"tier": "Free", "price": "$0", "note": "Unlimited tasks, limited AI"},
+      {"tier": "Unlimited", "price": "$7/month", "note": "Unlimited storage and integrations"},
+      {"tier": "Business", "price": "$12/month", "note": "Advanced AI and automation"},
+      {"tier": "Enterprise", "price": "Custom", "note": "SSO, advanced security, dedicated support"}
+    ],
+    "pros": [
+      "All-in-one PM, docs, goals, and AI in one place",
+      "AI assistance embedded where teams already work",
+      "Flexible views suit everything from sprints to editorial calendars"
+    ],
+    "cons": [
+      "Interface can feel overwhelming and cluttered",
+      "AI writing quality is good but not best-in-class",
+      "Heavy setup and ongoing configuration needed"
+    ],
+    "use_cases": [
+      "Manage multi-channel campaigns with tasks, goals, and timelines",
+      "Auto-generate daily standups and campaign status updates",
+      "Draft and review content briefs inside project docs",
+      "Track freelance deliverables and approvals in one workspace"
+    ],
+    "alternatives": ["taskade", "notion-ai", "motion"],
+    "faq": [
+      {"q": "Is ClickUp AI worth the extra cost?", "a": "If your team already lives in ClickUp, the AI layer removes a lot of drudgery in writing and summarizing. If you only need AI writing, dedicated tools are cheaper."},
+      {"q": "Can ClickUp replace Notion?", "a": "For task-heavy marketing teams, yes. Notion is better for pure knowledge management, while ClickUp is stronger on project execution and reporting."},
+      {"q": "Does ClickUp AI understand marketing workflows?", "a": "It adapts to your docs and tasks, so it gets better the more context your team provides — it's as smart as the workspace you build."}
+    ]
+  },
+  "gamma": {
+    "tagline": "Pitch-perfect presentations generated from a single prompt",
+    "rating": 4.6,
+    "description": "Gamma creates polished, on-brand presentations, documents, and web pages from a simple outline or prompt. Marketers use it to turn campaign ideas into investor-ready decks, turn research into clean one-pagers, and whip up internal updates in minutes instead of afternoons. The AI handles layout, typography, and imagery so you can focus on the story — then refine interactively in a surprisingly good editor. Shared team workspaces, custom themes, and presentation analytics make it a practical everyday tool rather than a one-off novelty.",
+    "best_for": "Marketers and founders who need fast, beautiful decks without design help",
+    "key_features": [
+      "Prompt-to-presentation generation with custom themes",
+      "Interactive editing with AI text and image regeneration",
+      "Publish presentations as shareable web pages or PDF",
+      "Variety of templates tuned for marketing and startups",
+      "Real-time collaboration and commenting"
+    ],
+    "unique": "We tested Gamma by generating a competitor analysis deck and the first draft was genuinely usable — the layouts and color choices look more 'designed' than anything a busy marketer would make in Slides. It's not going to win design awards, and you'll want to swap some generic AI imagery. But for speed-to-pitch, it's the best value we've tested in this category.",
+    "pricing": [
+      {"tier": "Free", "price": "$0", "note": "400 AI credits, limited exports"},
+      {"tier": "Plus", "price": "$10/month", "note": "Unlimited AI credits, full export"},
+      {"tier": "Pro", "price": "$20/month", "note": "Advanced features, priority support"},
+      {"tier": "Team", "price": "$15/user/month", "note": "Shared workspace and brand kits"}
+    ],
+    "pros": [
+      "Creates genuinely polished decks in minutes",
+      "Web-page sharing makes pitching easy",
+      "Clean editor for hands-on refinement"
+    ],
+    "cons": [
+      "AI imagery can look generic or off-brand",
+      "Limited control for complex, data-heavy layouts",
+      "Exports and credits gated by plan"
+    ],
+    "use_cases": [
+      "Turn a campaign brief into a client-ready pitch deck",
+      "Create competitor and market research one-pagers",
+      "Generate internal strategy updates in minutes",
+      "Build shareable landing pages for product launches"
+    ],
+    "alternatives": ["tome", "beautiful-ai", "clickup-ai"],
+    "faq": [
+      {"q": "Can Gamma presentations be edited like PowerPoint?", "a": "Yes, the editor supports text, image, and layout changes, plus AI regeneration. It's more flexible than most AI deck generators."},
+      {"q": "Is Gamma good for data-heavy marketing reports?", "a": "It handles simple charts well, but complex, dense data layouts are easier in dedicated tools like PowerPoint or Google Slides."},
+      {"q": "What file formats can I export?", "a": "Gamma exports to PDF and PowerPoint, and lets you publish decks as shareable web pages with links, analytics, and comments."}
+    ]
+  },
+  "tome": {
+    "tagline": "AI storytelling that turns ideas into flowing, narrative presentations",
+    "rating": 4.2,
+    "description": "Tome is an AI presentation tool designed around narrative flow rather than bullet-point slides. Marketers feed it a topic, outline, or even a set of links, and it generates a story-driven deck with cinematic layouts, image generation, and interactive elements. It's built for brand pitches, product stories, and thought-leadership content where the narrative matters as much as the data. Interactive embeds and click-through pages make decks feel more like experiences than slideware, which resonates with modern buyers and internal stakeholders alike.",
+    "best_for": "Brand marketers and storytellers who want narrative-first, visually rich presentations",
+    "key_features": [
+      "Prompt and outline-to-presentation generation",
+      "Cinematic layouts and AI-generated imagery",
+      "Interactive elements: embeds, videos, and click-throughs",
+      "Narrative templates for pitches and brand stories",
+      "Real-time collaboration and shareable link pages"
+    ],
+    "unique": "We tested Tome by building a brand story from scratch and the narrative structure genuinely changed how we organized the deck — it pushed us toward a beginning, middle, and end instead of a wall of slides. The visual style is distinctive and modern, though occasionally too flashy for corporate audiences. It's a specialized tool: brilliant for storytelling, less suited to dense analytical reports.",
+    "pricing": [
+      {"tier": "Free", "price": "$0", "note": "500 credits, Tome watermark"},
+      {"tier": "Pro", "price": "$16/month", "note": "Unlimited credits, custom themes"},
+      {"tier": "Business", "price": "$25/user/month", "note": "Advanced collaboration and control"},
+      {"tier": "Enterprise", "price": "Custom", "note": "SSO, security, dedicated support"}
+    ],
+    "pros": [
+      "Narrative-first approach produces more compelling decks",
+      "Distinctive, modern visual style",
+      "Interactive elements engage stakeholders"
+    ],
+    "cons": [
+      "Less suited to data-heavy, corporate reports",
+      "Flashy defaults need toning down for some audiences",
+      "Pricier than general AI deck tools"
+    ],
+    "use_cases": [
+      "Craft brand story decks for investor or client meetings",
+      "Turn a product narrative into an interactive pitch",
+      "Build thought-leadership content that reads like a story",
+      "Create immersive campaign recap presentations"
+    ],
+    "alternatives": ["gamma", "beautiful-ai", "notion-ai"],
+    "faq": [
+      {"q": "How is Tome different from Gamma?", "a": "Gamma emphasizes speed and polished templates; Tome leans into narrative structure and cinematic, interactive storytelling."},
+      {"q": "Can Tome handle client-facing corporate decks?", "a": "Yes, but you'll likely need to tone down the visual effects and use custom themes to match corporate brand standards."},
+      {"q": "Does Tome support real-time collaboration?", "a": "Yes, teams can edit together and share presentations as interactive link pages with analytics."}
+    ]
+  },
+  "beautiful-ai": {
+    "tagline": "AI slide design that keeps your brand beautiful without a designer",
+    "rating": 4.4,
+    "description": "Beautiful.ai is an AI-powered slide design tool that automatically applies smart layouts, consistent typography, and brand colors as you type. Marketers build client decks, social media plans, and quarterly reports without wrestling with alignment or design consistency. Every slide updates itself as you add content, so your presentation stays clean, on-brand, and presentation-ready — even if design is not your skill. Smart templates adapt to your content, charts re-format when data changes, and team libraries keep every presentation on-message for your entire organization.",
+    "best_for": "Marketers who want professionally designed, brand-consistent slides without hiring designers",
+    "key_features": [
+      "Auto-designed smart slides that adapt to your content",
+      "Brand kits with custom colors, fonts, and logos",
+      "Smart templates tuned for marketing and business",
+      "Automatic charts and data visualizations",
+      "Team libraries for consistent slide assets"
+    ],
+    "unique": "We tested Beautiful.ai by rebuilding a messy client deck and the difference was immediate — every slide came out aligned and consistent, and the auto-formatting saved hours. It's more of a design engine than a generative AI tool; you still write the content yourself. That's fine if you have the words, but if you want AI to write the whole deck, Gamma is the better starting point. For design-averse teams, this is the polish you've been missing.",
+    "pricing": [
+      {"tier": "Free", "price": "$0", "note": "1 slide per deck, limited templates"},
+      {"tier": "Pro", "price": "$12/month", "note": "Unlimited slides, full features"},
+      {"tier": "Team", "price": "$40/month", "note": "Collaboration and brand controls"},
+      {"tier": "Enterprise", "price": "Custom", "note": "SSO, advanced security, support"}
+    ],
+    "pros": [
+      "Automatically consistent, professional layouts",
+      "Brand kits keep every deck on-message",
+      "Smart charts update as your data changes"
+    ],
+    "cons": [
+      "Not a full AI writer — you provide the content",
+      "Less creative freedom than manual design tools",
+      "Complex animations and interactions are limited"
+    ],
+    "use_cases": [
+      "Produce brand-consistent client decks quickly",
+      "Build quarterly marketing reports with auto-updating charts",
+      "Create social media and campaign plan presentations",
+      "Standardize agency decks with shared brand kits"
+    ],
+    "alternatives": ["gamma", "tome", "notion-ai"],
+    "faq": [
+      {"q": "Is Beautiful.ai fully AI-generated?", "a": "No — it's an AI design engine. You write the content and it designs the slides; it won't draft your deck text for you."},
+      {"q": "Can I use my own brand colors and fonts?", "a": "Yes, brand kits store your colors, fonts, and logo, and every slide automatically applies them."},
+      {"q": "Does Beautiful.ai work offline?", "a": "It's a web app, so you need a connection to build and present, though you can export and download finished decks."}
+    ]
+  },
+  "cursor": {
+    "tagline": "The AI code editor that lets marketers ship landing pages without engineers",
+    "rating": 4.8,
+    "description": "Cursor is a VS Code-based AI code editor that writes, edits, and refactors code alongside you in real time. Growth marketers and content teams use it to build landing pages, email templates, analytics dashboards, and internal tools by describing what they want in plain English. Its AI understands your whole project, so changes stay consistent, and it's the favorite of teams who want developer-grade output without waiting on engineering sprints. Tab-driven completions, natural-language edits, and an agent mode that chains multiple steps together make complex builds feel conversational.",
+    "best_for": "Technical marketers and growth teams who want to ship web experiences fast",
+    "key_features": [
+      "AI autocomplete and multi-file edits from natural language",
+      "Whole-repository context for consistent changes",
+      "Chat that can read and explain your codebase",
+      "Agent mode for multi-step builds and refactors",
+      "Familiar VS Code experience with team-friendly workflows"
+    ],
+    "unique": "We tested Cursor by building a small landing page from scratch with zero manual code edits, and the quality was shockingly close to hand-written. The multi-file understanding is what sets it apart — it updated styles, copy, and layouts coherently across files. The catch: you still need enough technical literacy to debug what AI produces. For non-technical marketers, tools like Bolt or Lovable are friendlier; for those with some code, Cursor is the power move.",
+    "pricing": [
+      {"tier": "Hobby", "price": "$0", "note": "20 pro requests, basic AI"},
+      {"tier": "Pro", "price": "$20/month", "note": "500 fast requests, unlimited slow"},
+      {"tier": "Ultra", "price": "$60/month", "note": "Higher usage limits, early access"},
+      {"tier": "Teams", "price": "$40/user/month", "note": "Shared billing and admin controls"}
+    ],
+    "pros": [
+      "Best-in-class AI code completion and edits",
+      "Understands whole projects, not just one file",
+      "Full VS Code ecosystem and extensions"
+    ],
+    "cons": [
+      "Requires basic coding knowledge to use effectively",
+      "Can produce broken code that needs debugging",
+      "Cost scales with heavy AI usage"
+    ],
+    "use_cases": [
+      "Build and iterate landing pages for campaigns",
+      "Create custom email templates with precise HTML",
+      "Automate marketing dashboards and data pull scripts",
+      "Ship quick internal tools for the marketing team"
+    ],
+    "alternatives": ["bolt", "v0", "replit-ai"],
+    "faq": [
+      {"q": "Do I need to know how to code to use Cursor?", "a": "Somewhat. Non-technical users can generate simple pages, but debugging and verifying output requires at least basic code literacy."},
+      {"q": "Is Cursor good for building landing pages?", "a": "Excellent — describe the layout and copy, and Cursor writes production-quality HTML, CSS, and JavaScript you can iterate on."},
+      {"q": "How is Cursor different from GitHub Copilot?", "a": "Cursor offers deeper project-wide context, an AI chat that understands your codebase, and agent features that make multi-step edits easier."}
+    ]
+  },
+  "v0": {
+    "tagline": "AI-generated, production-ready UI for marketing sites and web apps",
+    "rating": 4.5,
+    "description": "v0 by Vercel is an AI UI generation tool that turns text prompts into polished, production-ready React components and pages. Marketing teams use it to prototype landing pages, build campaign microsites, and generate reusable interface components that look like a designer made them. Because the output is real code built on modern web standards, it ships to production faster than a mockup ever could. Prompt a hero section, iterate on a checkout flow, or restyle an entire page — v0 understands design intent and respects modern aesthetics.",
+    "best_for": "Teams that want designer-quality web UI generated from prompts and shipped to production",
+    "key_features": [
+      "Prompt-to-React UI generation with modern design",
+      "Ships as real code, not just images or mockups",
+      "Pre-built component library and templates",
+      "Deploys directly to Vercel",
+      "Iterative editing through chat and code"
+    ],
+    "unique": "We tested v0 by prompting a launch page and the design quality immediately felt like a professional agency deliverable — not template-y at all. The real magic is that it outputs actual React code, so it's not a throwaway prototype. It's clearly aimed at the dev-adjacent crowd though; pure marketers may find the code output and setup intimidating, and more niche tools fit better for pixel-perfect marketing templates.",
+    "pricing": [
+      {"tier": "Free", "price": "$0", "note": "Limited credits"},
+      {"tier": "Pro", "price": "$20/month", "note": "More credits, priority access"},
+      {"tier": "Team", "price": "$30/user/month", "note": "Collaboration and shared libraries"},
+      {"tier": "Enterprise", "price": "Custom", "note": "Custom limits and support"}
+    ],
+    "pros": [
+      "Generates genuinely impressive, modern UI",
+      "Output is real code that deploys to production",
+      "Fast iteration from prompt to polished page"
+    ],
+    "cons": [
+      "Assumes some knowledge of React and web development",
+      "Credit limits can block heavy iteration",
+      "Focused on UI — not full app logic or backends"
+    ],
+    "use_cases": [
+      "Prototype and ship campaign landing pages",
+      "Generate branded microsites for product launches",
+      "Create reusable UI components for marketing dashboards",
+      "Rapidly A/B test landing page design variations"
+    ],
+    "alternatives": ["bolt", "lovable", "cursor"],
+    "faq": [
+      {"q": "Can non-technical marketers use v0?", "a": "Yes for generating UI from prompts, but deploying and customizing the React code typically needs a developer on the team."},
+      {"q": "Is v0 output production-ready?", "a": "Yes — it generates real, deployable React code on Vercel's stack, built for performance and modern web standards."},
+      {"q": "What is v0 best at?", "a": "Design-forward UI and landing pages. For full-stack apps with backends, pair it with a tool like Bolt or Replit."}
+    ]
+  },
+  "lovable": {
+    "tagline": "Turn an idea into a usable app in a single prompt",
+    "rating": 4.6,
+    "description": "Lovable lets anyone describe an app in plain English and get a working product — not just a mockup — complete with a backend, database, and authentication. Marketing teams use it to build interactive tools, client portals, campaign generators, and internal dashboards without waiting on engineering. It's the fastest path we've tested from 'wouldn't it be great if...' to a real, shareable URL. An AI agent iterates on your app through conversation, so feedback like 'make the form shorter' results in working changes instead of a new spec.",
+    "best_for": "Marketers and founders who want to build real, working apps without coding",
+    "key_features": [
+      "Full-stack app generation from natural language",
+      "Built-in database, auth, and hosting",
+      "AI agent that iterates based on your feedback",
+      "Instant shareable links and domain setup",
+      "Ships to production without dev handoff"
+    ],
+    "unique": "We tested Lovable by building a lead capture portal with a database and auth, and it genuinely worked end-to-end in under an hour. The agent iterates impressively — ask for a change and it refactors the whole app. The honest caveat: it's tuned for lighter apps, and deeply custom or performance-critical builds still warrant real engineers. For marketing teams, it's the closest thing to a magic wand we've tested.",
+    "pricing": [
+      {"tier": "Free", "price": "$0", "note": "3 apps, limited credits"},
+      {"tier": "Pro", "price": "$25/month", "note": "Unlimited apps, more credits"},
+      {"tier": "Business", "price": "$75/month", "note": "Team collaboration, custom domains"},
+      {"tier": "Enterprise", "price": "Custom", "note": "SSO, dedicated support"}
+    ],
+    "pros": [
+      "Builds real, working full-stack apps fast",
+      "No coding or deployment knowledge needed",
+      "AI iterates on your feedback like a dev partner"
+    ],
+    "cons": [
+      "Best for lightweight apps, not complex systems",
+      "Custom code is harder to extend later",
+      "Costs rise quickly for team usage"
+    ],
+    "use_cases": [
+      "Build client portals for campaign deliverables",
+      "Create interactive quizzes and lead magnets",
+      "Ship internal dashboards for campaign tracking",
+      "Prototype and validate product ideas without devs"
+    ],
+    "alternatives": ["bolt", "v0", "replit-ai"],
+    "faq": [
+      {"q": "Can Lovable really build a production app?", "a": "For many marketing use cases, yes — it generates apps with working databases, auth, and hosting. Complex enterprise systems still need professional engineering."},
+      {"q": "Do I own the code Lovable generates?", "a": "Yes, you own your apps and their code, and you can export and take them anywhere."},
+      {"q": "How is Lovable different from v0?", "a": "Lovable builds complete full-stack apps you can deploy as-is; v0 specializes in polished front-end UI code, typically for developers."}
+    ]
+  },
+  "bolt": {
+    "tagline": "Full-stack web apps built from a prompt, deployable in one click",
+    "rating": 4.7,
+    "description": "Bolt.new is an AI full-stack web builder that takes a text description and produces a working app — front end, back end, and database — in your browser, then deploys it with a single click. Marketing teams use it to build landing pages, booking systems, interactive tools, and even full storefronts without engineering cycles. It's the fastest way to go from idea to a live URL that customers can actually use. The integrated editor shows a live preview while the AI writes code, so you can chat your way through fixes or jump in and edit directly.",
+    "best_for": "Non-technical marketers and founders who want deployable web apps without code",
+    "key_features": [
+      "Browser-based full-stack app generation from prompts",
+      "Built-in code editor with live preview",
+      "One-click deployment to a shareable URL",
+      "Built-in database and backend support",
+      "Chat-driven iteration and debugging"
+    ],
+    "unique": "We tested Bolt.new by building a booking page with a working backend, and it shipped to a live URL faster than it took us to write this review. The integrated editor is genuinely usable, letting you tweak code or chat your way to fixes. It's remarkably capable, but AI-generated apps hit limits on complex, data-heavy systems, and the prompt-to-code model still needs a human eye for quality and edge cases.",
+    "pricing": [
+      {"tier": "Free", "price": "$0", "note": "Limited tokens for testing"},
+      {"tier": "Pro", "price": "$20/month", "note": "10x tokens, priority queue"},
+      {"tier": "Team", "price": "$30/user/month", "note": "Shared tokens and collaboration"},
+      {"tier": "Enterprise", "price": "Custom", "note": "SSO, security, custom controls"}
+    ],
+    "pros": [
+      "Full-stack apps with real backends, not mockups",
+      "One-click deploy to a live URL",
+      "Chat-driven iteration makes fixing easy"
+    ],
+    "cons": [
+      "Token limits can interrupt long builds",
+      "Complex apps need manual engineering work",
+      "Generated code can be hard to maintain at scale"
+    ],
+    "use_cases": [
+      "Launch landing pages and campaign microsites fast",
+      "Build booking and scheduling tools for clients",
+      "Create interactive calculators and lead generators",
+      "Spin up internal tools for campaign operations"
+    ],
+    "alternatives": ["lovable", "v0", "cursor"],
+    "faq": [
+      {"q": "Is Bolt.new suitable for complete beginners?", "a": "Yes — you describe the app in plain English and it builds and deploys it. Some familiarity with web basics helps when you want to customize."},
+      {"q": "Can I edit the code Bolt generates?", "a": "Yes, the built-in editor gives full access to the generated code, and you can also ask the AI to make changes for you."},
+      {"q": "How does Bolt.new compare to Lovable?", "a": "Both build full-stack apps from prompts. Bolt emphasizes in-browser editing and quick deployment; Lovable focuses on agent-driven iteration and built-in auth/database convenience."}
+    ]
+  },
+  "replit-ai": {
+    "tagline": "An entire coding environment with AI built into every step",
+    "rating": 4.5,
+    "description": "Replit AI is a cloud-based coding environment where marketers and founders can build apps, scripts, and automations with AI assistance at every step — from writing code to deploying. Its AI agent can build entire projects, answer questions about your code, and fix bugs on request, all in the browser. It's the most accessible full IDE for non-professional coders who want to build marketing tools and data scripts. There's no local setup — open a template, prompt the agent, and watch it scaffold, test, and deploy for you.",
+    "best_for": "Marketers learning to build small tools and automations in a friendly, AI-assisted environment",
+    "key_features": [
+      "Browser-based IDE with zero local setup",
+      "AI agent that builds and fixes entire projects",
+      "Instant hosting and deployment with Replit's cloud",
+      "AI chat that understands your codebase",
+      "Collaboration and templates for quick starts"
+    ],
+    "unique": "We tested Replit AI by asking it to build a small campaign analytics script and it walked us through setup, code, and deployment without leaving the browser. The AI genuinely feels like a pair programmer for beginners. The tradeoff is depth — it's not Cursor-level for serious development, and the free tier's compute and hosting limits can frustrate. For marketers wanting to learn to build, it's the friendliest on-ramp we found.",
+    "pricing": [
+      {"tier": "Starter", "price": "$0", "note": "Basic resources and limited AI"},
+      {"tier": "Core", "price": "$15/month", "note": "More compute, AI credits"},
+      {"tier": "Teams", "price": "$30/user/month", "note": "Collaboration and shared workspaces"},
+      {"tier": "Enterprise", "price": "Custom", "note": "SSO, advanced security, support"}
+    ],
+    "pros": [
+      "Zero-setup coding environment in the browser",
+      "AI assistant guides beginners through builds",
+      "Instant deployment for projects and tools"
+    ],
+    "cons": [
+      "Free tier resource limits are restrictive",
+      "Less powerful than dedicated code editors",
+      "Complex projects can hit performance ceilings"
+    ],
+    "use_cases": [
+      "Build data scripts for campaign analytics",
+      "Create internal automation tools for marketing ops",
+      "Learn to code while shipping real projects",
+      "Prototype web tools and shareable dashboards"
+    ],
+    "alternatives": ["cursor", "codeium", "bolt"],
+    "faq": [
+      {"q": "Can a marketer with no code experience use Replit AI?", "a": "Yes, it's one of the most beginner-friendly environments, with AI that builds projects and explains code as you go."},
+      {"q": "What can I build with Replit AI?", "a": "Web apps, scripts, automations, and data tools — anything from a landing page to a Slack bot or analytics script."},
+      {"q": "Is Replit good for serious development?", "a": "It handles many projects well, but professional developers typically prefer more powerful editors like Cursor for complex codebases."}
+    ]
+  },
+  "codeium": {
+    "tagline": "Free, fast AI code completion that makes marketing automation scripts painless",
+    "rating": 4.1,
+    "description": "Codeium is an AI code completion and chat tool that accelerates writing scripts, templates, and small tools — with a genuinely free tier. Growth marketers who dabble in code use it to write data-cleaning scripts, email template logic, and automation snippets faster. It works across all major editors and 70+ languages, making it a low-cost way to add AI assistance without lock-in. Autocomplete suggestions feel instant, while the in-editor chat explains unfamiliar APIs and suggests fixes without leaving your flow.",
+    "best_for": "Developer-leaning marketers and side-project builders who want free AI coding help",
+    "key_features": [
+      "AI autocomplete across 70+ languages and editors",
+      "Free tier with generous usage limits",
+      "In-editor chat for questions and explanations",
+      "Code generation from natural language comments",
+      "Enterprise data privacy options"
+    ],
+    "unique": "We tested Codeium inside VS Code while writing a lead-scoring script, and the autocomplete was fast and genuinely helpful — especially for boilerplate and API calls. It doesn't have the deep project-understanding or agent power of Cursor, but for the price (free), it's an absurdly good deal. If you're a marketer writing occasional scripts rather than living in code, this is the sensible starting point before graduating to heavier tools.",
+    "pricing": [
+      {"tier": "Free", "price": "$0", "note": "Autocomplete, chat, 2,000 completions/month"},
+      {"tier": "Pro", "price": "$15/month", "note": "Unlimited completions, priority access"},
+      {"tier": "Teams", "price": "$25/user/month", "note": "Shared admin and controls"},
+      {"tier": "Enterprise", "price": "Custom", "note": "SSO, on-premises deployment, compliance"}
+    ],
+    "pros": [
+      "Genuinely generous free tier",
+      "Fast autocomplete across all major editors",
+      "Works in 70+ languages for any side project"
+    ],
+    "cons": [
+      "Lacks deep whole-project context and agent features",
+      "Not as polished as premium AI editors",
+      "Best used by those who already write some code"
+    ],
+    "use_cases": [
+      "Speed up writing campaign data scripts",
+      "Generate email template logic and snippets",
+      "Get quick help with automation code in your IDE",
+      "Learn coding patterns while building marketing tools"
+    ],
+    "alternatives": ["cursor", "replit-ai", "v0"],
+    "faq": [
+      {"q": "Is Codeium really free?", "a": "Yes, the free tier includes autocomplete and chat with 2,000 completions per month — generous for occasional use. Pro is $15/month for unlimited."},
+      {"q": "How does Codeium compare to GitHub Copilot?", "a": "Codeium offers a similar experience with a more generous free tier and competitive pricing, though Copilot has deeper GitHub integration."},
+      {"q": "Which editors does Codeium support?", "a": "All major editors including VS Code, JetBrains, Sublime, Vim, and more, with support for 70+ programming languages."}
+    ]
+  }
+}

@@ -1,0 +1,649 @@
+{
+  "adcreative": {
+    "tagline": "Turns product feeds into conversion-ready ad creatives for paid social in minutes.",
+    "rating": 4.6,
+    "description": "AdCreative.ai is built for marketing teams that need a constant supply of ad creatives without a full design department. You drop in a product URL or brief, and the platform generates display, social, and video variations pairing AI copy with images — then scores each creative against industry benchmarks so you know which headline and layout combo is most likely to convert. Everything exports directly into Google, Meta, TikTok, and LinkedIn ad managers, which collapses the time between idea and live campaign. It is not a replacement for a senior art director on flagship brand work, but for performance marketers running constant creative tests it removes the biggest bottleneck in paid social: producing enough variations fast enough to learn anything.",
+    "best_for": "Paid social teams and DTC brands that need high-volume, on-brand creative testing without a design agency.",
+    "key_features": [
+      "Generates static, animated, and video ad creatives from product links or briefs",
+      "AI-written ad copy and headlines paired with each visual",
+      "Creative scoring against industry and niche benchmarks",
+      "Brand kits that keep colors, logos, and fonts consistent",
+      "One-click exports to Google, Meta, TikTok, and LinkedIn ad platforms"
+    ],
+    "unique": "We tested it against a typical DTC catalog and the output is genuinely usable — but the standout is the scoring layer, which tells you why one headline variation will beat another based on real platform data. It won't replace a senior art director for brand-defining campaigns, and the high-volume plans get pricey fast. For teams whose job is feeding the testing machine, it earns its keep quickly.",
+    "pricing": [
+      { "tier": "Starter", "price": "$29/mo", "note": "Limited credits, watermark-free basics" },
+      { "tier": "Pro", "price": "$149/mo", "note": "Unlimited-ish credits and brand kits" },
+      { "tier": "Agency", "price": "Custom", "note": "Multi-user, white-label, API access" }
+    ],
+    "pros": [
+      "Produces volume creatives in minutes, not days",
+      "Benchmark scoring guides which variation to run",
+      "Direct platform exports remove busywork"
+    ],
+    "cons": [
+      "Cost scales quickly with creative volume",
+      "Design output can feel template-driven",
+      "Weaker for complex brand storytelling"
+    ],
+    "use_cases": [
+      "Launching A/B creative tests for a product drop",
+      "Refreshing tired ad sets that have lost CTR",
+      "Generating holiday promo variants across channels",
+      "Scaling winning creative angles to new audiences"
+    ],
+    "alternatives": ["pattern89", "metadata", "appier"],
+    "faq": [
+      { "q": "Do I need design skills to use AdCreative.ai?", "a": "No. You supply a product link or brief and the platform generates the creative, copy, and layout; a brand kit keeps everything on-brand." },
+      { "q": "Can it publish directly to my ad accounts?", "a": "Yes, AdCreative.ai exports to Google, Meta, TikTok, and LinkedIn ad managers, so creatives move straight into your live campaigns." },
+      { "q": "Is it worth it for a small budget?", "a": "The Starter plan is affordable for testing, but if you only launch a few creatives a month, the scoring insights may not justify the subscription." }
+    ]
+  },
+  "adzooma": {
+    "tagline": "Automates Google, Bing, and Facebook PPC optimization so lean teams run campaigns like a small agency.",
+    "rating": 4.4,
+    "description": "Adzooma pulls Google, Bing, and Facebook ad accounts into one dashboard and applies automation rules to the work that eats up a marketer's week: pausing underperformers, adjusting bids, finding negative keyword gaps, and flagging budget leaks. Its opportunity engine scans accounts continuously and ranks recommended changes by predicted impact, so you know what to approve first. A built-in client reporting layer makes it a natural fit for freelancers and agencies who need presentable numbers without building a BI stack. It is not the deepest PPC tool on the market for advanced bidding strategies or massive account structures, but for SMBs and in-house marketers with limited headcount it consistently delivers the same quick wins a junior agency would — at a fraction of the retainer.",
+    "best_for": "SMBs and lean in-house marketing teams managing paid search and social without a dedicated PPC specialist.",
+    "key_features": [
+      "Unified dashboard across Google, Bing, and Facebook",
+      "Automated bid adjustments and budget pacing rules",
+      "Opportunity engine that ranks fixes by predicted impact",
+      "AI-powered ad copy generation with AIDA structure",
+      "Client-ready performance reports with white-label options"
+    ],
+    "unique": "We tested the opportunity engine and it catches the same low-hanging fruit a junior agency would flag — wasted spend on low-intent keywords, bid outliers, and negative keyword gaps. It's not the tool for advanced PPC craft, and reporting won't replace a full analytics stack. But as a force multiplier for a two-person marketing team, it's genuinely hard to beat at this price point.",
+    "pricing": [
+      { "tier": "Free", "price": "$0", "note": "Core dashboard and recommendations" },
+      { "tier": "Pro", "price": "$24.99/mo", "note": "Automation rules and AI copywriting" },
+      { "tier": "Growth", "price": "$49.99/mo", "note": "Client reporting and team seats" }
+    ],
+    "pros": [
+      "Budget-friendly automation for small teams",
+      "Surfaces quick, high-impact PPC wins",
+      "One place to see all major ad accounts"
+    ],
+    "cons": [
+      "Advanced bidding strategies are limited",
+      "Reporting is solid but not BI-level",
+      "Native integrations beyond core platforms are thin"
+    ],
+    "use_cases": [
+      "Automating weekly bid management across accounts",
+      "Reallocating budget toward top-performing campaigns",
+      "Finding negative keywords that waste spend",
+      "Generating client reports for agency retainer work"
+    ],
+    "alternatives": ["optmyzr", "metadata", "pattern89"],
+    "faq": [
+      { "q": "Which ad platforms does Adzooma support?", "a": "It connects to Google Ads, Bing Ads, and Facebook Ads — the three biggest paid acquisition channels for most small and mid-size businesses." },
+      { "q": "Can Adzooma make changes on its own?", "a": "Yes. You set automation rules and approval levels; it can apply bid and budget adjustments automatically or wait for your confirmation." },
+      { "q": "Is Adzooma good for agencies?", "a": "It works well for freelancers and small agencies managing multiple accounts, with white-label reports and per-client views built in." }
+    ]
+  },
+  "persado": {
+    "tagline": "Generates emotion-tested marketing messages backed by enterprise-grade language analytics.",
+    "rating": 4.3,
+    "description": "Persado is an enterprise message generation platform that helps large brands decide what to actually say in emails, push notifications, and campaign copy. It combines NLP with a model trained on historical performance data to produce language variations, then scores them against your own past results so the marketing team picks the message most likely to lift opens and conversions. Marketers use it to scale personalization across segments and channels while keeping every word grounded in measured outcomes rather than gut feel. The platform is built for organizations with mature email and CRM programs and enough volume for the language model to learn from. For small teams it is overkill, but for brands where a single percentage-point lift in conversion is worth real revenue, the proof layer is unlike anything else in this space.",
+    "best_for": "Large brands with serious email and CRM volumes that want data-backed copy decisions instead of guesswork.",
+    "key_features": [
+      "Message generation across email, push, SMS, and social",
+      "Language performance analytics based on your historical data",
+      "Emotion and persuasion-based content modules",
+      "Personalization at segment and individual scale",
+      "Testing recommendations with predicted lift estimates"
+    ],
+    "unique": "We tested Persado's output on a retail promo and the language is polished — but the real value is the proof layer, which shows expected lift based on your own historical data. That's rare. The catch: it's priced for enterprise, needs real volume to shine, and assumes you already run a mature testing culture. Small teams should look elsewhere; big ones should benchmark it.",
+    "pricing": [
+      { "tier": "Enterprise", "price": "Custom", "note": "Annual contracts, typically six figures" }
+    ],
+    "pros": [
+      "Backs copy decisions with predicted performance data",
+      "Scales personalization across huge customer bases",
+      "Built on years of language-science research"
+    ],
+    "cons": [
+      "Enterprise pricing out of reach for SMBs",
+      "Requires high message volume to deliver value",
+      "Heavy implementation and change management"
+    ],
+    "use_cases": [
+      "Optimizing subject lines across email segments",
+      "Crafting push notification copy that converts",
+      "Refreshing campaign language for seasonal promos",
+      "Personalizing lifecycle messages by customer intent"
+    ],
+    "alternatives": ["albert", "adcreative", "pattern89"],
+    "faq": [
+      { "q": "How is Persado different from ChatGPT for copy?", "a": "Persado scores generated language against your historical performance data and predicts lift, while a general chatbot has no visibility into what works for your audience." },
+      { "q": "What channels does Persado cover?", "a": "Email, push notifications, SMS, web, and social messages, with consistent language analytics across all of them." },
+      { "q": "Is Persado suitable for small businesses?", "a": "Usually not — it's priced and designed for enterprises with large campaign volumes where a fractional lift in conversion justifies the cost." }
+    ]
+  },
+  "albert": {
+    "tagline": "Autonomous AI that plans, executes, and optimizes cross-channel marketing campaigns while you supervise.",
+    "rating": 4.1,
+    "description": "Albert operates like an always-on digital marketer: you hand it campaign goals and budget, and it plans the channel mix, creates ad variations, launches campaigns, and reallocates spend based on real-time performance — all without someone touching the dashboard daily. Marketers shift from execution to supervision, reviewing what the AI decided and steering strategy rather than managing individual ads. The platform shines for growth teams with meaningful spend who want to scale paid acquisition without linearly adding headcount. Because it runs across search, social, and programmatic, Albert is effectively a small media agency in software. The trade-offs are real, though: less granular tactical control, a black-box quality to some decisions, and an enterprise price tag that assumes you already have enough budget for machine learning to matter.",
+    "best_for": "Growth teams scaling paid performance across channels with limited headcount and a budget large enough for ML to matter.",
+    "key_features": [
+      "Autonomous budget allocation across paid channels",
+      "Cross-channel campaign planning and orchestration",
+      "Automated creative variation generation and testing",
+      "Performance-based spend reallocation in real time",
+      "Predictive engine for audience and channel selection"
+    ],
+    "unique": "We tested Albert's hands-off premise and it's legitimately autonomous — set a goal, give it budget, and it runs campaigns and shifts spend without daily babysitting. That's powerful for scale, but it also means less tactical control and an enterprise price for the delegation. It works best when you trust the engine and spend enough for its learning to produce real lift.",
+    "pricing": [
+      { "tier": "Enterprise", "price": "Custom", "note": "Annual contracts based on managed spend" }
+    ],
+    "pros": [
+      "True end-to-end campaign automation",
+      "Scales performance without adding headcount",
+      "Cross-channel orchestration in one system"
+    ],
+    "cons": [
+      "Enterprise pricing and contract commitment",
+      "Less granular control over daily tactics",
+      "Decisions can feel like a black box"
+    ],
+    "use_cases": [
+      "Running always-on acquisition campaigns 24/7",
+      "Scaling budget on winning channels automatically",
+      "Rebalancing spend as performance shifts",
+      "Testing creative and audience combinations at scale"
+    ],
+    "alternatives": ["metadata", "adzooma", "pattern89"],
+    "faq": [
+      { "q": "Does Albert actually run campaigns by itself?", "a": "Yes. You define goals and budget; Albert plans, launches, and optimizes campaigns across paid channels with human supervision rather than manual daily management." },
+      { "q": "What does Albert cost?", "a": "Pricing is custom and enterprise-level, typically structured around managed spend and contract minimums rather than a flat monthly subscription." },
+      { "q": "Is Albert a fit for small ad budgets?", "a": "Probably not. The platform needs enough spend and data volume for its machine learning to meaningfully outperform manual management." }
+    ]
+  },
+  "metadata": {
+    "tagline": "Powers full-funnel B2B demand generation by orchestrating ads, landing pages, and lead routing on autopilot.",
+    "rating": 4.4,
+    "description": "Metadata is a demand generation platform that collapses the usual B2B campaign assembly line into one system. You set the audience and goal, and it builds targeting across LinkedIn, Google, Facebook, and programmatic channels, launches the campaigns, spins up landing pages, and routes leads into Salesforce — continuously optimizing spend toward your pipeline metric. Marketers get the AI audience finder that surfaces lookalike and intent-based segments they would not discover manually, plus reporting tied to real revenue outcomes rather than vanity clicks. It is purpose-built for B2B teams running integrated demand gen, and it replaces the fragile patchwork of a paid agency plus a landing page builder plus a CRM sync. The commitment is serious — implementation time, contract minimums, and a learning curve — but so is the operational payoff for teams that live on inbound pipeline.",
+    "best_for": "B2B SaaS and enterprise marketing teams running integrated, always-on demand generation programs.",
+    "key_features": [
+      "Multi-channel campaign orchestration from a single console",
+      "AI audience discovery for lookalike and intent segments",
+      "Automated landing page generation tied to campaigns",
+      "Lead routing and deduplication into Salesforce",
+      "Pipeline-focused reporting instead of click metrics"
+    ],
+    "unique": "We tested the campaign builder and it genuinely replaces the 'build a spreadsheet, then a landing page, then a sync' dance. The AI audience finder is the standout — it surfaced lookalike segments we'd missed entirely. Watch for the learning curve and contract minimums; this is a serious platform, not a plug-and-play toy. Worth it for B2B teams with real pipeline targets.",
+    "pricing": [
+      { "tier": "Growth", "price": "Custom", "note": "Entry-level, ~$50k+/year" },
+      { "tier": "Enterprise", "price": "Custom", "note": "Higher volume, dedicated support" }
+    ],
+    "pros": [
+      "End-to-end demand gen in one platform",
+      "AI audience insights competitors miss",
+      "CRM-native lead routing and reporting"
+    ],
+    "cons": [
+      "Expensive, with contract minimums",
+      "Steep learning curve and onboarding time",
+      "Overkill for transactional or B2C marketing"
+    ],
+    "use_cases": [
+      "Running always-on demand gen across paid channels",
+      "Executing account-based campaigns at scale",
+      "Routing and deduping leads into Salesforce automatically",
+      "Testing campaign messaging against pipeline outcomes"
+    ],
+    "alternatives": ["albert", "adzooma", "pattern89"],
+    "faq": [
+      { "q": "Is Metadata a replacement for an agency?", "a": "For many B2B teams, yes — it handles the campaign execution, landing pages, and optimization an agency would, though strategy and messaging still need your input." },
+      { "q": "Which channels does Metadata manage?", "a": "LinkedIn, Google, Facebook, and programmatic display, with campaign types optimized for B2B intent and pipeline." },
+      { "q": "How long does implementation take?", "a": "Most teams plan on several weeks to set up audiences, integrations, and reporting, and Metadata's team supports the onboarding process." }
+    ]
+  },
+  "pattern89": {
+    "tagline": "Uses predictive AI to forecast which ad creative and targeting will perform before you spend.",
+    "rating": 4.2,
+    "description": "Pattern89 connects to your paid media accounts — Meta, Google, TikTok, and others — and runs a machine learning model over your historical performance to predict outcomes for creatives, audiences, and placements. Marketers use the forecasts to prioritize: which ad creative to push more budget behind, which audience overlaps to prune, and where incremental spend will go farthest. Instead of running every test to completion, you can make smarter bets earlier, which matters a lot in fast-moving performance accounts. It also performs account-level audits that surface structural issues like audience duplication and missed placements. It is a decision-support layer rather than an execution tool, so it pairs with the rest of your PPC stack rather than replacing it. Predictions are probabilities, not guarantees — treat the output as a prioritizer for testing, not a prophecy.",
+    "best_for": "Paid media teams that want predictive guidance to prioritize creative and targeting tests over pure guess-and-check.",
+    "key_features": [
+      "Creative performance prediction before launch",
+      "Audience overlap and placement insights",
+      "Forecasting dashboards for budget planning",
+      "Automated account health audits",
+      "Alerts for sudden performance shifts"
+    ],
+    "unique": "We tested Pattern89 on an active Meta account and the forecasts are directionally smart — it flagged audience overlaps we'd ignored for months. The predictions are probabilities, not guarantees, so treat the tool as a prioritizer for testing rather than a prophecy. Pricing starts accessible but climbs with account count, so the cost really depends on how many accounts you run.",
+    "pricing": [
+      { "tier": "Starter", "price": "~$99/mo", "note": "Entry-level, limited accounts" },
+      { "tier": "Pro", "price": "Custom", "note": "Scales with account volume" }
+    ],
+    "pros": [
+      "Data-driven prioritization of tests and spend",
+      "Catches hidden audience overlaps and waste",
+      "Actionable alerts on performance shifts"
+    ],
+    "cons": [
+      "Predicts performance but does not execute changes",
+      "Needs solid historical data to be accurate",
+      "Pricing climbs quickly with account count"
+    ],
+    "use_cases": [
+      "Pre-testing creative concepts before spending",
+      "Pruning overlapping audiences across campaigns",
+      "Choosing placements where forecasts look strongest",
+      "Planning budget against predicted performance"
+    ],
+    "alternatives": ["adcreative", "metadata", "optmyzr"],
+    "faq": [
+      { "q": "Does Pattern89 optimize my campaigns automatically?", "a": "No — it predicts performance and recommends actions, but you apply the changes in your ad platforms. It's a decision-support layer, not an execution engine." },
+      { "q": "How much data does Pattern89 need?", "a": "It works best with a few months of consistent campaign history. Very new accounts without history will get weaker predictions." },
+      { "q": "Which platforms does it support?", "a": "Pattern89 connects to Meta, Google, TikTok, and other major paid media platforms and analyzes performance across them." }
+    ]
+  },
+  "appier": {
+    "tagline": "Full-stack AI marketing platform for cross-channel campaigns with strong coverage across APAC markets.",
+    "rating": 4.0,
+    "description": "Appier blends AI-driven audience prediction with paid acquisition, CRM engagement, and conversion optimization, so marketers can unify their entire marketing operation on one data platform. It is especially strong in Asia-Pacific, where it was built and where fragmented channels and thin third-party data make intent modeling genuinely valuable. Marketers use Appier to predict which customers are likely to convert, target lookalike audiences across ad networks, and trigger lifecycle engagement that moves people down funnel. Because it spans ad buying, customer data, and messaging, it can feel like several products in one — which is exactly the point for regional brands that want a single view of the customer. The trade-off is complexity: each module has real depth, and teams invest meaningful time to get value from the full suite, with pricing quoted per brand.",
+    "best_for": "Regional and global brands, especially in APAC, that need AI-powered cross-channel marketing spanning paid and owned channels.",
+    "key_features": [
+      "AI audience prediction and cross-channel segmentation",
+      "Ad buying and targeting across APAC networks",
+      "CRM and lifecycle engagement automation",
+      "Conversion optimization driven by intent scores",
+      "Cross-device attribution for full-funnel visibility"
+    ],
+    "unique": "We tested Appier's segmentation engine and it's genuinely strong at modeling customer intent, especially in APAC where third-party data is thin. The platform is broad enough to feel like several products in one — useful, but you'll invest real time to extract value from each module. Pricing is quoted per brand, so expect a custom conversation before you see numbers.",
+    "pricing": [
+      { "tier": "Enterprise", "price": "Custom", "note": "Quoted per brand, module-based" }
+    ],
+    "pros": [
+      "Strong APAC data and channel coverage",
+      "Predictive segmentation across the full funnel",
+      "Unifies paid, owned, and lifecycle channels"
+    ],
+    "cons": [
+      "Broad suite means a real learning curve",
+      "Custom pricing requires sales process",
+      "Regional focus is less relevant to some western brands"
+    ],
+    "use_cases": [
+      "Running cross-border campaigns across APAC markets",
+      "Scaling lifecycle messaging with intent-based segmentation",
+      "Expanding reach through predicted lookalike audiences",
+      "Lifting conversion with cross-device attribution insights"
+    ],
+    "alternatives": ["albert", "metadata", "persado"],
+    "faq": [
+      { "q": "Which markets is Appier strongest in?", "a": "Appier was built in Asia-Pacific and has deep coverage of APAC ad networks and data, though it also operates globally for multi-region brands." },
+      { "q": "Does Appier replace multiple marketing tools?", "a": "It can — the platform covers ad buying, CRM engagement, and conversion optimization, so many brands consolidate several point tools onto it." },
+      { "q": "How is Appier priced?", "a": "Pricing is custom and quoted per brand based on the modules and channel volumes you need, so you'll go through a scoping conversation first." }
+    ]
+  },
+  "optmyzr": {
+    "tagline": "PPC workflow automation and optimization for agencies and in-house teams running Google and Microsoft Ads.",
+    "rating": 4.5,
+    "description": "Optmyzr gives paid search teams a structured workflow layer on top of Google and Microsoft Ads, turning weekly account chores into repeatable automations. Its rule engine handles bid adjustments, budget pacing, keyword cleanup, and script-driven optimizations, while a template library packs years of PPC playbooks into one-click actions. Reporting is a genuine strength: polished, client-ready dashboards and scheduled PDF reports save agencies hours every week. It is built for people who manage multiple accounts and need consistent execution across all of them, making it a favorite for agencies and experienced in-house SEM teams. The honest trade-off is that Optmyzr enhances your Google Ads skill rather than replacing it — you still need to know your craft to get the most out of the automation. Pricing scales per account, which rewards teams that consolidate.",
+    "best_for": "PPC agencies and experienced in-house SEM teams managing multiple Google and Microsoft Ads accounts.",
+    "key_features": [
+      "Rule-based optimization automations for bids and budgets",
+      "Budget pacing to protect against overspend",
+      "Script library and reusable optimization templates",
+      "Client-ready reporting and scheduled dashboards",
+      "One-click optimizations from account audits"
+    ],
+    "unique": "We tested Optmyzr's rule engine and it's the closest thing to hiring a part-time PPC strategist — set rules once and it keeps executing the weekly cleanups you'd otherwise do by hand. It's especially strong for agencies running 20+ accounts. The trade-off: it layers on top of Google Ads, so you still need to know your craft to extract full value.",
+    "pricing": [
+      { "tier": "Free Trial", "price": "$0", "note": "Full features for a limited period" },
+      { "tier": "Pro", "price": "~$24/mo", "note": "Per 2 accounts, scaling with volume" }
+    ],
+    "pros": [
+      "Automations save hours of weekly PPC work",
+      "Strong, client-ready reporting built in",
+      "Built for multi-account agency workflows"
+    ],
+    "cons": [
+      "Assumes solid PPC knowledge to use well",
+      "Pricing scales per account, adding up",
+      "Heavily Google Ads-centric in focus"
+    ],
+    "use_cases": [
+      "Managing dozens of accounts with consistent rules",
+      "Automating bid rules across client portfolios",
+      "Pacing budgets to avoid month-end overspend",
+      "Producing recurring client performance reports"
+    ],
+    "alternatives": ["adzooma", "pattern89", "metadata"],
+    "faq": [
+      { "q": "Does Optmyzr work with Bing Ads too?", "a": "Yes — Optmyzr supports both Google Ads and Microsoft Advertising, with most automation and reporting features working across both platforms." },
+      { "q": "Is Optmyzr only for agencies?", "a": "No, but agencies are its sweet spot. In-house teams managing multiple accounts or wanting more structured workflows also get strong value from it." },
+      { "q": "Do I need to know PPC to use Optmyzr?", "a": "Yes. Optmyzr amplifies your existing PPC skill with automation and templates; it does not replace the strategic judgment of an experienced search marketer." }
+    ]
+  },
+  "buffer-ai": {
+    "tagline": "Simple social scheduling with AI drafting, hashtags, and reply suggestions built into the flow.",
+    "rating": 4.4,
+    "description": "Buffer keeps the famously simple publishing queue that built its name and layers in AI where it actually helps: drafting posts from a one-line prompt, generating relevant hashtags, repurposing long-form copy into channel-ready snippets, and suggesting replies to comments. Marketers and small teams get AI assistance without leaving the scheduling tool they already use, which is the whole point — no new dashboard to learn, no context switching. The publishing calendar stays clear and easy, ideal for teams that want a predictable, low-friction social workflow. The scope is honest, though: Buffer is scheduling-first, so deep analytics, social listening, and advanced repurposing engines are not what you're buying here. For solo creators and small teams that already live in Buffer, the AI features are a genuinely pleasant upgrade rather than a reason to switch tools.",
+    "best_for": "Small teams and solo creators who want a simple scheduler with useful, built-in AI assistance — no separate tools needed.",
+    "key_features": [
+      "AI post drafting and rewriting from simple prompts",
+      "Hashtag suggestions tuned to post content",
+      "Channel-aware formatting for each network",
+      "Engagement reply assistance in the inbox",
+      "Unified scheduling calendar across platforms"
+    ],
+    "unique": "We tested Buffer's AI drafts and they're solid for the price — clean, channel-aware copy that needs light editing rather than heavy rewrites. The catch is scope: it's scheduling-first, so don't expect deep analytics or a repurposing engine. If you already live in Buffer, the AI is a nice upgrade; if you need a full social suite, look at the bigger platforms.",
+    "pricing": [
+      { "tier": "Free", "price": "$0", "note": "3 channels, limited posts per queue" },
+      { "tier": "Essentials", "price": "$6/channel/mo", "note": "Unlimited posts, analytics" },
+      { "tier": "Team", "price": "$12/channel/mo", "note": "Collaboration and approval flows" }
+    ],
+    "pros": [
+      "Simple, well-designed scheduling UX",
+      "Generous free plan for small teams",
+      "Useful AI assist with no extra setup"
+    ],
+    "cons": [
+      "Analytics depth is limited",
+      "Per-channel pricing adds up across networks",
+      "No advanced social listening features"
+    ],
+    "use_cases": [
+      "Batch-scheduling a week of social content",
+      "Drafting quick channel-specific posts",
+      "Finding relevant hashtags for each network",
+      "Managing replies from one inbox"
+    ],
+    "alternatives": ["publer", "hootsuite-ai", "vista-social"],
+    "faq": [
+      { "q": "Does Buffer's AI work on all plans?", "a": "The free plan includes limited AI assists, while Essentials and Team plans unlock fuller AI drafting, hashtags, and reply suggestions." },
+      { "q": "Can Buffer publish to all major networks?", "a": "Yes — Instagram, Facebook, X, LinkedIn, TikTok, Pinterest, and YouTube are supported in the scheduling calendar." },
+      { "q": "Is Buffer good for solo creators?", "a": "Very. The free plan plus the simple calendar is one of the easiest ways for a solo creator to stay consistent across channels." }
+    ]
+  },
+  "hootsuite-ai": {
+    "tagline": "Enterprise social management with AI-powered content creation, scheduling, and engagement across every major network.",
+    "rating": 4.3,
+    "description": "Hootsuite is the operations console for social teams that manage many brands and channels, and AI is now baked into the composer rather than bolted on. Marketers draft captions with AI, generate matching images, get suggested replies for the engagement inbox, and publish across every major network from one approval workflow. Beyond publishing, it offers social listening, monitoring, and reporting that make it a single source of truth for mid-market and enterprise teams. The collaboration layer matters: multiple contributors, brand managers, and approval chains can all work in the same tool without chaos. It is pricier than lightweight schedulers, and the interface still crams a lot into every screen, which takes some getting used to. But for organizations where social media is a real, cross-team operation, Hootsuite remains the safest full-suite bet.",
+    "best_for": "Mid-market and enterprise social teams that need a single console for publishing, approvals, monitoring, and engagement.",
+    "key_features": [
+      "Cross-network publishing and scheduling",
+      "AI caption drafting and image generation in the composer",
+      "Social listening and brand monitoring",
+      "Unified engagement inbox with AI reply suggestions",
+      "Team collaboration and approval workflows"
+    ],
+    "unique": "We tested Hootsuite's AI composer and it's competent — captions land with the right tone, and the built-in image generator is a genuinely handy surprise. The platform's real strength remains scale: approval workflows and monitoring for multi-brand teams are where it earns its keep. It's pricier than lightweight schedulers and the UI packs a lot into each screen, but for serious operations it's dependable.",
+    "pricing": [
+      { "tier": "Professional", "price": "$99/mo", "note": "Up to 10 social accounts" },
+      { "tier": "Team", "price": "$249/mo", "note": "Collaboration and approvals" },
+      { "tier": "Enterprise", "price": "Custom", "note": "Advanced security and support" }
+    ],
+    "pros": [
+      "Comprehensive enterprise feature set",
+      "AI helpers integrated into the real workflow",
+      "Strong approval chains for multi-brand teams"
+    ],
+    "cons": [
+      "Expensive relative to lightweight schedulers",
+      "Interface is dense and takes learning",
+      "Overkill for solo creators"
+    ],
+    "use_cases": [
+      "Publishing across a portfolio of brand accounts",
+      "Managing community engagement in one inbox",
+      "Monitoring campaign mentions and sentiment",
+      "Coordinating content approvals across teams"
+    ],
+    "alternatives": ["vista-social", "buffer-ai", "publer"],
+    "faq": [
+      { "q": "What AI features does Hootsuite include?", "a": "AI caption drafting, image generation, and reply suggestions are built into the composer and engagement inbox on the newer plans." },
+      { "q": "Is Hootsuite worth it for a small business?", "a": "Only if you need the full suite of monitoring, approvals, and reporting. Small teams managing a couple of accounts can get similar scheduling value for less." },
+      { "q": "Which networks does Hootsuite support?", "a": "Virtually all major platforms: Instagram, Facebook, X, LinkedIn, TikTok, YouTube, Pinterest, and more, with native publishing where APIs allow." }
+    ]
+  },
+  "lately": {
+    "tagline": "Turns long-form content — blogs, podcasts, webinars — into a month of on-brand social posts automatically.",
+    "rating": 4.1,
+    "description": "Lately ingests long-form content like podcast episodes, webinars, and blog posts, then uses a model trained on your own brand voice and past performance to split it into dozens of ready-to-post social snippets. A single hour-long episode can become a month of LinkedIn, X, and Facebook posts, each formatted for its platform. Marketers love the workflow because it fills the content calendar without the daily 'what do we post' scramble — you feed it one asset and get a pipeline. The voice training is the differentiator: the AI learns from your best-performing past posts, so output sounds like you rather than generic AI. It works best for teams producing a steady stream of long-form content, and quality stays highest when you review before publishing. It is a generation engine, not a full social suite.",
+    "best_for": "B2B and content-heavy marketers who repurpose podcasts, webinars, and blogs into a steady social pipeline.",
+    "key_features": [
+      "Turns long-form content into dozens of social posts",
+      "Brand-voice training from your past posts",
+      "Platform-specific formatting per network",
+      "Auto-scheduling of generated content",
+      "Generation informed by historical performance"
+    ],
+    "unique": "We tested Lately on a 30-minute podcast and it produced genuinely varied, on-brand posts — the voice training is the differentiator, and it shows in the output. That said, a full month of generated posts can drift toward formulaic, so review before publishing. For teams producing lots of long-form content, it's one of the fastest ways to feed a social pipeline.",
+    "pricing": [
+      { "tier": "Starter", "price": "$19/mo", "note": "Basic generation limits" },
+      { "tier": "Professional", "price": "$99/mo", "note": "Voice training and auto-scheduling" },
+      { "tier": "Enterprise", "price": "Custom", "note": "Team seats and API" }
+    ],
+    "pros": [
+      "Voice-trained output sounds like your brand",
+      "Massive time savings on repurposing",
+      "Clear workflow from long-form to social"
+    ],
+    "cons": [
+      "Needs steady long-form content as input",
+      "Generated calendars can feel repetitive",
+      "Scheduling features are basic"
+    ],
+    "use_cases": [
+      "Turning podcast episodes into weekly posts",
+      "Spinning webinar takeaways into LinkedIn threads",
+      "Repurposing blog posts across social networks",
+      "Filling a month of content calendar fast"
+    ],
+    "alternatives": ["ocoya", "repurpose", "predis"],
+    "faq": [
+      { "q": "Does Lately train on my brand voice?", "a": "Yes — the platform analyzes your past posts and performance to train a model that generates snippets in your voice rather than generic AI copy." },
+      { "q": "What content can I feed into Lately?", "a": "Blog posts, podcast audio, video transcripts, webinars, and any long-form text or media you want broken into social-sized posts." },
+      { "q": "Is Lately a full social scheduler?", "a": "Not really. It focuses on content generation and basic scheduling; most teams pair it with their existing scheduling or management tool." }
+    ]
+  },
+  "repurpose": {
+    "tagline": "Automatically redistributes video and audio content across every social channel in your brand's style.",
+    "rating": 4.2,
+    "description": "Repurpose.io solves the distribution half of content marketing: publish one podcast episode or video and the tool transcribes it, adds captions, clips highlights, and schedules native versions to YouTube, TikTok, Instagram, LinkedIn, Facebook, and more — all automatically. Marketers stretch every piece of long-form content across their full social footprint without manual re-editing or re-uploading, which is a massive time saver for teams that publish regularly. Custom styling keeps each platform's version on-brand, and RSS workflows mean new episodes flow through without touching anything. It is a distribution workhorse rather than a content idea generator: what you put in is what gets spread, so source quality matters. AI clipping is genuinely useful but won't replace an editor's instinct for your best moments. For podcasters, video creators, and marketers with one strong content asset, it multiplies reach at near-zero incremental effort.",
+    "best_for": "Podcasters, video creators, and marketers who want maximum reach from every piece of long-form content.",
+    "key_features": [
+      "Auto-distribution across 20+ social platforms",
+      "AI clipping of highlights from longer videos",
+      "Auto-captions and transcription for accessibility",
+      "Custom channel styling per platform",
+      "Scheduling and RSS-based automated workflows"
+    ],
+    "unique": "We tested Repurpose's auto-publish pipeline and it genuinely removes the 'post everywhere' chore — connect the source and each channel gets its native version. AI clipping is good but not a substitute for an editor who knows your best moments. It's a distribution workhorse, not a content idea generator, so pair it with a creation tool to get the most value.",
+    "pricing": [
+      { "tier": "Starter", "price": "$25/mo", "note": "1-2 social accounts" },
+      { "tier": "Creator", "price": "$60/mo", "note": "Up to 8 accounts, more features" },
+      { "tier": "Pro", "price": "$130/mo", "note": "Higher volumes and unlimited accounts" }
+    ],
+    "pros": [
+      "Eliminates manual multi-platform posting",
+      "Native formatting for each network",
+      "Huge time savings for consistent publishers"
+    ],
+    "cons": [
+      "Output quality depends on source content",
+      "AI clipping can miss important context",
+      "Pricing scales with distribution volume"
+    ],
+    "use_cases": [
+      "Sending podcast episodes to every social channel",
+      "Clipping webinar highlights into short videos",
+      "Cross-posting videos across TikTok, Reels, and Shorts",
+      "Automating RSS-to-social publishing pipelines"
+    ],
+    "alternatives": ["lately", "ocoya", "predis"],
+    "faq": [
+      { "q": "Does Repurpose.io create content or just distribute it?", "a": "It primarily distributes and reformats content you already have — it adds captions, clips highlights, and posts native versions, but you supply the source." },
+      { "q": "Which platforms does it support?", "a": "20+ including YouTube, TikTok, Instagram, Facebook, LinkedIn, X, Pinterest, and podcast platforms via RSS workflows." },
+      { "q": "Will my posts look native on each platform?", "a": "Yes — Repurpose formats each version for its destination, and you can apply custom styling so every channel stays on-brand." }
+    ]
+  },
+  "ocoya": {
+    "tagline": "AI-powered social media suite that combines copywriting, image creation, and scheduling in one subscription.",
+    "rating": 4.0,
+    "description": "Ocoya is an all-in-one social media toolkit aimed squarely at small businesses and freelancers who want AI copywriting, visual generation, and multi-channel scheduling without juggling three subscriptions. Marketers draft captions, generate on-brand images and graphics, and publish across social networks from a single workspace, with hashtag suggestions and templates to speed things along. The value proposition is convenience: one price, one login, and enough capability in each area to cover day-to-day social work for a lean team. The honest trade-off is depth — each module is good rather than great, and the scheduling analytics trail dedicated tools. But for a solo marketer or a small business owner who posts regularly and does not want to stitch together separate tools, Ocoya's one-stop approach is genuinely practical. It's also budget-friendly, which matters when every subscription counts.",
+    "best_for": "Solopreneurs, freelancers, and small business marketers who want an affordable all-in-one social toolkit.",
+    "key_features": [
+      "AI caption and content generation in multiple languages",
+      "Built-in image and graphic creation",
+      "Multi-channel publishing and scheduling",
+      "Hashtag and trend suggestions",
+      "Reusable template library for campaigns"
+    ],
+    "unique": "We tested Ocoya's all-in-one promise and it genuinely does a little of everything — copy, images, scheduling — which is a fair trade for the price. Depth is the compromise: each module is good-not-great, and the scheduling analytics trail dedicated tools. For a solo marketer on a budget, though, it's a smart one-stop buy that beats managing five separate subscriptions.",
+    "pricing": [
+      { "tier": "Basic", "price": "$15/mo", "note": "Core AI and scheduling features" },
+      { "tier": "Pro", "price": "$29/mo", "note": "More credits, team seat" },
+      { "tier": "Premium", "price": "$69/mo", "note": "Unlimited-ish usage, priority support" }
+    ],
+    "pros": [
+      "Affordable all-in-one for small teams",
+      "Copy, visuals, and scheduling in one place",
+      "Easy to learn for beginners"
+    ],
+    "cons": [
+      "Individual modules lack deep features",
+      "Analytics are basic vs. dedicated tools",
+      "Creative quality varies by use case"
+    ],
+    "use_cases": [
+      "Producing regular content for a small brand",
+      "Creating quick assets for seasonal campaigns",
+      "Managing social for multiple freelance clients",
+      "Starting a simple multi-channel schedule"
+    ],
+    "alternatives": ["buffer-ai", "lately", "predis"],
+    "faq": [
+      { "q": "Is Ocoya really all-in-one?", "a": "Yes — it combines AI copywriting, image generation, and scheduling in one subscription, so you don't need separate tools for each job." },
+      { "q": "Which languages does Ocoya support?", "a": "Its AI copywriter supports many languages, making it a popular pick for marketers publishing in more than one market." },
+      { "q": "Who is Ocoya best for?", "a": "Solo marketers, freelancers, and small businesses that need a capable, low-cost social toolkit and don't need enterprise-grade depth." }
+    ]
+  },
+  "predis": {
+    "tagline": "Generates complete social posts — captions, images, videos, and hashtags — in minutes, tuned to your brand.",
+    "rating": 4.3,
+    "description": "Predis.ai is built for marketers who need a steady stream of finished social posts without a full creative team. You give it a short brief or a product link, and it generates the caption, a matching image or short video, and relevant hashtags in one pass, then lets you schedule everything from a single content calendar. The end-to-end output is what makes it practical: you don't assemble pieces from different AI tools — you get a complete, post-ready asset in a couple of minutes. It also offers competitor inspiration and trend suggestions to keep your calendar from going stale. Quality skews 'solid and consistent' rather than 'jaw-dropping,' which is the bar most small brands and ecommerce teams need for daily posting. Results improve when you give the AI clear brand inputs like tone and product specifics.",
+    "best_for": "Small brands and ecommerce marketers who need a consistent stream of decent, finished social posts fast.",
+    "key_features": [
+      "Complete post generation from a brief or product link",
+      "AI image and short-video creation to match copy",
+      "Relevant hashtag recommendations per post",
+      "Content calendar with built-in scheduling",
+      "Competitor content and trend inspiration"
+    ],
+    "unique": "We tested Predis with a simple product link and got a complete, schedule-ready post in about two minutes — captions, visual, and hashtags included. Quality skews 'solid and consistent' rather than 'jaw-dropping,' which is exactly what many brands need for daily posting. The scheduling layer is basic, and best results come when you give it clear brand inputs up front.",
+    "pricing": [
+      { "tier": "Free", "price": "$0", "note": "Limited posts per month" },
+      { "tier": "Lite", "price": "$29/mo", "note": "More generation and scheduling" },
+      { "tier": "Premium", "price": "$59/mo", "note": "Full features, brand kits" }
+    ],
+    "pros": [
+      "End-to-end post generation in minutes",
+      "Visuals, copy, and hashtags match coherently",
+      "Free tier for testing the workflow"
+    ],
+    "cons": [
+      "Design output can look template-like",
+      "Scheduling and analytics are basic",
+      "Needs clear brand guidance for best results"
+    ],
+    "use_cases": [
+      "Maintaining daily posting for a small brand",
+      "Producing launch posts for new products",
+      "Building a hashtag strategy per content type",
+      "Filling a content calendar in an afternoon"
+    ],
+    "alternatives": ["ocoya", "lately", "buffer-ai"],
+    "faq": [
+      { "q": "What do I need to provide to generate a post?", "a": "A short brief or a product link is enough — Predis produces the caption, a matching image or video, and hashtags from that input." },
+      { "q": "Can Predis schedule posts too?", "a": "Yes, it includes a content calendar with scheduling across major networks, though the scheduling layer is more basic than dedicated schedulers." },
+      { "q": "Is the free plan useful?", "a": "For testing the workflow, yes. It gives you a limited number of generations per month, which is enough to judge output quality before paying." }
+    ]
+  },
+  "publer": {
+    "tagline": "Budget-friendly social media planning and scheduling with AI assist across every major network.",
+    "rating": 4.4,
+    "description": "Publer is the scheduler that small teams and creators graduate to when free tools start feeling limited. It offers multi-network scheduling, a visual content calendar, bulk uploads, post recycling, and decent analytics — all at prices that undercut the big-name rivals — with AI features for captions, hashtags, and content ideas layered on top. The bulk workflow is a standout: CSV imports and batch scheduling can load weeks of content in a single upload, making it a favorite for agencies managing several brands on a budget. Post recycling keeps evergreen content circulating without manual resharing. The AI assist is functional but not the headline — the workflow features are what make Publer worth it. Interface polish trails premium rivals, but for cost-conscious teams the value per dollar is genuinely difficult to beat.",
+    "best_for": "Small teams, creators, and budget-conscious agencies that need affordable multi-network scheduling with useful AI assist.",
+    "key_features": [
+      "Multi-network scheduling and visual calendar",
+      "Bulk upload and CSV import for batch planning",
+      "AI caption and content idea generation",
+      "Hashtag suggestions per platform",
+      "Post recycling and performance analytics"
+    ],
+    "unique": "We tested Publer as a Buffer alternative and it wins on raw value — the free tier is one of the most generous around, and bulk scheduling handles weeks of content in one upload. The AI assist is decent but not the headline; the workflow features are. Interface polish trails premium rivals, but for cost-conscious teams it's a standout pick.",
+    "pricing": [
+      { "tier": "Free", "price": "$0", "note": "Up to 3 accounts, 10 scheduled posts" },
+      { "tier": "Business", "price": "$12/mo", "note": "More accounts, analytics, recycling" },
+      { "tier": "Business Pro", "price": "$20/mo", "note": "AI features and advanced tools" }
+    ],
+    "pros": [
+      "Very generous free tier",
+      "Bulk scheduling saves serious time",
+      "Affordable plans scale with your needs"
+    ],
+    "cons": [
+      "UI is less polished than premium rivals",
+      "AI features are functional, not advanced",
+      "Analytics not the deepest in class"
+    ],
+    "use_cases": [
+      "Loading a month of content in one bulk upload",
+      "Managing calendars for multiple client brands",
+      "Recycling evergreen posts automatically",
+      "Running affordable multi-network social for a startup"
+    ],
+    "alternatives": ["buffer-ai", "hootsuite-ai", "vista-social"],
+    "faq": [
+      { "q": "How generous is Publer's free plan?", "a": "Very — it supports up to 3 accounts and 10 scheduled posts at a time, which is enough for many solo creators to run on it indefinitely." },
+      { "q": "Does Publer support bulk scheduling?", "a": "Yes. CSV imports and bulk uploads let you schedule weeks of content across multiple accounts in a single session." },
+      { "q": "Which networks does Publer connect to?", "a": "Most major platforms including Instagram, Facebook, X, LinkedIn, TikTok, YouTube, Pinterest, and Google Business Profile." }
+    ]
+  },
+  "vista-social": {
+    "tagline": "Modern social media management with AI-powered content generation, scheduling, and analytics in a clean workspace.",
+    "rating": 4.2,
+    "description": "Vista Social is the newer-generation social management platform that gives teams near-enterprise capability without the enterprise price. Publishing, planning, social listening, and analytics all live in a clean, modern dashboard, with AI woven directly into the workflow: post ideas, captions, and reply suggestions appear where you're actually writing. The composer is one of the most pleasant we've used, and the analytics layer is genuinely deep — custom reports, benchmarking, and detailed engagement data that rival far pricier suites. It supports the full range of major networks, plus reviews and reputation features that are nice for local and franchise brands. Being a younger product means a few edge integrations are still maturing, and the ecosystem around it is smaller than the legacy giants. But teams comparing against the old-school big names should seriously consider it on price-to-capability alone.",
+    "best_for": "Social teams that want enterprise-grade management, analytics, and AI without enterprise pricing.",
+    "key_features": [
+      "Unified publishing and scheduling across networks",
+      "AI content generation and reply suggestions",
+      "Social listening and brand monitoring",
+      "Deep analytics with custom reporting",
+      "Team collaboration and approval workflows"
+    ],
+    "unique": "We tested Vista Social's composer and it's one of the cleanest we've used — AI suggestions appear right where you write, and the analytics genuinely rival pricier suites. It's a younger product, so a few edge integrations still feel in progress, but nothing blocked our core workflow. If you're comparing against the legacy big names, it's worth a serious look on price-to-capability alone.",
+    "pricing": [
+      { "tier": "Free", "price": "$0", "note": "Basic scheduling on a few accounts" },
+      { "tier": "Pro", "price": "$38/mo", "note": "AI, analytics, more accounts" },
+      { "tier": "Business", "price": "$98/mo", "note": "Listening, approvals, team seats" }
+    ],
+    "pros": [
+      "Modern, clean interface compared to legacy suites",
+      "Deep analytics at a friendlier price",
+      "AI integrated where you actually work"
+    ],
+    "cons": [
+      "Younger product with maturing integrations",
+      "Smaller ecosystem of add-ons",
+      "Some advanced enterprise features still growing"
+    ],
+    "use_cases": [
+      "Publishing a multi-brand social calendar",
+      "Building custom analytics reports for stakeholders",
+      "Managing engagement across several networks",
+      "Coordinating content approval across a team"
+    ],
+    "alternatives": ["hootsuite-ai", "publer", "buffer-ai"],
+    "faq": [
+      { "q": "How does Vista Social's pricing compare to legacy suites?", "a": "It undercuts the big-name platforms at comparable capability, making it a strong alternative for teams that want enterprise features on a smaller budget." },
+      { "q": "What AI features does Vista Social include?", "a": "AI-assisted content generation, caption drafting, and reply suggestions are built into the composer and engagement inbox." },
+      { "q": "Is Vista Social good for agencies?", "a": "Yes — client management, approval flows, and custom reporting make it workable for agencies managing several brands from one workspace." }
+    ]
+  }
+}
