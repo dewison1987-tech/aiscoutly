@@ -3,6 +3,7 @@ import path from "path";
 
 export type ToolContent = {
   tagline?: string;
+  rating?: number;
   description: string;
   best_for?: string;
   key_features?: string[];

@@ -1,6 +1,7 @@
 {
   "chatgpt": {
     "tagline": "The most versatile AI assistant for everyday marketing work — drafting, repurposing, brainstorming and research in one place.",
+    "rating": 4.8,
     "description": "ChatGPT by OpenAI is the default starting point for most marketing teams. Beyond casual Q&A, it excels at drafting campaign copy, repurposing long-form content into social posts, and brainstorming angles. In 2026, its latest models handle complex reasoning well, making it genuinely useful for content strategy too. Its main strength is breadth — it is the most capable general assistant for everyday marketing work, and its GPT ecosystem means you can adopt prebuilt marketing workflows instead of building prompts from scratch.",
     "best_for": "Teams that want one flexible AI assistant covering most content and marketing tasks, without managing multiple specialized tools.",
     "key_features": [
