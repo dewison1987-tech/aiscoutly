@@ -1,5 +1,6 @@
 import { promises as fs } from "fs";
 import path from "path";
+import { categoryLabel } from "@/lib/categories";
 
 export type Tool = {
   slug: string;
@@ -8,21 +9,6 @@ export type Tool = {
   url: string;
   priceModel: string;
   keyword: string;
-};
-
-const CATEGORY_LABELS: Record<string, string> = {
-  content: "Content Writing",
-  video: "Video & Audio",
-  image: "Image & Design",
-  seo: "SEO & Research",
-  marketing: "Marketing & Ads",
-  social: "Social Media",
-  email: "Email & CRM",
-  productivity: "Workflow & Productivity",
-  analytics: "Data & Analytics",
-  sales: "Sales & Support",
-  translation: "Translation",
-  dev: "Development",
 };
 
 let cache: Tool[] | null = null;
@@ -53,6 +39,4 @@ export async function getToolBySlug(slug: string): Promise<Tool | undefined> {
   return tools.find((t) => t.slug === slug);
 }
 
-export function categoryLabel(category: string): string {
-  return CATEGORY_LABELS[category] ?? category;
-}
+export { categoryLabel };
