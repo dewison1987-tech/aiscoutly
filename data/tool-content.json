@@ -16,17 +16,17 @@
       {
         "tier": "Free",
         "price": "$0/mo",
-        "note": "Core model with usage limits — enough for light everyday use"
+        "note": "Core model with usage limits"
       },
       {
         "tier": "Plus",
         "price": "$20/mo",
-        "note": "Best value for working marketers; higher limits, latest model, image generation"
+        "note": "Best value for working marketers; higher limits, latest model"
       },
       {
         "tier": "Pro",
-        "price": "$100/mo",
-        "note": "For heavy users and agencies running high-volume content operations"
+        "price": "$200/mo",
+        "note": "Heavy users and agencies; highest limits and priority access"
       }
     ],
     "comparison": [
@@ -121,7 +121,24 @@
       }
     ],
     "tagline": "The most human-sounding AI writer for long-form, nuanced content — ideal for guides, case studies and editorial pieces.",
-    "rating": 4.7
+    "rating": 4.7,
+    "pricing": [
+      {
+        "tier": "Free",
+        "price": "$0/mo",
+        "note": "Daily message limits"
+      },
+      {
+        "tier": "Pro",
+        "price": "$20/mo",
+        "note": "Higher limits and priority access"
+      },
+      {
+        "tier": "Max",
+        "price": "$100+/mo",
+        "note": "Heavy usage tiers"
+      }
+    ]
   },
   "jasper": {
     "description": "Jasper is purpose-built for marketing teams that want guardrails, brand voice consistency, and campaign templates. Unlike general chatbots, it ships with 50+ marketing-specific templates (ads, landing pages, emails, product descriptions) and a Brand Voice feature that keeps output on-message. Best for teams that want less prompt engineering and more structured output.",
@@ -142,7 +159,24 @@
       }
     ],
     "tagline": "Purpose-built marketing copy assistant with Brand Voice and 50+ campaign templates.",
-    "rating": 4.4
+    "rating": 4.4,
+    "pricing": [
+      {
+        "tier": "Creator",
+        "price": "$39/mo",
+        "note": "Single seat"
+      },
+      {
+        "tier": "Pro",
+        "price": "$59–69/mo",
+        "note": "More seats and features"
+      },
+      {
+        "tier": "Business",
+        "price": "Custom",
+        "note": "Custom plans"
+      }
+    ]
   },
   "surfer": {
     "description": "Surfer SEO is an on-page optimization tool that combines AI content generation with real-time SEO scoring. It analyzes top-ranking pages for a keyword, then guides you to hit the same content structure, word count and keyword usage. For content teams that need predictable rankings, it closes the gap between writing and on-page SEO.",
@@ -163,7 +197,34 @@
       }
     ],
     "tagline": "The SEO content tool that scores your draft against top-ranking pages in real time.",
-    "rating": 4.5
+    "rating": 4.5,
+    "pricing": [
+      {
+        "tier": "Discovery",
+        "price": "$49/mo",
+        "note": "Entry plan"
+      },
+      {
+        "tier": "Standard",
+        "price": "$99/mo",
+        "note": "Most popular"
+      },
+      {
+        "tier": "Pro",
+        "price": "$182/mo",
+        "note": "For bigger teams"
+      },
+      {
+        "tier": "Plan of the Month",
+        "price": "$299/mo",
+        "note": "Flexible monthly plan"
+      },
+      {
+        "tier": "Enterprise",
+        "price": "$999/mo",
+        "note": "Custom scale"
+      }
+    ]
   },
   "midjourney": {
     "description": "Midjourney remains the default for high-quality AI imagery, especially stylized and editorial visuals. Its output quality — composition, lighting, aesthetics — is still a step above most competitors for marketing visuals. Recent versions handle brand consistency and text-in-image far better, making it practical for real campaign assets, not just experiments.",
@@ -184,7 +245,29 @@
       }
     ],
     "tagline": "The default choice for high-quality AI imagery — stylized visuals that need little editing.",
-    "rating": 4.8
+    "rating": 4.8,
+    "pricing": [
+      {
+        "tier": "Basic",
+        "price": "$10/mo",
+        "note": "~200 images/mo"
+      },
+      {
+        "tier": "Standard",
+        "price": "$30/mo",
+        "note": "Most popular"
+      },
+      {
+        "tier": "Pro",
+        "price": "$60/mo",
+        "note": "High volume"
+      },
+      {
+        "tier": "Mega",
+        "price": "$120/mo",
+        "note": "Maximum usage"
+      }
+    ]
   },
   "gemini": {
     "tagline": "Google's AI writing assistant that drafts, analyzes, and iterates with you inside Docs, Gmail, and the browser.",
@@ -308,7 +391,7 @@
   "writesonic": {
     "tagline": "SEO-first AI article writer that scores your draft against Google rankings as you write.",
     "rating": 4.6,
-    "description": "Writesonic positions itself as an AI writer that actually cares about rankings. Its flagship Article Writer scores your draft against 30+ SEO factors in real time, suggests keywords and internal links, and flags readability issues before you publish. Marketers use it to build entire editorial pipelines — research, outline, draft, optimize, and publish to WordPress in one flow. The platform also covers ad copy, emails, and landing pages, with a photo generator and an AI chatbot builder bolted on. For content marketers whose goal is organic traffic rather than just words on a page, the built-in optimization is the hook.",
+    "description": "Writesonic has pivoted from a writing assistant into an 'AI Search Visibility / GEO' platform. In 2026 it focuses on getting your content discovered in AI search engines and LLM answers, with content generation as part of a broader pipeline. There is no permanent free tier anymore (only a 7-day trial), and plans start around $79–99/mo — a big shift from its early freemium positioning.",
     "best_for": "SEO content marketers who want drafts and on-page optimization in one tool instead of paying separately for a Surfer-style optimizer.",
     "key_features": [
       "Real-time SEO scoring against 30+ factors while drafting",
@@ -320,19 +403,29 @@
     "unique": "Writesonic's real selling point is bundling: draft, SEO score, and publish in one subscription that costs less than a writer plus a separate optimizer. In testing, the SEO score is genuinely useful as a checklist — headings, keyword density, and structure feedback that beats writing blind. The flip side: quality control still lands on you. Long-form drafts come out competent but rarely brilliant, so treat it as a high-speed first draft engine and budget time for editing.",
     "pricing": [
       {
-        "tier": "Free",
-        "price": "$0/mo",
-        "note": "Small monthly word allowance for trial"
+        "tier": "Trial",
+        "price": "7-day free",
+        "note": "No permanent free plan"
       },
       {
-        "tier": "Individual",
-        "price": "$19/mo",
-        "note": "150k words, SEO scoring, single seat"
+        "tier": "Starter",
+        "price": "$79–99/mo",
+        "note": "Annual/monthly billing"
       },
       {
-        "tier": "Standard",
-        "price": "$79/mo",
-        "note": "500k words, 3 seats, team features"
+        "tier": "Basic",
+        "price": "$199–249/mo",
+        "note": "For growing content teams"
+      },
+      {
+        "tier": "Growth",
+        "price": "$399–499/mo",
+        "note": "High-volume operations"
+      },
+      {
+        "tier": "Enterprise",
+        "price": "Custom",
+        "note": "Custom requirements"
       }
     ],
     "pros": [
@@ -353,8 +446,7 @@
     ],
     "alternatives": [
       "scalenut",
-      "copy-ai",
-      "longform"
+      "copy-ai"
     ],
     "faq": [
       {
@@ -653,8 +745,7 @@
     ],
     "alternatives": [
       "writesonic",
-      "scalenut",
-      "longform"
+      "scalenut"
     ],
     "faq": [
       {
@@ -721,58 +812,6 @@
       {
         "q": "How is Perplexity different from a chatbot?",
         "a": "It searches the live web and cites sources for each answer, so you can verify claims instead of trusting generated text."
-      }
-    ]
-  },
-  "longform": {
-    "tagline": "The anti-template long-form engine built by SEO writers, for full-length articles that actually read like content.",
-    "rating": 4.3,
-    "description": "Longform came out of the Human Proof Designs community, which means it was built by people who know how dull template-generated articles feel. Marketers use it to generate complete blog posts — not outlines padded into 2,000 words — with an editor designed around real long-form writing: add background context, seed your own voice, and let it expand section by section. It includes research-powered topic generation, on-page SEO basics, and WordPress publishing. For content marketers tired of the same five-sentence AI paragraphs repeated across every competitor site, Longform prioritizes readability over raw volume.",
-    "best_for": "Independent bloggers and content marketers who write long-form SEO articles and want output that reads naturally, not like a template.",
-    "key_features": [
-      "Generates full long-form articles with a natural, non-template writing style",
-      "Section-by-section expansion with your own context and voice seeds",
-      "Topic idea generator powered by real search research",
-      "SEO-focused settings for headings, structure, and keywords",
-      "WordPress publishing integration"
-    ],
-    "unique": "We fed Longform the same brief we gave three template-based writers and the difference was obvious within a page: fewer robotic transitions, more actual information, better flow. It's clearly built by practitioners who were sick of the in-conclusion paragraph spam that marks AI content. Tradeoffs exist — it's younger with fewer integrations, and research features are thinner than full platforms. But if long-form is your bread and butter, this is the most human-sounding engine we tested.",
-    "pricing": [
-      {
-        "tier": "Monthly",
-        "price": "$19/mo",
-        "note": "Full access to generator and SEO features"
-      }
-    ],
-    "pros": [
-      "Output reads noticeably more human than templates",
-      "Purpose-built for long-form, not bolt-on",
-      "Voice seeding preserves your style"
-    ],
-    "cons": [
-      "Smaller feature set than big platforms",
-      "Fewer integrations",
-      "Newer tool with a smaller community"
-    ],
-    "use_cases": [
-      "Writing complete SEO blog posts from a research-based outline",
-      "Expanding thin content into genuinely longer articles",
-      "Producing pillar pages that don't read like AI filler",
-      "Generating topical articles from a research-backed idea list"
-    ],
-    "alternatives": [
-      "writesonic",
-      "scalenut",
-      "ink"
-    ],
-    "faq": [
-      {
-        "q": "What makes Longform different from other AI writers?",
-        "a": "It's built specifically for full-length articles and lets you seed your own context and voice, which produces more natural long-form output."
-      },
-      {
-        "q": "Does Longform help with SEO?",
-        "a": "It includes SEO-focused settings for structure, headings, and keyword placement, plus a research-based topic generator."
       }
     ]
   },
@@ -943,8 +982,7 @@
     ],
     "alternatives": [
       "writesonic",
-      "ink",
-      "longform"
+      "ink"
     ],
     "faq": [
       {
@@ -972,14 +1010,24 @@
     "unique": "CopyGenius understands something most generalists miss: landing pages are a different sport from blogs. Its AIDA/PAS-structured output reads like a copywriter's first draft rather than a chatbot's — which is the point. The AI heatmap is clever but no substitute for real A/B tests; treat it as an experienced second opinion. It's a one-trick tool by design, so it earns a place only if landing page conversion is your core problem. If it is, this is the most specialized answer in the list.",
     "pricing": [
       {
-        "tier": "Starter",
-        "price": "$19/mo",
-        "note": "Page generation and heatmap analysis"
+        "tier": "Free",
+        "price": "$0/mo",
+        "note": "Limited generations"
       },
       {
-        "tier": "Pro",
-        "price": "$49/mo",
-        "note": "Unlimited pages, priority features"
+        "tier": "Starter",
+        "price": "$19/mo",
+        "note": "Entry paid plan"
+      },
+      {
+        "tier": "Premium",
+        "price": "$39/mo",
+        "note": "Most popular"
+      },
+      {
+        "tier": "Unlimited",
+        "price": "$79/mo",
+        "note": "Unlimited generations"
       }
     ],
     "pros": [
@@ -1086,19 +1134,14 @@
     "unique": "TextCortex's edge is catalog-scale ecommerce copy: we generated product descriptions, localized them, and the output held up better than most generic writers. ZenoCopilot genuinely reduces prompt-chaining — you describe the task in one sentence and get a finished flow. The tradeoff is long-form: blog articles and deep SEO content aren't its strength, and the interface juggles a lot of features. For store owners who need volume and languages over essays, it's a strong fit.",
     "pricing": [
       {
-        "tier": "Free",
-        "price": "$0/mo",
-        "note": "Trial credits"
-      },
-      {
         "tier": "Lite",
-        "price": "$21/mo",
-        "note": "Long-form AI, ZenoChat, 1 seat"
+        "price": "€21/mo",
+        "note": "EUR pricing"
       },
       {
         "tier": "Unlimited",
-        "price": "$48/mo",
-        "note": "Unlimited generation, unlimited seats"
+        "price": "€48/mo",
+        "note": "EUR pricing"
       }
     ],
     "pros": [
@@ -1180,7 +1223,6 @@
       "Developing a consistent brand persona voice"
     ],
     "alternatives": [
-      "longform",
       "writesonic",
       "gemini"
     ],
@@ -1420,24 +1462,14 @@
     "unique": "We ran a full explainer through Synthesia and the polish is the headline: the newest avatars pass casual scrutiny on a laptop screen, and voice inflection has improved a lot. The real marketing win is localization, we turned one English script into five languages in an afternoon, something that would take an agency a month. It's pricey at team scale and there's a synthetic feel up close, so we wouldn't use it for hero brand films. For training, updates, and global launch videos it's unbeatable.",
     "pricing": [
       {
-        "tier": "Free",
-        "price": "$0",
-        "note": "3 minutes, limited avatars"
-      },
-      {
         "tier": "Starter",
-        "price": "$18/mo",
-        "note": "10 minutes, 1 seat, annual"
+        "price": "$29/mo",
+        "note": "$18/mo on annual billing"
       },
       {
         "tier": "Creator",
-        "price": "$64/mo",
-        "note": "Unlimited video, 3 seats, annual"
-      },
-      {
-        "tier": "Enterprise",
-        "price": "Custom",
-        "note": "Custom avatars, SSO, API"
+        "price": "$89/mo",
+        "note": "$64/mo on annual billing"
       }
     ],
     "pros": [
@@ -1631,28 +1663,28 @@
     "pricing": [
       {
         "tier": "Free",
-        "price": "$0",
-        "note": "10k characters/month"
+        "price": "$0/mo",
+        "note": "Limited characters"
       },
       {
         "tier": "Starter",
         "price": "$5/mo",
-        "note": "30k characters"
+        "note": "Entry paid tier"
       },
       {
         "tier": "Creator",
         "price": "$22/mo",
-        "note": "100k characters"
+        "note": "For creators"
       },
       {
         "tier": "Pro",
         "price": "$99/mo",
-        "note": "500k characters, commercial"
+        "note": "Higher volume"
       },
       {
         "tier": "Scale",
-        "price": "$330/mo",
-        "note": "2M characters, priority"
+        "price": "$299/mo",
+        "note": "3 seats included"
       }
     ],
     "pros": [
@@ -1911,23 +1943,23 @@
     "pricing": [
       {
         "tier": "Free",
-        "price": "$0",
-        "note": "5 clips/month, watermark"
+        "price": "$0/mo",
+        "note": "60 min/month"
+      },
+      {
+        "tier": "Starter",
+        "price": "$15/mo",
+        "note": "150 min/month"
       },
       {
         "tier": "Pro",
-        "price": "$15/mo",
-        "note": "$9/mo annual, 60 clips/mo"
-      },
-      {
-        "tier": "Vision",
         "price": "$29/mo",
-        "note": "$19/mo annual, 180 clips/mo"
+        "note": "300 min/month"
       },
       {
-        "tier": "Enterprise",
+        "tier": "Business",
         "price": "Custom",
-        "note": "Custom models, API"
+        "note": "Teams"
       }
     ],
     "pros": [
@@ -2115,24 +2147,24 @@
     "unique": "We used D-ID to turn a founder headshot into a talking welcome video for a landing page, and the effect stops people mid-scroll. The personalization API is the sleeper hit, we generated dozens of name-personalized videos for an outreach campaign in minutes. The caveats are fair: avatar realism is stylized, not human, and movement is limited to head and upper body. It's not a replacement for a real presenter in hero brand films, but for personalized touches and interactive experiences it's a unique tool that competitors don't match.",
     "pricing": [
       {
-        "tier": "Free",
+        "tier": "Trial",
         "price": "$0",
-        "note": "5 credits, watermark"
+        "note": "Limited free trial"
       },
       {
         "tier": "Lite",
         "price": "$5.90/mo",
-        "note": "15 min/month"
+        "note": "$4.70/mo on annual billing"
       },
       {
         "tier": "Pro",
-        "price": "$21/mo",
-        "note": "$16/mo annual, 50 min/mo"
+        "price": "$29/mo",
+        "note": "$16/mo on annual billing"
       },
       {
         "tier": "Advanced",
-        "price": "$69/mo",
-        "note": "150 min/mo, API access"
+        "price": "$196/mo",
+        "note": "$108/mo on annual billing"
       }
     ],
     "pros": [
@@ -2518,19 +2550,14 @@
     "unique": "We pushed Firefly with real client briefs. The commercial-safety story is genuinely strong — it's the only major generator built on licensed stock, which matters when a client's legal team reviews your process. Creativity-wise it's solid but not the most imaginative; you get dependable, clean, professional results rather than surprising art. It wins when Photoshop workflow matters more than raw creativity.",
     "pricing": [
       {
-        "tier": "Free",
-        "price": "$0",
-        "note": "Monthly generative credits"
+        "tier": "Firefly Standard",
+        "price": "$4.99/mo",
+        "note": "Included in some Creative Cloud plans"
       },
       {
         "tier": "Firefly Premium",
-        "price": "$4.99/mo",
+        "price": "$9.99/mo",
         "note": "More credits and features"
-      },
-      {
-        "tier": "Creative Cloud",
-        "price": "From $9.99/mo",
-        "note": "Firefly included with paid plans"
       }
     ],
     "pros": [
@@ -2990,19 +3017,19 @@
     "unique": "We tested Designs.ai as a full pipeline from brief to campaign pack. The breadth is real — we produced graphics, a logo, video, and copy without leaving the platform. Each output was usable but not impressive, and the interface feels dated next to rivals. As a budget all-in-one for content-hungry small teams it makes sense; as a quality tool, specialists win. Choose it for volume, not excellence.",
     "pricing": [
       {
-        "tier": "Free trial",
-        "price": "$0",
-        "note": "Limited features with watermark"
-      },
-      {
         "tier": "Basic",
-        "price": "$19/mo",
-        "note": "Core tools with lower limits"
+        "price": "$29/mo",
+        "note": "$19/mo on annual billing"
       },
       {
         "tier": "Pro",
-        "price": "$49/mo",
-        "note": "Full access for teams"
+        "price": "$69/mo",
+        "note": "$49/mo on annual billing"
+      },
+      {
+        "tier": "Enterprise",
+        "price": "$199/mo",
+        "note": "Custom"
       }
     ],
     "pros": [
@@ -3665,19 +3692,24 @@
     "unique": "SEO.ai surprised us by being more disciplined than generic AI writers — the outlines come pre-structured with SERP-derived headings, which is exactly what you want when delegating to AI. The catch is quality ceiling: output is reliably 'good enough,' which is perfect for programmatic SEO but rarely distinctive enough for brand-defining editorial. Use it for volume and scale; save your human writers for the hero pieces.",
     "pricing": [
       {
-        "tier": "Starter",
+        "tier": "Basic",
         "price": "$49/mo",
-        "note": "4,000 AI credits, around 8-10 articles"
+        "note": "Entry plan"
       },
       {
-        "tier": "Pro",
-        "price": "$99/mo",
-        "note": "10,000 credits and priority generation"
+        "tier": "Plus",
+        "price": "$99–149/mo",
+        "note": "Mid tier"
       },
       {
-        "tier": "Scale",
+        "tier": "Premium",
         "price": "$199/mo",
-        "note": "25,000 credits for larger content operations"
+        "note": "Advanced features"
+      },
+      {
+        "tier": "Enterprise",
+        "price": "$399/mo",
+        "note": "Custom scale"
       }
     ],
     "pros": [
@@ -4270,18 +4302,23 @@
     "pricing": [
       {
         "tier": "Starter",
-        "price": "$29/mo",
-        "note": "Limited credits, watermark-free basics"
+        "price": "$39/mo",
+        "note": "$29/mo on annual billing"
       },
       {
-        "tier": "Pro",
-        "price": "$149/mo",
-        "note": "Unlimited-ish credits and brand kits"
+        "tier": "Professional",
+        "price": "$249/mo",
+        "note": "More brands and seats"
       },
       {
-        "tier": "Agency",
+        "tier": "Ultimate",
+        "price": "$999/mo",
+        "note": "Agencies and high volume"
+      },
+      {
+        "tier": "Enterprise",
         "price": "Custom",
-        "note": "Multi-user, white-label, API access"
+        "note": "Custom requirements"
       }
     ],
     "pros": [
@@ -4574,14 +4611,9 @@
     "unique": "We tested Pattern89 on an active Meta account and the forecasts are directionally smart — it flagged audience overlaps we'd ignored for months. The predictions are probabilities, not guarantees, so treat the tool as a prioritizer for testing rather than a prophecy. Pricing starts accessible but climbs with account count, so the cost really depends on how many accounts you run.",
     "pricing": [
       {
-        "tier": "Starter",
-        "price": "~$99/mo",
-        "note": "Entry-level, limited accounts"
-      },
-      {
-        "tier": "Pro",
+        "tier": "Enterprise",
         "price": "Custom",
-        "note": "Scales with account volume"
+        "note": "Typical contracts $1,000–$3,000+/mo"
       }
     ],
     "pros": [
@@ -5415,18 +5447,18 @@
     "pricing": [
       {
         "tier": "Growth",
-        "price": "$37/mo",
-        "note": "3,000 active leads, unlimited sending accounts"
+        "price": "$37.6/mo",
+        "note": "Or $47/mo monthly"
       },
       {
-        "tier": "Scale",
-        "price": "$97/mo",
-        "note": "Unlimited leads, advanced rotation and API"
+        "tier": "Hypergrowth",
+        "price": "$77.6–97/mo",
+        "note": "Higher volume tier"
       },
       {
-        "tier": "Turbo",
-        "price": "$197/mo",
-        "note": "Unlimited everything, team seats, priority support"
+        "tier": "Light Speed",
+        "price": "$286–358/mo",
+        "note": "SISR-exclusive tier"
       }
     ],
     "pros": [
@@ -5910,19 +5942,9 @@
     "unique": "We tested the bot on a standard B2B homepage flow and it qualified and booked a demo in four messages — genuinely fewer than a human would need. The playbooks system gives marketing real control over who sees what conversation. But the platform has shifted strategy over the years and the pricing feels enterprise-steep for what is essentially smart chat; lighter AI support tools now do parts of this job at a fraction of the cost.",
     "pricing": [
       {
-        "tier": "Premium",
-        "price": "$2,500/yr",
-        "note": "Entry conversational marketing, 2 bots"
-      },
-      {
-        "tier": "Advanced",
+        "tier": "Custom",
         "price": "Custom",
-        "note": "More playbooks, routing, and integrations"
-      },
-      {
-        "tier": "Enterprise",
-        "price": "Custom",
-        "note": "Custom AI, SSO, dedicated support"
+        "note": "Drift was acquired by Salesforce; pricing is no longer public"
       }
     ],
     "pros": [
@@ -6733,24 +6755,19 @@
     "unique": "We tested Beautiful.ai by rebuilding a messy client deck and the difference was immediate — every slide came out aligned and consistent, and the auto-formatting saved hours. It's more of a design engine than a generative AI tool; you still write the content yourself. That's fine if you have the words, but if you want AI to write the whole deck, Gamma is the better starting point. For design-averse teams, this is the polish you've been missing.",
     "pricing": [
       {
-        "tier": "Free",
-        "price": "$0",
-        "note": "1 slide per deck, limited templates"
+        "tier": "Trial",
+        "price": "14-day free",
+        "note": "No permanent free plan"
       },
       {
         "tier": "Pro",
-        "price": "$12/month",
-        "note": "Unlimited slides, full features"
+        "price": "$45/mo",
+        "note": "Or ~$12/mo billed annually"
       },
       {
         "tier": "Team",
-        "price": "$40/month",
-        "note": "Collaboration and brand controls"
-      },
-      {
-        "tier": "Enterprise",
-        "price": "Custom",
-        "note": "SSO, advanced security, support"
+        "price": "$50/user/mo",
+        "note": "Or $40/user/mo billed annually"
       }
     ],
     "pros": [
@@ -7145,49 +7162,49 @@
     ]
   },
   "codeium": {
-    "tagline": "Free, fast AI code completion that makes marketing automation scripts painless",
+    "tagline": "Devin Desktop (formerly Windsurf / Codeium) — the AI coding environment that learns your codebase.",
     "rating": 4.1,
-    "description": "Codeium is an AI code completion and chat tool that accelerates writing scripts, templates, and small tools — with a genuinely free tier. Growth marketers who dabble in code use it to write data-cleaning scripts, email template logic, and automation snippets faster. It works across all major editors and 70+ languages, making it a low-cost way to add AI assistance without lock-in. Autocomplete suggestions feel instant, while the in-editor chat explains unfamiliar APIs and suggests fixes without leaving your flow.",
-    "best_for": "Developer-leaning marketers and side-project builders who want free AI coding help",
+    "description": "Devin Desktop, formerly Windsurf and before that Codeium, is an AI coding assistant that lives in your editor. It autocompletes code, explains and refactors whole files, and after 2026 was folded into Cognition's Devin product line. For marketing teams with light developer needs, it is the fastest way to generate landing pages, email templates and tracking scripts without leaving your editor. The Codeium brand is fully retired — expect redirects from the old domain.",
+    "best_for": "Marketers and small teams who occasionally touch code and want AI assistance inside their editor.",
     "key_features": [
-      "AI autocomplete across 70+ languages and editors",
-      "Free tier with generous usage limits",
-      "In-editor chat for questions and explanations",
-      "Code generation from natural language comments",
-      "Enterprise data privacy options"
+      "Autocomplete and chat inside VS Code and JetBrains",
+      "Codebase-wide understanding for refactors and bug fixes",
+      "Agent mode that plans and applies multi-file changes",
+      "Free tier with daily AI action limits",
+      "Deep workflows and previews for web work (Devin Desktop)"
     ],
-    "unique": "We tested Codeium inside VS Code while writing a lead-scoring script, and the autocomplete was fast and genuinely helpful — especially for boilerplate and API calls. It doesn't have the deep project-understanding or agent power of Cursor, but for the price (free), it's an absurdly good deal. If you're a marketer writing occasional scripts rather than living in code, this is the sensible starting point before graduating to heavier tools.",
+    "unique": "The rename history is a cautionary tale: we first tested it as Codeium, then Windsurf, then it merged into Devin. The product itself is solid — the free tier is genuinely usable — but check which brand is active before recommending it to your team.",
     "pricing": [
       {
         "tier": "Free",
-        "price": "$0",
-        "note": "Autocomplete, chat, 2,000 completions/month"
+        "price": "$0/mo",
+        "note": "Limited AI actions per day"
       },
       {
         "tier": "Pro",
-        "price": "$15/month",
-        "note": "Unlimited completions, priority access"
+        "price": "$20/mo",
+        "note": "Unlimited AI actions, more models"
       },
       {
         "tier": "Teams",
-        "price": "$25/user/month",
-        "note": "Shared admin and controls"
+        "price": "$40/user/mo",
+        "note": "Team management and shared billing"
       },
       {
-        "tier": "Enterprise",
-        "price": "Custom",
-        "note": "SSO, on-premises deployment, compliance"
+        "tier": "Max",
+        "price": "$200/mo",
+        "note": "Highest usage tier"
       }
     ],
     "pros": [
-      "Genuinely generous free tier",
-      "Fast autocomplete across all major editors",
-      "Works in 70+ languages for any side project"
+      "Strong free tier",
+      "Codebase-aware refactoring saves real time",
+      "Actively developed (frequent releases)"
     ],
     "cons": [
-      "Lacks deep whole-project context and agent features",
-      "Not as polished as premium AI editors",
-      "Best used by those who already write some code"
+      "Brand churn (Codeium → Windsurf → Devin Desktop) creates confusion",
+      "Best value only when you already use a supported editor",
+      "Pricing changed repeatedly across renames"
     ],
     "use_cases": [
       "Speed up writing campaign data scripts",

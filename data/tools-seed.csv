@@ -11,7 +11,6 @@ quillbot,QuillBot,content,https://quillbot.com,freemium,AI paraphrasing tool
 wordtune,Wordtune,content,https://www.wordtune.com,freemium,AI sentence rewriter
 ink,INK,content,https://inkforall.com,paid,AI writing tool with SEO score
 perplexity,Perplexity,content,https://www.perplexity.ai,freemium,AI research assistant
-longform,Longform,content,,,AI long form content generator
 simplified,Simplified,content,https://simplified.com,freemium,all in one AI content platform
 anyword,Anyword,content,https://anyword.com,paid,AI copywriting with conversion data
 scalenut,Scalenut,content,https://scalenut.com,paid,AI content marketing platform
@@ -110,4 +109,4 @@ v0,v0,dev,https://v0.dev,freemium,AI UI generation tool
 lovable,Lovable,dev,https://lovable.dev,freemium,AI app builder
 bolt,Bolt.new,dev,https://bolt.new,freemium,AI full stack web builder
 replit-ai,Replit AI,dev,https://replit.com,freemium,AI coding environment
-codeium,Codium,dev,https://codeium.com,free,AI code completion tool
+codeium,Devin Desktop,dev,https://codeium.com,free,AI coding assistant (Devin Desktop)
