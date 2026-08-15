@@ -34,7 +34,10 @@ export default async function ToolPage({
   const tool = await getToolBySlug(slug);
   if (!tool) notFound();
   const content = await getToolContent(slug);
-  const hostname = tool.url ? new URL(tool.url).hostname : "";
+  // 取根域名（chat.openai.com → openai.com），让 logo 服务正确解析品牌
+  const rootDomain = tool.url
+    ? new URL(tool.url).hostname.split(".").slice(-2).join(".")
+    : "";
 
   const schema = {
     "@context": "https://schema.org",
@@ -63,7 +66,7 @@ export default async function ToolPage({
       <JsonLd data={schema} />
       <p className="text-sm text-gray-500">{categoryLabel(tool.category)}</p>
       <div className="mt-3 flex items-start gap-4">
-        {hostname && <ToolLogo hostname={hostname} name={tool.name} />}
+        {rootDomain && <ToolLogo hostname={rootDomain} name={tool.name} />}
         <div className="min-w-0 flex-1">
           <h1 className="text-3xl font-semibold tracking-tight">{tool.name}</h1>
           {content?.tagline && (
