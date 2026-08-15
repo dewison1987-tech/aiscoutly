@@ -11,18 +11,31 @@ export default function CategoryNav() {
     <div className="relative">
       <button
         onClick={() => setOpen((v) => !v)}
-        className={`flex items-center gap-1 text-sm transition-colors ${
-          open ? "text-gray-900" : "text-gray-600 hover:text-gray-900"
+        className={`flex items-center gap-1.5 rounded-lg px-3 py-2 text-sm font-medium text-white transition-colors ${
+          open ? "bg-indigo-700" : "bg-indigo-600 hover:bg-indigo-700"
         }`}
         aria-expanded={open}
       >
+        <svg
+          className="h-4 w-4"
+          fill="none"
+          viewBox="0 0 24 24"
+          stroke="currentColor"
+          strokeWidth={2}
+        >
+          <path
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            d="M4 6h16M4 12h16M4 18h10"
+          />
+        </svg>
         Categories
         <svg
           className={`h-3 w-3 transition-transform ${open ? "rotate-180" : ""}`}
           fill="none"
           viewBox="0 0 24 24"
           stroke="currentColor"
-          strokeWidth={2}
+          strokeWidth={2.5}
         >
           <path strokeLinecap="round" strokeLinejoin="round" d="M19 9l-7 7-7-7" />
         </svg>

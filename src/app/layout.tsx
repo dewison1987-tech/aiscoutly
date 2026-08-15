@@ -32,31 +32,40 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
       className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
     >
       <body className="min-h-full flex flex-col">
-        <header className="border-b border-gray-200">
-          <nav className="mx-auto flex max-w-5xl items-center justify-between px-4 py-4">
-            <Link href="/" className="font-semibold tracking-tight">
-              AI Tools Directory
+        <header className="sticky top-0 z-40 border-b border-gray-200 bg-white/90 backdrop-blur">
+          <nav className="mx-auto flex h-16 max-w-5xl items-center justify-between px-4">
+            <Link
+              href="/"
+              className="flex items-center gap-2 font-semibold tracking-tight"
+            >
+              <span className="flex h-8 w-8 items-center justify-center rounded-lg text-sm font-bold text-white" style={{ background: "linear-gradient(135deg, #4338ca, #c026d3)" }}>
+                Ai
+              </span>
+              <span className="text-gray-900">AI Tools Directory</span>
             </Link>
-            <div className="flex items-center gap-4 text-sm">
-              <Link href="/" className="text-gray-600 hover:text-gray-900">
+            <div className="flex items-center gap-1 text-sm">
+              <Link
+                href="/"
+                className="rounded-lg px-3 py-2 text-gray-600 transition-colors hover:bg-gray-100 hover:text-gray-900"
+              >
                 Home
               </Link>
               <CategoryNav />
               <Link
                 href="/about"
-                className="text-gray-600 hover:text-gray-900"
+                className="rounded-lg px-3 py-2 text-gray-600 transition-colors hover:bg-gray-100 hover:text-gray-900"
               >
                 About
               </Link>
               <Link
                 href="/contact"
-                className="text-gray-600 hover:text-gray-900"
+                className="rounded-lg px-3 py-2 text-gray-600 transition-colors hover:bg-gray-100 hover:text-gray-900"
               >
                 Contact
               </Link>
               <Link
                 href="/privacy"
-                className="text-gray-600 hover:text-gray-900"
+                className="hidden rounded-lg px-3 py-2 text-gray-600 transition-colors hover:bg-gray-100 hover:text-gray-900 sm:inline-block"
               >
                 Privacy
               </Link>
