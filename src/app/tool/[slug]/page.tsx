@@ -3,6 +3,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { getToolBySlug, getTools, categoryLabel } from "@/lib/tools";
 import { getToolContent } from "@/lib/content";
+import { rootDomain as getRootDomain } from "@/lib/categories";
 import JsonLd from "@/components/JsonLd";
 import ToolLogo from "@/components/ToolLogo";
 
@@ -59,9 +60,7 @@ export default async function ToolPage({
   if (!tool) notFound();
   const content = await getToolContent(slug);
   // 取根域名（chat.openai.com → openai.com），让 logo 服务正确解析品牌
-  const rootDomain = tool.url
-    ? new URL(tool.url).hostname.split(".").slice(-2).join(".")
-    : "";
+  const rootDomain = getRootDomain(tool.url);
 
   const schema = {
     "@context": "https://schema.org",
@@ -105,7 +104,14 @@ export default async function ToolPage({
         }}
       >
         <div className="flex items-start gap-4">
-          {rootDomain && <ToolLogo hostname={rootDomain} name={tool.name} />}
+          {rootDomain && (
+            <ToolLogo
+              slug={tool.slug}
+              domain={rootDomain}
+              name={tool.name}
+              className="h-16 w-16 flex-shrink-0 rounded-lg bg-white p-2 ring-1 ring-gray-200"
+            />
+          )}
           <div className="min-w-0 flex-1">
             <p className="text-xs font-medium uppercase tracking-widest text-indigo-600">
               {categoryLabel(tool.category)}

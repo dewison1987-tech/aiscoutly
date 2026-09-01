@@ -1,0 +1,20 @@
+[
+  {
+    "slug": "tome",
+    "domain": "tome.app",
+    "source": "https://www.google.com/s2/favicons?domain=tome.app&sz=256",
+    "error": "HTTP 404"
+  },
+  {
+    "slug": "chatgpt",
+    "domain": "openai.com",
+    "source": "https://www.google.com/s2/favicons?domain=openai.com&sz=256",
+    "error": "fetch failed"
+  },
+  {
+    "slug": "tome",
+    "domain": "tome.app",
+    "source": "https://icons.duckduckgo.com/ip3/tome.app.ico",
+    "error": "HTTP 404"
+  }
+]

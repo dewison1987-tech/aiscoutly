@@ -4,19 +4,13 @@ import { useMemo, useState } from "react";
 import Link from "next/link";
 import type { Tool } from "@/lib/tools";
 import { CATEGORY_LABELS, rootDomain } from "@/lib/categories";
+import ToolLogo from "@/components/ToolLogo";
 
 const PRICE_STYLES: Record<string, string> = {
   free: "bg-green-100 text-green-800",
   freemium: "bg-blue-100 text-blue-800",
   paid: "bg-amber-100 text-amber-800",
 };
-
-function faviconUrl(url: string, size = 64) {
-  const domain = rootDomain(url);
-  return domain
-    ? `https://www.google.com/s2/favicons?domain=${domain}&sz=${size}`
-    : "";
-}
 
 function ToolCard({ t }: { t: Tool }) {
   return (
@@ -25,14 +19,12 @@ function ToolCard({ t }: { t: Tool }) {
       className="group block h-full rounded-xl border border-gray-200 bg-white p-4 transition-all duration-200 hover:-translate-y-0.5 hover:border-indigo-300 hover:shadow-md"
     >
       <div className="flex items-center gap-3">
-        {faviconUrl(t.url) && (
-          <img
-            src={faviconUrl(t.url)}
-            alt=""
-            className="h-9 w-9 flex-shrink-0 rounded-lg bg-white p-1 ring-1 ring-gray-200"
-            loading="lazy"
-          />
-        )}
+        <ToolLogo
+          slug={t.slug}
+          domain={rootDomain(t.url)}
+          name={t.name}
+          className="h-9 w-9 flex-shrink-0 rounded-lg bg-white p-1 ring-1 ring-gray-200"
+        />
         <span className="truncate font-medium text-gray-900 group-hover:text-indigo-600">
           {t.name}
         </span>
