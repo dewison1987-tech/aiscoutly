@@ -1,14 +1,28 @@
 "use client";
 
-import { useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import Link from "next/link";
 import { CATEGORY_LABELS } from "@/lib/categories";
 
 export default function CategoryNav() {
   const [open, setOpen] = useState(false);
+  const containerRef = useRef<HTMLDivElement>(null);
+
+  // 点击容器外任意位置 → 收起下拉
+  // 注：不能用 fixed inset-0 遮罩，因为 header 的 backdrop-blur 会把 fixed 的
+  // 包含块从视口变成 header，导致遮罩只覆盖 header 一条，点正文不生效。
+  useEffect(() => {
+    if (!open) return;
+    function handlePointerDown(e: PointerEvent) {
+      if (containerRef.current?.contains(e.target as Node)) return;
+      setOpen(false);
+    }
+    document.addEventListener("pointerdown", handlePointerDown);
+    return () => document.removeEventListener("pointerdown", handlePointerDown);
+  }, [open]);
 
   return (
-    <div className="relative">
+    <div className="relative" ref={containerRef}>
       <button
         onClick={() => setOpen((v) => !v)}
         className={`flex items-center gap-1.5 rounded-lg px-3 py-2 text-sm font-medium text-white transition-colors ${
@@ -41,25 +55,18 @@ export default function CategoryNav() {
         </svg>
       </button>
       {open && (
-        <>
-          <div
-            className="fixed inset-0 z-10"
-            onClick={() => setOpen(false)}
-            aria-hidden
-          />
-          <div className="absolute right-0 top-full z-20 mt-2 w-60 rounded-xl border border-gray-200 bg-white p-2 shadow-lg">
-            {Object.entries(CATEGORY_LABELS).map(([slug, label]) => (
-              <Link
-                key={slug}
-                href={`/category/${slug}`}
-                onClick={() => setOpen(false)}
-                className="block rounded-lg px-3 py-2 text-sm text-gray-700 hover:bg-gray-50 hover:text-indigo-600"
-              >
-                {label}
-              </Link>
-            ))}
-          </div>
-        </>
+        <div className="absolute right-0 top-full z-20 mt-2 w-60 rounded-xl border border-gray-200 bg-white p-2 shadow-lg">
+          {Object.entries(CATEGORY_LABELS).map(([slug, label]) => (
+            <Link
+              key={slug}
+              href={`/category/${slug}`}
+              onClick={() => setOpen(false)}
+              className="block rounded-lg px-3 py-2 text-sm text-gray-700 hover:bg-gray-50 hover:text-indigo-600"
+            >
+              {label}
+            </Link>
+          ))}
+        </div>
       )}
     </div>
   );
