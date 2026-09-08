@@ -44,9 +44,20 @@ export async function generateMetadata({
   const { slug } = await params;
   const tool = await getToolBySlug(slug);
   if (!tool) return {};
+  const content = await getToolContent(slug);
+  // 优先用工具的 tagline；没有再回退到 description 前 155 字符
+  const baseDesc =
+    content?.tagline?.trim() ||
+    content?.description?.trim() ||
+    `Find the best ${tool.keyword}. Compare pricing, features and alternatives.`;
+  const description =
+    baseDesc.length <= 160
+      ? baseDesc
+      : `${baseDesc.slice(0, 157).trimEnd()}…`;
   return {
     title: `${tool.name} review, pricing & alternatives`,
-    description: `See how ${tool.name} helps marketers. Pricing, features, hands-on review and alternatives.`,
+    description,
+    authors: [{ name: "AI Scoutly Editorial" }],
   };
 }
 
@@ -70,6 +81,11 @@ export default async function ToolPage({
       content?.description ??
       `Find the best ${tool.keyword}. Compare pricing, features and alternatives.`,
     applicationCategory: "BusinessApplication",
+    author: {
+      "@type": "Organization",
+      name: "AI Scoutly Editorial",
+      url: "https://aiscoutly.com/about",
+    },
     offers: {
       "@type": "Offer",
       price: tool.priceModel === "free" ? "0" : undefined,
@@ -354,6 +370,41 @@ export default async function ToolPage({
             Explore similar tools in the {categoryLabel(tool.category)} category.
           </p>
         )}
+      </section>
+
+      {/* 署名 + 更新日期（E-E-A-T） */}
+      <section className="mt-10 flex flex-wrap items-center justify-between gap-3 border-t border-gray-200 pt-5 text-sm text-gray-500">
+        <p>
+          Reviewed by{" "}
+          <span className="font-medium text-gray-700">AI Scoutly Editorial</span>
+        </p>
+        <p>
+          Last reviewed:{" "}
+          <time dateTime="2026-09-08" className="text-gray-700">
+            September 8, 2026
+          </time>
+        </p>
+      </section>
+
+      {/* 内部回链：分类聚合页 */}
+      <section className="mt-4 text-sm text-gray-500">
+        <p>
+          See more {categoryLabel(tool.category).toLowerCase()} tools in our{" "}
+          <Link
+            href={`/category/${tool.category}`}
+            className="text-indigo-600 underline underline-offset-2 hover:text-indigo-800"
+          >
+            {categoryLabel(tool.category)} directory
+          </Link>
+          , or browse all{" "}
+          <Link
+            href="/"
+            className="text-indigo-600 underline underline-offset-2 hover:text-indigo-800"
+          >
+            AI tools for marketing
+          </Link>
+          .
+        </p>
       </section>
     </main>
   );

@@ -25,7 +25,17 @@ export const metadata: Metadata = {
     "Curated directory of the best AI tools for marketing, content creation and SEO. Filter by category, compare pricing, find the right tool.",
 };
 
+const FOOTER_LINKS: { href: string; label: string }[] = [
+  { href: "/about", label: "About" },
+  { href: "/editorial-policy", label: "Editorial policy" },
+  { href: "/contact", label: "Contact" },
+  { href: "/disclaimer", label: "Disclaimer" },
+  { href: "/terms", label: "Terms" },
+  { href: "/privacy", label: "Privacy" },
+];
+
 export default function RootLayout({ children }: LayoutProps<"/">) {
+  const year = new Date().getFullYear();
   return (
     <html
       lang="en"
@@ -73,10 +83,42 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
           </nav>
         </header>
         {children}
-        <footer className="mt-auto border-t border-gray-200 py-6">
-          <div className="mx-auto flex max-w-5xl items-center justify-between px-4 text-sm text-gray-500">
-            <span>© {new Date().getFullYear()} AI Tools Directory</span>
-            <span>Curated AI tools for marketing &amp; content</span>
+        <footer className="mt-auto border-t border-gray-200 bg-white">
+          <div className="mx-auto max-w-5xl px-4 py-8 text-sm text-gray-600">
+            <nav
+              aria-label="Footer"
+              className="flex flex-wrap items-center gap-x-5 gap-y-2"
+            >
+              {FOOTER_LINKS.map((l) => (
+                <Link
+                  key={l.href}
+                  href={l.href}
+                  className="text-gray-700 transition-colors hover:text-indigo-600 hover:underline"
+                >
+                  {l.label}
+                </Link>
+              ))}
+            </nav>
+            <p className="mt-4 leading-relaxed text-gray-500">
+              <span className="font-medium text-gray-700">Affiliate disclosure:</span>{" "}
+              Some links on this site are affiliate links. If you sign up or
+              purchase through them, we may earn a commission at no extra
+              cost to you. Sponsored placements are always clearly labelled.{" "}
+              <Link
+                href="/disclaimer"
+                className="text-gray-700 underline underline-offset-2 hover:text-indigo-600"
+              >
+                Read the full disclaimer
+              </Link>
+              .
+            </p>
+            <p className="mt-3 text-xs text-gray-500">
+              © {year} AI Tools Directory · Reviews by{" "}
+              <span className="font-medium text-gray-700">
+                AI Scoutly Editorial
+              </span>
+              . All trademarks are the property of their respective owners.
+            </p>
           </div>
         </footer>
         <SiteAnalytics />
