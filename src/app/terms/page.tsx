@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/terms" },
   title: "Terms of service",
   description:
     "The terms and conditions governing your use of AI Tools Directory, including acceptable use, intellectual property and limitation of liability.",

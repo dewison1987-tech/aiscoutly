@@ -19,6 +19,7 @@ export async function generateMetadata({
   const label = CATEGORY_LABELS[slug];
   if (!label) return {};
   return {
+    alternates: { canonical: `/category/${slug}` },
     title: `Best ${label} AI Tools (2026) — reviews, pricing & alternatives`,
     description:
       CATEGORY_META[slug]?.description ??

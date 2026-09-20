@@ -55,6 +55,7 @@ export async function generateMetadata({
       ? baseDesc
       : `${baseDesc.slice(0, 157).trimEnd()}…`;
   return {
+    alternates: { canonical: `/tool/${slug}` },
     title: `${tool.name} review, pricing & alternatives`,
     description,
     authors: [{ name: "AI Scoutly Editorial" }],

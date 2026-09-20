@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/disclaimer" },
   title: "Disclaimer",
   description:
     "Important disclosures about advertising, affiliate links, editorial independence and the accuracy of tool information on AI Tools Directory.",

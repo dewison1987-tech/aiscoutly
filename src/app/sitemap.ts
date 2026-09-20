@@ -3,10 +3,20 @@ import path from "path";
 import type { MetadataRoute } from "next";
 import { CATEGORY_LABELS } from "@/lib/categories";
 
-const BASE_URL = "https://aiscoutly.com";
+// 必须与站点实际 200 的主机名一致：
+// 裸域 aiscoutly.com 会 308 跳转到 www.aiscoutly.com，
+// 若 sitemap 里写裸域，Google 抓到的每一条都是重定向 → 判定为「网页已重定向」，不予收录。
+const BASE_URL = "https://www.aiscoutly.com";
 
 // 所有静态页面（不含 /tool/* /category/*）
-const STATIC_PAGES = ["/about", "/contact", "/privacy"];
+const STATIC_PAGES = [
+  "/about",
+  "/contact",
+  "/privacy",
+  "/disclaimer",
+  "/terms",
+  "/editorial-policy",
+];
 
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   const entries: MetadataRoute.Sitemap = [

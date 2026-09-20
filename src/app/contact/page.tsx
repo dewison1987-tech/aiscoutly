@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/contact" },
   title: "Contact us",
   description:
     "Get in touch with the AI Tools Directory team for corrections, submissions, advertising or partnerships.",

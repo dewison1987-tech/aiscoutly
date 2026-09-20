@@ -16,13 +16,22 @@ const geistMono = Geist_Mono({
   subsets: ["latin"],
 });
 
+// 站点主域名（与 Vercel 实际 200 的主机名一致：裸域会 308 跳到 www）
+export const SITE_URL = "https://www.aiscoutly.com";
+
 export const metadata: Metadata = {
+  metadataBase: new URL(SITE_URL),
   title: {
     default: "AI Tools Directory for Marketing & Content",
     template: "%s | AI Tools Directory",
   },
   description:
     "Curated directory of the best AI tools for marketing, content creation and SEO. Filter by category, compare pricing, find the right tool.",
+  openGraph: {
+    type: "website",
+    siteName: "AI Tools Directory",
+    url: SITE_URL,
+  },
 };
 
 const FOOTER_LINKS: { href: string; label: string }[] = [

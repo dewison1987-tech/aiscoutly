@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/editorial-policy" },
   title: "Editorial policy",
   description:
     "How the AI Scoutly Editorial team researches, tests, scores and updates the AI tools in our directory — and how we correct mistakes.",

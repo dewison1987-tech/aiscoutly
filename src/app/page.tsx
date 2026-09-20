@@ -1,5 +1,10 @@
+import type { Metadata } from "next";
 import HomeDirectory from "@/components/HomeDirectory";
 import { getTools } from "@/lib/tools";
+
+export const metadata: Metadata = {
+  alternates: { canonical: "/" },
+};
 
 export default async function Home() {
   const tools = await getTools();
