@@ -100,7 +100,41 @@
         "q": "How is ChatGPT different from Claude?",
         "a": "ChatGPT is more versatile with a larger ecosystem and better tool integration; Claude tends to produce more natural long-form writing. Many teams use both."
       }
-    ]
+    ],
+    "deep_dive": {
+      "updated": "2026-09-20",
+      "sections": [
+        {
+          "heading": "What ChatGPT is genuinely good at for marketing work",
+          "paragraphs": [
+            "Strip away the hype and ChatGPT's value for marketers comes down to three jobs it does better than most specialised tools: drafting first versions of text, transforming existing content into new formats, and thinking through campaign structures out loud. A launch email can become a LinkedIn post, a landing-page headline set and an FAQ section in one conversation — that repurposing loop is where the time savings are real, and it's the workflow most marketing teams settle on after the initial experimentation phase.",
+            "The custom GPTs and Projects features matter more for teams than most reviews acknowledge. A brand-voice GPT loaded with your style guide, past campaigns and banned-phrase list produces noticeably more on-brand output than raw prompts — the difference between copy that needs a full rewrite and copy that needs a light edit. This is also the main reason teams choose a paid plan: the free tier doesn't retain that context across your work.",
+            "Across user reviews on G2 and Reddit, the pattern is consistent: solo marketers and small teams report the largest productivity gains, while enterprise teams hit walls around approval workflows and brand governance — which is exactly the gap Jasper and Writer position themselves in."
+          ]
+        },
+        {
+          "heading": "Where it falls short",
+          "paragraphs": [
+            "The honest list: no native scheduling or publishing to any channel, no SEO optimisation signals (it will happily write text that ignores search intent entirely), and no fact-checking — marketing claims still need human verification because models generate plausible-sounding statistics that don't exist. Teams that treat it as a full marketing platform rather than a drafting and reasoning engine end up disappointed.",
+            "Output quality also degrades when you outsource thinking. Feeding it a half-formed idea produces generic middle-of-the-road copy; the reviews that rate ChatGPT highest are almost always written by people who bring strategy and briefs to the tool, not people expecting it to supply them."
+          ]
+        },
+        {
+          "heading": "Pricing reality check",
+          "paragraphs": [
+            "The tiering is straightforward: a capable free tier, Plus at roughly $20/month per user with the stronger models and higher limits, Team at around $25-30/user with workspace admin and data controls, and custom Enterprise pricing. For a marketing team of three, the practical decision is Plus seats for the people who write daily and free seats for occasional users — the Team tier earns its premium mainly through data exclusivity and admin, not model quality.",
+            "One budgeting note that surprises buyers: tool directories sometimes list ChatGPT as a 'free marketing tool', but a realistic working setup for a content team lands closer to $40-60/month across seats than $0. Compare that against Jasper's entry pricing and the maths is not automatic in either direction — ChatGPT needs more prompt discipline; Jasper bundles the discipline into templates."
+          ]
+        },
+        {
+          "heading": "Should you use it, or a specialised alternative?",
+          "paragraphs": [
+            "If your bottleneck is volume of first drafts and repurposing, start here before buying anything else — a large share of 'AI marketing tools' are wrapped templates around this same class of model. If your bottleneck is producing search-optimised articles at scale, a dedicated SEO writing platform (Surfer, Frase, Clearscope) layered on top of a general assistant is the stronger stack. If your bottleneck is brand governance across a large team, look at Jasper or Writer first.",
+            "Our overall read: ChatGPT is the default first hire on a marketing AI stack, not the only hire. Score it on what it replaces — a chunk of first-draft writing and a lot of format-conversion busywork — not on what it was never designed to do."
+          ]
+        }
+      ]
+    }
   },
   "claude": {
     "description": "Claude by Anthropic is the strongest choice for long-form and nuanced writing. Its tone feels more natural and less 'AI', with fewer clichés in drafts. For marketers producing deep content — long guides, case studies, editorial reviews — Claude consistently produces the most human-sounding output in our tests, and its large context window lets you paste entire campaign briefs for rewriting.",
@@ -3538,7 +3572,40 @@
         "q": "Can Frase track rankings?",
         "a": "Rank tracking is limited. Frase focuses on research and optimization; most users pair it with tools like Ahrefs or Semrush for tracking."
       }
-    ]
+    ],
+    "deep_dive": {
+      "updated": "2026-09-20",
+      "sections": [
+        {
+          "heading": "The core workflow: SERP data to brief in minutes",
+          "paragraphs": [
+            "Frase's sharpest value proposition is the speed from keyword to a workable content brief. Paste a target query and it analyses the live search results, extracts the topics competitors cover, the questions people ask (pulled from People Also Ask and Quora-style sources) and assembles a structured outline with suggested heading hierarchy. For agencies and freelance writers who produce briefs for others, this compresses what used to be an hour of manual SERP digging into a few minutes of review and edit.",
+            "The document editor then grades your draft against those SERP-derived topics with a content score — closer in spirit to Clearscope's report than Surfer's term-frequency grid. Writers who like a checklist experience tend to get on with it faster here than with Surfer's more data-dense interface, according to a recurring theme in user reviews."
+          ]
+        },
+        {
+          "heading": "Where it falls short",
+          "paragraphs": [
+            "Frase's AI writing is serviceable but is not the reason to buy it — the generated drafts read as scaffolding that needs a real writer's pass, and treating them as publish-ready is exactly the kind of output Google's quality systems have been demoting since the Helpful Content update. The smarter framing, echoed across practitioner communities, is Frase for the brief and the optimisation score, with the actual prose coming from your writer (optionally assisted by a general AI assistant).",
+            "Two other limitations come up repeatedly: the keyword research module is thinner than dedicated SEO suites, so most teams still keep Ahrefs or Semrush for discovery; and the editor takes a few sessions to learn — the score panel, outline drag-and-drop and brief builder are powerful but not self-explanatory on day one."
+          ]
+        },
+        {
+          "heading": "Pricing reality check",
+          "paragraphs": [
+            "Frase's pricing starts lower than its two best-known competitors — an entry solo plan in the region of $15/month and team tiers scaling from there — which is a genuine differentiator for freelancers and small sites. Clearscope typically starts around the $189/month mark and Surfer sits between the two. The trade-off mirrors the price: Clearscope's data depth and enterprise polish are a step above; Frase covers 80% of the brief-and-optimise workflow at a fraction of the cost.",
+            "Annual billing discounts apply across tiers, and the add-on unlimited AI writing pack changes the maths if you intend to generate lots of drafts in-app. Check current numbers on Frase's own pricing page before committing — content-SEO tool pricing has shifted repeatedly over the past two years."
+          ]
+        },
+        {
+          "heading": "Who should pick Frase over the alternatives",
+          "paragraphs": [
+            "Frase fits three profiles well: freelance writers who need to deliver client-ready briefs cheaply; in-house content teams of one to five who want SERP-backed outlines without a Clearscope budget; and agencies standardising their briefing process across many writers. If you need the deepest optimisation data on enterprise budgets, Clearscope wins; if you want term-frequency tuning with a large integration ecosystem, Surfer wins; if you want the brief-to-optimised-draft loop at the lowest sensible price, Frase is the rational pick.",
+            "Our overall read: Frase is the best value-for-money brief builder in the SEO writing category, with an optimisation layer good enough to keep once the brief is done — just don't expect its AI drafts to be the product."
+          ]
+        }
+      ]
+    }
   },
   "outranking": {
     "tagline": "An end-to-end SEO writing platform that drafts, optimizes, and tracks content",

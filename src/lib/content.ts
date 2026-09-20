@@ -21,6 +21,10 @@ export type ToolContent = {
   use_cases?: string[];
   alternatives?: string[];
   faq?: { q: string; a: string }[];
+  deep_dive?: {
+    sections: { heading: string; paragraphs: string[] }[];
+    updated?: string;
+  };
 };
 
 let cache: Record<string, ToolContent> | null = null;

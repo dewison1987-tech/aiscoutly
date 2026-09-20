@@ -1,7 +1,7 @@
 import { notFound } from "next/navigation";
 import type { Metadata } from "next";
 import Link from "next/link";
-import { getToolBySlug, getTools, categoryLabel } from "@/lib/tools";
+import { getToolBySlug, getTools, getAffiliate, categoryLabel } from "@/lib/tools";
 import { getToolContent } from "@/lib/content";
 import { rootDomain as getRootDomain } from "@/lib/categories";
 import JsonLd from "@/components/JsonLd";
@@ -72,6 +72,12 @@ export default async function ToolPage({
   const content = await getToolContent(slug);
   // 取根域名（chat.openai.com → openai.com），让 logo 服务正确解析品牌
   const rootDomain = getRootDomain(tool.url);
+  // affiliate 配置（未配置时回退到官网链接）
+  const affiliate = await getAffiliate(tool.slug);
+  const ctaHref = affiliate?.url ?? tool.url;
+  const ctaRel = affiliate
+    ? "sponsored nofollow noopener"
+    : "noopener noreferrer";
 
   const schema = {
     "@context": "https://schema.org",
@@ -141,12 +147,12 @@ export default async function ToolPage({
             <div className="mt-3 flex flex-wrap items-center gap-3">
               {tool.url && (
                 <a
-                  href={tool.url}
+                  href={ctaHref}
                   target="_blank"
-                  rel="noopener noreferrer"
+                  rel={ctaRel}
                   className="rounded-full bg-indigo-600 px-4 py-1.5 text-sm font-medium text-white transition-colors hover:bg-indigo-700"
                 >
-                  Visit website
+                  Visit {tool.name}
                 </a>
               )}
               {content?.rating && (
@@ -158,6 +164,19 @@ export default async function ToolPage({
                 </span>
               )}
             </div>
+            {affiliate && (
+              <p className="mt-2 text-xs text-gray-500">
+                Affiliate link — we may earn a commission if you subscribe, at
+                no extra cost to you.{" "}
+                <Link
+                  href="/disclaimer"
+                  className="underline underline-offset-2 hover:text-indigo-600"
+                >
+                  How we disclose
+                </Link>
+                .
+              </p>
+            )}
           </div>
         </div>
         <div className="mt-5 grid grid-cols-3 gap-3 border-t border-indigo-100 pt-4 text-center">
@@ -199,6 +218,39 @@ export default async function ToolPage({
           </p>
         )}
       </section>
+
+      {content?.deep_dive && content.deep_dive.sections.length > 0 && (
+        <section className="mt-8 rounded-2xl border border-gray-200 bg-white p-6">
+          <div className="flex items-baseline justify-between gap-3">
+            <SectionTitle>In-depth review</SectionTitle>
+            {content.deep_dive.updated && (
+              <span className="text-xs text-gray-400">
+                Updated{" "}
+                <time dateTime={content.deep_dive.updated}>
+                  {new Date(content.deep_dive.updated + "T00:00:00").toLocaleDateString(
+                    "en-US",
+                    { month: "long", day: "numeric", year: "numeric" }
+                  )}
+                </time>
+              </span>
+            )}
+          </div>
+          <div className="mt-5 space-y-6">
+            {content.deep_dive.sections.map((s) => (
+              <div key={s.heading}>
+                <h3 className="font-medium text-gray-900">{s.heading}</h3>
+                <div className="mt-2 space-y-3">
+                  {s.paragraphs.map((p, i) => (
+                    <p key={i} className="leading-relaxed text-gray-700">
+                      {p}
+                    </p>
+                  ))}
+                </div>
+              </div>
+            ))}
+          </div>
+        </section>
+      )}
 
       {content?.best_for && (
         <section className="mt-7">
