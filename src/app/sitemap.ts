@@ -16,6 +16,7 @@ const STATIC_PAGES = [
   "/disclaimer",
   "/terms",
   "/editorial-policy",
+  "/compare/jasper-vs-copy-ai-vs-writesonic",
 ];
 
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
