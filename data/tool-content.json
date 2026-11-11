@@ -1363,22 +1363,22 @@
    {
     "tier": "Free",
     "price": "$0",
-    "note": "Limited monthly credits"
+    "note": "125 one-time credits, evaluation only"
    },
    {
     "tier": "Standard",
-    "price": "$12/mo",
-    "note": "125 credits, 720p export"
+    "price": "$15/mo",
+    "note": "$12/mo annual, 625 credits/mo (~52s of Gen-4.5)"
    },
    {
     "tier": "Pro",
-    "price": "$28/mo",
-    "note": "625 credits, 4K export"
+    "price": "$35/mo",
+    "note": "$28/mo annual, 2,250 credits/mo"
    },
    {
-    "tier": "Unlimited",
-    "price": "$76/mo",
-    "note": "Unlimited video generations"
+    "tier": "Max",
+    "price": "$95/mo",
+    "note": "$76/mo annual, 9,500 credits/mo, 1-mo rollover (replaced Unlimited, Sep 2026)"
    }
   ],
   "pros": [
@@ -1433,22 +1433,22 @@
    {
     "tier": "Free",
     "price": "$0",
-    "note": "Limited monthly credits"
+    "note": "80 credits/mo, 480p, watermark"
    },
    {
-    "tier": "Basic",
-    "price": "$8/mo",
-    "note": "Monthly credit pack"
+    "tier": "Standard",
+    "price": "$10/mo",
+    "note": "$8/mo annual, 700 credits"
    },
    {
     "tier": "Pro",
-    "price": "$28/mo",
-    "note": "More credits, faster queue"
+    "price": "$35/mo",
+    "note": "$28/mo annual, 2,300 credits, commercial rights"
    },
    {
-    "tier": "Premium",
-    "price": "$58/mo",
-    "note": "Highest volume, priority"
+    "tier": "Fancy",
+    "price": "$95/mo",
+    "note": "$76/mo annual, 6,000 credits, priority queue"
    }
   ],
   "pros": [
@@ -1563,22 +1563,27 @@
    {
     "tier": "Free",
     "price": "$0",
-    "note": "1 minute of video, watermark"
+    "note": "3 videos/mo, 1 min each, watermark"
    },
    {
     "tier": "Creator",
     "price": "$29/mo",
-    "note": "10 min video, $24/mo annual"
+    "note": "$24/mo annual, 600 credits, 1080p"
    },
    {
-    "tier": "Team",
-    "price": "$39/mo",
-    "note": "100 min video, 3 seats"
+    "tier": "Pro",
+    "price": "$49/mo",
+    "note": "~$39/mo annual, 1,000 credits, 4K"
+   },
+   {
+    "tier": "Business",
+    "price": "$149/mo",
+    "note": "+$20/seat, 1,500 shared credits, SSO"
    },
    {
     "tier": "Enterprise",
     "price": "Custom",
-    "note": "SSO, custom models, API"
+    "note": "custom credits, SCIM, dedicated support"
    }
   ],
   "pros": [
@@ -2051,24 +2056,24 @@
   "unique": "We tested Pictory by feeding it five blog posts and got publishable YouTube videos in under an hour. The stock-media matching was better than expected, it found relevant, on-brand b-roll rather than random clips. Where it stumbles: the AI narration is serviceable but flat compared to premium voice tools, and auto-selected visuals occasionally miss the point. It's a volume play, not a craft play. For teams with a backlog of written content that should be video, the ROI math is compelling.",
   "pricing": [
    {
-    "tier": "Free",
-    "price": "$0",
-    "note": "3 video projects, watermark"
+    "tier": "Free trial",
+    "price": "14 days",
+    "note": "300 credits, no permanent free plan"
    },
    {
-    "tier": "Standard",
-    "price": "$19/mo",
-    "note": "$15/mo annual, 30 videos/mo"
+    "tier": "Starter",
+    "price": "$29/mo",
+    "note": "$25/mo annual, 200 min/mo, 5-min videos, 720p"
    },
    {
-    "tier": "Premium",
-    "price": "$39/mo",
-    "note": "$29/mo annual, 60 videos/mo"
+    "tier": "Professional",
+    "price": "$59/mo",
+    "note": "$35/mo annual, 600 min/mo, 30-min videos, 1080p"
    },
    {
-    "tier": "Teams",
-    "price": "$99/mo",
-    "note": "10 seats, collaboration"
+    "tier": "Team",
+    "price": "$199/mo",
+    "note": "$119/mo annual, 1,800 min/mo, shared workspace"
    }
   ],
   "pros": [
@@ -2258,17 +2263,17 @@
    {
     "tier": "Free",
     "price": "$0",
-    "note": "5 minutes/month, watermark"
+    "note": "5 min/mo, 720p, watermark"
    },
    {
     "tier": "Standard",
-    "price": "$21/mo",
-    "note": "$7/mo annual, 60 min/mo"
+    "price": "$28/mo",
+    "note": "$21/mo annual, 180 min/mo, 1080p"
    },
    {
     "tier": "Premium",
-    "price": "$66/mo",
-    "note": "$28/mo annual, 240 min/mo"
+    "price": "$88/mo",
+    "note": "$66/mo annual, 600 min/mo, voice cloning"
    }
   ],
   "pros": [

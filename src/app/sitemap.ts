@@ -19,6 +19,7 @@ const STATIC_PAGES = [
   "/compare/jasper-vs-copy-ai-vs-writesonic",
   "/compare/best-ai-image-generators",
   "/compare/best-ai-writing-tools",
+  "/compare/best-ai-video-generators",
 ];
 
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
